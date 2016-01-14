@@ -1,0 +1,10 @@
+{
+  "name": "dropLimitation",
+  "desc": "Drag block to groups",
+  "tags": ["input", "onDrag", "onDragEnd"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

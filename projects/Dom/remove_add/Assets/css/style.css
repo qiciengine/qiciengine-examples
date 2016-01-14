@@ -1,0 +1,4 @@
+/* css for dom */
+.root { border: 1px solid red; }
+.child1, .child2 { font-size: 20px; color: green; }
+.child11, .child12 { font-size: 16px; color: white; }

@@ -1,0 +1,10 @@
+{
+  "name": "lockOrientation",
+  "desc": "Introduce the state of InputField when lock orientation",
+  "tags": ["inputField", "LockOrientation"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

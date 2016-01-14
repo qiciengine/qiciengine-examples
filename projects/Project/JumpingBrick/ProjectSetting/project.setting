@@ -1,0 +1,20 @@
+{
+  "projectName": "JumpingBrick",
+  "gameName": "跳跃的方块 ",
+  "companyName": "\bqcplay",
+  "bundleIdentifier": "qc.jumpingBrick",
+  "gameInstance": "qc_game",
+  "backgroundColor": 16777215,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "developerMode": false,
+  "toolFlag": 28,
+  "version": "1.0",
+  "loading": "",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  }
+}

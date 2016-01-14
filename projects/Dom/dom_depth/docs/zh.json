@@ -1,0 +1,10 @@
+{
+  "name": "DomPos",
+  "desc": "演示 Dom 节点 pos 属性的使用",
+  "tags": ["DOM", "pos"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

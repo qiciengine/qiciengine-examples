@@ -1,0 +1,10 @@
+{
+  "name": "dragBounds",
+  "desc": "演示在指定边框内任意拖动图片",
+  "tags": ["input", "onDrag", "onDragStart", "onDragEnd", "bounds"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

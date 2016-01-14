@@ -1,0 +1,10 @@
+{
+  "name": "serializer",
+  "desc": "Introduce serializer function",
+  "tags": ["serializer"],
+  "preview": "preview.png",
+  "category": "Misc",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

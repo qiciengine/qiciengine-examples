@@ -1,0 +1,15 @@
+{
+  "projectName": "Default",
+  "gameName": "DefaultGame",
+  "companyName": "DefaultCompany",
+  "bundleIdentifier": "com.DefaultCompany.Default",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "gameWidth": "640",
+  "version": "1",
+  "loading": "",
+  "backgroundColor": 8553090,
+  "toolFlag": 28
+}

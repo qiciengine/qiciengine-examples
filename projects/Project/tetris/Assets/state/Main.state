@@ -1,0 +1,1053 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.9829424307036163,
+      3.910447761194007,
+      1.9829424307036163,
+      3.910447761194007,
+      465,
+      917,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9914712153518124
+    ],
+    "scaleY": [
+      3,
+      0.9914712153518124
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.Dom",
+        "data": {
+          "uuid": "93014cb3-219b-47fe-bab2-9fcfb30b7ad4",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "background"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            465,
+            917,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "pos": [
+            3,
+            0
+          ],
+          "className": [
+            7,
+            "background"
+          ],
+          "overflow": [
+            7,
+            "hidden"
+          ],
+          "innerHTML": [
+            true,
+            ""
+          ],
+          "zIndex": [
+            1,
+            "-99"
+          ]
+        }
+      },
+      {
+        "class": "qc.UIRoot",
+        "data": {
+          "uuid": "816e569e-c98a-448b-9f9b-7c80d6291390",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "UIRoot"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.ScaleAdapter",
+              "data": "598abb39-c152-4b33-843b-143daf0da082"
+            },
+            {
+              "clazz": "qc.tetris.UIManager",
+              "data": "acd8ca29-044a-4e21-b0a0-7dbba0d75913"
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            640,
+            1262.1075268817203,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            0.7265625
+          ],
+          "scaleY": [
+            3,
+            0.7265625
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [
+            {
+              "class": "qc.Dom",
+              "data": {
+                "uuid": "181ef6c7-9eb8-40fb-9523-8916e6475d2d",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "board"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.tetris.BoardUI",
+                    "data": "9c212752-37be-4dd3-9321-55cc609d3a77"
+                  },
+                  {
+                    "clazz": "qc.tetris.KillLineEffect",
+                    "data": "8ae150ff-b2d5-4815-9351-b125e9244d1d"
+                  }
+                ],
+                "position": [
+                  0.5,
+                  1,
+                  0,
+                  -250,
+                  320,
+                  1012.1075268817203,
+                  600,
+                  580,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  1,
+                  0.5,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "pos": [
+                  3,
+                  0
+                ],
+                "className": [
+                  7,
+                  ""
+                ],
+                "overflow": [
+                  7,
+                  "hidden"
+                ],
+                "zIndex": [
+                  1,
+                  "-1"
+                ]
+              },
+              "__json": {
+                "9c212752-37be-4dd3-9321-55cc609d3a77": {
+                  "class": "qc.tetris.BoardUI",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "9c212752-37be-4dd3-9321-55cc609d3a77"
+                    ],
+                    "enable": true,
+                    "linePrefab": [
+                      16,
+                      "606d353c-7de0-4b8d-a031-147b6b4ff055"
+                    ]
+                  }
+                },
+                "33cf35b5-1a3d-4ccb-880f-fcc1a59667a0": {
+                  "class": "qc.tetris.KillLineEffect",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "33cf35b5-1a3d-4ccb-880f-fcc1a59667a0"
+                    ],
+                    "enable": true,
+                    "linePrefab": [
+                      16,
+                      "606d353c-7de0-4b8d-a031-147b6b4ff055"
+                    ]
+                  }
+                },
+                "8ae150ff-b2d5-4815-9351-b125e9244d1d": {
+                  "class": "qc.tetris.KillLineEffect",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "8ae150ff-b2d5-4815-9351-b125e9244d1d"
+                    ],
+                    "enable": true,
+                    "linePrefab": [
+                      16,
+                      "606d353c-7de0-4b8d-a031-147b6b4ff055"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "class": "qc.Node",
+              "data": {
+                "uuid": "5caed827-1f6a-4472-ae2f-d00a728076f3",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "pool"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.tetris.Pool",
+                    "data": "59a75fa5-cf64-4e1a-a35c-3433d62fb87a"
+                  }
+                ],
+                "position": [
+                  0.5,
+                  1,
+                  0,
+                  -20,
+                  320,
+                  1242.1075268817203,
+                  600,
+                  230,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  1,
+                  0.5,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": []
+              },
+              "__json": {
+                "59a75fa5-cf64-4e1a-a35c-3433d62fb87a": {
+                  "class": "qc.tetris.Pool",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "59a75fa5-cf64-4e1a-a35c-3433d62fb87a"
+                    ],
+                    "enable": true,
+                    "shapePrefab": [
+                      16,
+                      "6af91d0f-a9fb-49cb-ab65-0fac42e76a93"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "class": "qc.Dom",
+              "data": {
+                "uuid": "c5f47ef5-548c-427f-a0fe-4c01242ae014",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "best"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.tetris.BestScore",
+                    "data": "853b4452-79c1-45e6-897d-656b58585905"
+                  }
+                ],
+                "position": [
+                  1,
+                  0,
+                  -20,
+                  20,
+                  620,
+                  20,
+                  200,
+                  60,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "pos": [
+                  3,
+                  1
+                ],
+                "className": [
+                  7,
+                  "score_best"
+                ],
+                "overflow": [
+                  7,
+                  "hidden"
+                ],
+                "innerHTML": [
+                  true,
+                  "Best: 0"
+                ],
+                "zIndex": [
+                  1,
+                  "1"
+                ]
+              },
+              "__json": {
+                "853b4452-79c1-45e6-897d-656b58585905": {
+                  "class": "qc.tetris.BestScore",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "853b4452-79c1-45e6-897d-656b58585905"
+                    ],
+                    "enable": true
+                  }
+                }
+              }
+            },
+            {
+              "class": "qc.Dom",
+              "data": {
+                "uuid": "c4899372-b51d-4395-9ed0-d731d0fb6f68",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "score"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.tetris.CurrentScore",
+                    "data": "4046d506-3e15-42c8-aa8f-d0ee43e90c01"
+                  },
+                  {
+                    "clazz": "qc.TweenScale",
+                    "data": "ebbdac9b-d6f7-47f1-ac55-7c3c8b56be6d"
+                  }
+                ],
+                "position": [
+                  0.5,
+                  0,
+                  0,
+                  29,
+                  320,
+                  29,
+                  200,
+                  80,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0,
+                  0.5,
+                  0
+                ],
+                "scaleX": [
+                  3,
+                  1.005
+                ],
+                "scaleY": [
+                  3,
+                  1.005
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "pos": [
+                  3,
+                  1
+                ],
+                "className": [
+                  7,
+                  "score_current"
+                ],
+                "overflow": [
+                  7,
+                  "hidden"
+                ],
+                "innerHTML": [
+                  true,
+                  "0"
+                ],
+                "zIndex": [
+                  1,
+                  "1"
+                ]
+              },
+              "__json": {
+                "4046d506-3e15-42c8-aa8f-d0ee43e90c01": {
+                  "class": "qc.tetris.CurrentScore",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "4046d506-3e15-42c8-aa8f-d0ee43e90c01"
+                    ],
+                    "enable": true
+                  }
+                },
+                "ebbdac9b-d6f7-47f1-ac55-7c3c8b56be6d": {
+                  "class": "qc.TweenScale",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "ebbdac9b-d6f7-47f1-ac55-7c3c8b56be6d"
+                    ],
+                    "enable": false,
+                    "_curve": [
+                      22,
+                      "qc.BezierCurve",
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0.275,
+                          1.015,
+                          1,
+                          1
+                        ],
+                        [
+                          0.53,
+                          0.545,
+                          -0.35619434991184457,
+                          -0.35619434991184457
+                        ],
+                        [
+                          0.705,
+                          1.025,
+                          -1.8529790864609228,
+                          -1.8529790864609228
+                        ],
+                        [
+                          0.92,
+                          -0.007884464095321689,
+                          -0.468277402023831,
+                          -0.468277402023831
+                        ],
+                        [
+                          1,
+                          0.01,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "sampleMethod": [
+                      3,
+                      0
+                    ],
+                    "style": [
+                      3,
+                      0
+                    ],
+                    "delay": [
+                      3,
+                      0
+                    ],
+                    "duration": [
+                      3,
+                      0.25
+                    ],
+                    "tweenGroup": [
+                      3,
+                      0
+                    ],
+                    "flag": [
+                      7,
+                      ""
+                    ],
+                    "playOnAwake": [
+                      5,
+                      false
+                    ],
+                    "from": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "to": [
+                      24,
+                      "qc.Point",
+                      [
+                        1.5,
+                        1.5
+                      ]
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "__json": {
+          "598abb39-c152-4b33-843b-143daf0da082": {
+            "class": "qc.ScaleAdapter",
+            "data": {
+              "uuid": [
+                7,
+                "598abb39-c152-4b33-843b-143daf0da082"
+              ],
+              "enable": true,
+              "target": null,
+              "referenceResolution": [
+                24,
+                "qc.Point",
+                [
+                  640,
+                  960
+                ]
+              ],
+              "manualType": [
+                3,
+                3
+              ],
+              "fullTarget": [
+                5,
+                true
+              ],
+              "gameObjectRecord": [
+                4,
+                [
+                  0.7265625,
+                  0.7265625,
+                  640,
+                  1262.1075268817203
+                ]
+              ]
+            }
+          },
+          "acd8ca29-044a-4e21-b0a0-7dbba0d75913": {
+            "class": "qc.tetris.UIManager",
+            "data": {
+              "uuid": [
+                7,
+                "acd8ca29-044a-4e21-b0a0-7dbba0d75913"
+              ],
+              "enable": true,
+              "bestScoreNode": [
+                18,
+                "c5f47ef5-548c-427f-a0fe-4c01242ae014"
+              ],
+              "currentScoreNode": [
+                18,
+                "c4899372-b51d-4395-9ed0-d731d0fb6f68"
+              ],
+              "boardNode": [
+                18,
+                "181ef6c7-9eb8-40fb-9523-8916e6475d2d"
+              ],
+              "poolNode": [
+                18,
+                "5caed827-1f6a-4472-ae2f-d00a728076f3"
+              ],
+              "killLineEffectNode": [
+                18,
+                "181ef6c7-9eb8-40fb-9523-8916e6475d2d"
+              ],
+              "gameOverPrefab": [
+                16,
+                "ab17334f-80fa-4a4a-825c-8ffcc9140470"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "class": "qc.Dom",
+        "data": {
+          "uuid": "9fd000ce-63db-4fb7-81b7-2a4fbc49868d",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "debug"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.DebugViewer",
+              "data": "44242a43-354a-4e42-89d9-6f680a42b80c"
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            300,
+            300,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "pos": [
+            3,
+            1
+          ],
+          "className": [
+            7,
+            "debug"
+          ],
+          "overflow": [
+            7,
+            "hidden"
+          ],
+          "innerHTML": [
+            true,
+            "FPS: 29.9<br>Draw Calls: 1<br>Total: 0.0 ms<br>Logic: 0.0 ms<br>Render: 0.0 ms<br>PreUpdate: 0.0 ms<br>Update: 0.0 ms<br>PostUpdate: 0.0 ms<br>TransformCalc: undefined"
+          ],
+          "zIndex": [
+            1,
+            "1"
+          ]
+        },
+        "__json": {
+          "44242a43-354a-4e42-89d9-6f680a42b80c": {
+            "class": "qc.DebugViewer",
+            "data": {
+              "uuid": [
+                7,
+                "44242a43-354a-4e42-89d9-6f680a42b80c"
+              ],
+              "enable": true,
+              "debugOn": [
+                5,
+                true
+              ],
+              "duration": [
+                3,
+                0.05
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "ab17334f-80fa-4a4a-825c-8ffcc9140470": {
+      "key": "ab17334f-80fa-4a4a-825c-8ffcc9140470",
+      "uuid": "ab17334f-80fa-4a4a-825c-8ffcc9140470"
+    },
+    "606d353c-7de0-4b8d-a031-147b6b4ff055": {
+      "key": "606d353c-7de0-4b8d-a031-147b6b4ff055",
+      "uuid": "606d353c-7de0-4b8d-a031-147b6b4ff055"
+    },
+    "6af91d0f-a9fb-49cb-ab65-0fac42e76a93": {
+      "key": "6af91d0f-a9fb-49cb-ab65-0fac42e76a93",
+      "uuid": "6af91d0f-a9fb-49cb-ab65-0fac42e76a93"
+    }
+  }
+}

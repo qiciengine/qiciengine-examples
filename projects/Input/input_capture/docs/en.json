@@ -1,0 +1,10 @@
+{
+  "name": "inputCapture",
+  "desc": "Introduce to use interactive property to enable or disable input event",
+  "tags": ["input", "interactive", "onClick"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "switch_state",
+  "desc": "How to use qc.NodeFadeInOut plugin to impletment switch-scene effect",
+  "tags": ["LoadingPrefab", "onStartLoad", "onEndLoad", "NodeFadeInOut"],
+  "preview": "preview.png",
+  "category": "Scene",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

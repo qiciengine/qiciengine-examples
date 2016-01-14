@@ -1,0 +1,10 @@
+{
+  "name": "DomInput",
+  "desc": "演示 Dom 节点响应点击事件",
+  "tags": ["DOM", "input", "onClick"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

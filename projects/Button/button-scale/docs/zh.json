@@ -1,0 +1,10 @@
+{
+  "name": "Scale",
+  "desc": "使用代码和编辑器创建按钮，并设置其缩放、旋转等位置信息",
+  "tags": ["Button", "add", "resetNativeSize", "pivot"],
+  "preview": "preview.png",
+  "category": "按钮",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

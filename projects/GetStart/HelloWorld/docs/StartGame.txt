@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <link rel="shortcut icon" href="http://engine.zuoyouxi.com/lib/0.96.02/imgs/qici.ico" />
+    <title>HelloWorld</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css"/>
+
+    <!-- uuid到url路径的配置 -->
+    <script src="./Assets/meta/globalUrlMap.js"></script>
+
+
+    <script src="http://engine.zuoyouxi.com/lib/0.96.02/phaser.min.js"></script>
+    <script src="http://engine.zuoyouxi.com/lib/0.96.02/webfontloader.js"></script>
+    <script src="http://engine.zuoyouxi.com/lib/0.96.02/qc-core.js"></script>
+    <script src="http://engine.zuoyouxi.com/lib/0.96.02/socket.io.js"></script>
+
+    <!-- 以下为插件的逻辑脚本 -->
+        <script>
+    _variables_ = {};
+    </script>
+
+
+    <!-- 以下为用户的逻辑脚本 -->
+    <script src="./js/game-scripts-mini-0.9.js"></script>
+
+    <script>
+        var _config_ = {
+            // 项目名，默认为：Game
+            projectName: 'HelloWorld',
+
+            // 游戏名字，默认为：未命名
+            gameName: 'HelloWorld',
+
+            // 开发者名字，默认为：DefaultCompany
+            companyName: 'qcplay',
+
+            // 项目唯一标识，默认为：com.DefaultCompany.Game
+            bundleIdentifier: 'com.qici.helloworld',
+
+            // 游戏示例，将作为全局变量访问，默认为：game
+            gameInstance: 'qc_game',
+
+            // 游戏背景色
+            backgroundColor: new qc.Color(4671303),
+
+            // 后台运行
+            runInBackground: true,
+
+            // 抗锯齿
+            antialias: true,
+
+            // 背景透明
+            transparent: false,
+
+            // 开发模式
+            develop: false,
+            
+            // 渲染方式
+            renderer: 'Auto',
+
+            // 游戏切屏时的进度界面
+            loadingPrefab: '',
+
+            // 所有的游戏场景
+            scene: {
+                
+            HelloWorld : "Assets/state/HelloWorld.bin"
+            },
+            
+            // 入口场景
+            entityScene : 'HelloWorld'
+        };
+
+        // 内置的启动场景，启动后即刻载入入口场景
+        var splashState = {
+            init : function() {
+                initGameSize();
+            },
+
+            preload : function() {
+                var game = window[_config_.gameInstance];
+                // 加载切屏的动画预制
+                if (_config_.loadingPrefab) {
+                    game.assets.load('__loading_prefab__', _config_.loadingPrefab);
+                }
+
+                // 给出初始化中的提示语
+                var text = game.add.text();
+                text.text = 'Initializing, please wait ...';
+                text.setAnchor(new qc.Point(0, 0), new qc.Point(1, 1));
+                text.left = 0;
+                text.right = 0;
+                text.top = 0;
+                text.bottom = 0;
+                text.alignH = qc.UIText.CENTER;
+                text.alignV = qc.UIText.MIDDLE;
+                text.fontSize = 24;
+                text.color = new qc.Color(0xffffff);
+                text.strokeThickness = 2;
+                text.stroke = new qc.Color(0x000000);
+
+                game._initText_ = text;
+                game.updateScale(true);
+            },
+
+            create : function() {
+                // 初始化用户场景信息
+                var game = window[_config_.gameInstance];
+                game.state.entity = _config_.entityScene;
+                game.state.list = _config_.scene;
+
+                // 挂载切屏场景的动画，并设置为切屏不析构
+                var node;
+                if (_config_.loadingPrefab) {
+                    var prefab = game.assets.find('__loading_prefab__');
+                    if (prefab) {
+                        node = game.add.clone(prefab);
+                        node.ignoreDestroy = true;
+                        node.visible = false;
+                    }
+                }
+                // 如果有加载动画，则删除初始化文字对象
+                if (game._initText_) {
+                    if (node) {
+                        game._initText_.destroyImmediately();
+                    }
+                    delete game._initText_;
+                }
+
+                // 进入第一个场景(需要用户第一个场景资源下载完毕才能进入)
+                var loadMain = function() {
+                    game.state.load(game.state.entity, true, function() {
+                        console.log('Loading assets for entry scene.');
+
+                        // 调度下主场景的资源加载自定义逻辑（一般情况也很少）
+                        if (game._onFirstScenePreload)
+                            game._onFirstScenePreload();
+                    }, function() {
+                        console.log('Finish loading assets for entry scene.');
+
+                        // 调度下入口场景加载完毕的逻辑（一般也很少定制）
+                        if (game._onFirstSceneLoaded)
+                            game._onFirstSceneLoaded();
+                    });
+                };
+                game.phaser.time.events.add(1, loadMain);
+            }
+        };
+
+        function initGameSize(){
+            var game = window[_config_.gameInstance];
+            var gameDiv = document.getElementById('gameDiv');
+            game.phaser.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+            
+            // 调整游戏界面大小
+            function handleResize() {
+                // 输入状态不调整游戏界面大小
+                if (game.isBooted && game.input.inputting) {
+                    return;
+                }
+                var width = document.documentElement.clientWidth;
+                var height = Math.min(window.innerHeight, document.documentElement.clientHeight) || document.documentElement.clientHeight;
+                
+                if (game.device.iOS) {
+                    // 绕开iOS下宽高比未变化界面更新问题
+                    game.phaser.scale.setGameSize(width-5, height+5);
+                    game.phaser.time.events.add(1, function() {
+                        game.phaser.scale.setGameSize(width, height);
+                    });  
+                }
+                else {
+                    game.phaser.scale.setGameSize(width, height);
+                }
+                // 设置富容器大小 
+                gameDiv.style.width = width + 'px';
+                gameDiv.style.height = height + 'px';
+                game.updateScale();
+            }
+
+            window.addEventListener('orientationchange', handleResize, false);
+            window.addEventListener('resize', handleResize, false);
+            
+            handleResize();
+        }
+        
+        
+        // 入口
+        function loadGame() {
+            var game = window[_config_.gameInstance] = new qc.Game({
+                width: '100%',
+                height: '100%',
+                parent: 'gameDiv',
+                state: splashState,
+                backgroundColor: _config_.backgroundColor,
+                runInBackground: _config_.runInBackground,
+                antialias: _config_.antialias,
+                transparent: _config_.transparent,
+                debug: _config_.develop === true,
+                renderer: (function() {
+                    if (_config_.renderer === 'WebGL') {
+                        return Phaser.WEBGL;
+                    }
+                    else if (_config_.renderer === 'Canvas'){
+                        return Phaser.CANVAS;
+                    }
+                    else {
+                        return Phaser.AUTO;
+                    }
+                })()
+            });
+            game.bundleIdentifier = _config_.bundleIdentifier;
+            game.log.important('**** [QICI Engine {0}]Starting game: {1}({2})', qc.VERSION, _config_.gameName, _config_.bundleIdentifier);
+            
+        }
+
+    </script>
+</head>
+
+<body onload="loadGame();">
+    <div id="gameDiv" style="position:relative;"></div>
+</body>
+
+</html>

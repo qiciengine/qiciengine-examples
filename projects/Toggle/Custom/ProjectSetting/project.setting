@@ -1,0 +1,20 @@
+{
+  "projectName": "CustomToggle",
+  "gameName": "CustomToggle",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.customtoggle",
+  "gameInstance": "qc_game",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "developerMode": false,
+  "toolFlag": 28,
+  "version": "1",
+  "loading": ""
+}

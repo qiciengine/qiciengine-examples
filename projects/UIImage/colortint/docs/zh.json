@@ -1,0 +1,10 @@
+{
+  "name": "colorTint",
+  "desc": "介绍设置 colorTint 属性值给图片进行颜色混合",
+  "tags": ["UIImage", "colorTint"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

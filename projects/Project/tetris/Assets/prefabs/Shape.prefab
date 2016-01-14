@@ -1,0 +1,201 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "a8d952fa-2458-4413-ac33-5938cd542139",
+    "_prefab": [
+      7,
+      "6af91d0f-a9fb-49cb-ab65-0fac42e76a93"
+    ],
+    "name": [
+      7,
+      "Shape"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.tetris.ShapeUI",
+        "data": "562d5251-50c8-4b41-aef6-16c97844b929"
+      },
+      {
+        "clazz": "qc.TweenPosition",
+        "data": "b92ba182-ab94-4969-8915-bd1c5a2cb765"
+      }
+    ],
+    "position": [
+      0.5,
+      0.5,
+      0,
+      0,
+      174,
+      317.5,
+      200,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "serializeHitArea": [
+      26,
+      "qc.Rectangle",
+      [
+        -100,
+        -50,
+        200,
+        250
+      ]
+    ],
+    "interactive": [
+      5,
+      true
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": []
+  },
+  "__json": {
+    "562d5251-50c8-4b41-aef6-16c97844b929": {
+      "class": "qc.tetris.ShapeUI",
+      "data": {
+        "uuid": [
+          7,
+          "562d5251-50c8-4b41-aef6-16c97844b929"
+        ],
+        "enable": true,
+        "blockPrefab": [
+          16,
+          "343d4ded-a2ee-4353-a0b3-2d0065a971a3"
+        ]
+      }
+    },
+    "b92ba182-ab94-4969-8915-bd1c5a2cb765": {
+      "class": "qc.TweenPosition",
+      "data": {
+        "uuid": [
+          7,
+          "b92ba182-ab94-4969-8915-bd1c5a2cb765"
+        ],
+        "enable": false,
+        "_curve": [
+          22,
+          "qc.BezierCurve",
+          [
+            [
+              0,
+              0,
+              1,
+              1
+            ],
+            [
+              0.8,
+              1.115,
+              1.0000000000000004,
+              1.0000000000000004
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sampleMethod": [
+          3,
+          0
+        ],
+        "style": [
+          3,
+          0
+        ],
+        "delay": [
+          3,
+          0
+        ],
+        "duration": [
+          3,
+          0.2
+        ],
+        "tweenGroup": [
+          3,
+          0
+        ],
+        "flag": [
+          7,
+          ""
+        ],
+        "playOnAwake": [
+          5,
+          false
+        ],
+        "from": [
+          24,
+          "qc.Point",
+          [
+            0,
+            0
+          ]
+        ],
+        "to": [
+          24,
+          "qc.Point",
+          [
+            0,
+            0
+          ]
+        ],
+        "moveAxis": [
+          3,
+          255
+        ]
+      }
+    }
+  },
+  "dependences": {
+    "343d4ded-a2ee-4353-a0b3-2d0065a971a3": {
+      "key": "343d4ded-a2ee-4353-a0b3-2d0065a971a3",
+      "uuid": "343d4ded-a2ee-4353-a0b3-2d0065a971a3"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "projectName": "angularAcceleration",
+  "gameName": "angularAcceleration",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.angularAcceleration",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 6710372,
+  "gameWidth": "640",
+  "toolFlag": 28
+}

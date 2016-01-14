@@ -1,0 +1,10 @@
+{
+  "name": "virtualGameControl",
+  "desc": "How to impletment virtual game control",
+  "tags": ["input", "onDown", "onUp", "RigidBody", "playAnimation", "addCollide"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

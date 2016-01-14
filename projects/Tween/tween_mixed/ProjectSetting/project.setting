@@ -1,0 +1,16 @@
+{
+  "projectName": "tween",
+  "gameName": "tween",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.tween",
+  "gameInstance": "tweenGame",
+  "div": "",
+  "orientation": 1,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 16711680,
+  "gameWidth": "640",
+  "toolFlag": 28,
+  "transparent": true
+}

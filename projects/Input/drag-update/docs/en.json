@@ -1,0 +1,10 @@
+{
+  "name": "dragUpdate",
+  "desc": "Drag a ship, in the while, arrow aways point to ship and round the ship",
+  "tags": ["input", "onDrag", "onDragStart", "onDragEnd", "RigidBody", "angleBetween"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

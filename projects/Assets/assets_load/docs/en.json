@@ -1,0 +1,10 @@
+{
+  "name": "LoadAssets",
+  "desc": "How to load assets(atlas, image, sound, font, and etc)",
+  "tags": ["arcade", "RigidBody", "Assets", "load"],
+  "preview": "preview.png",
+  "category": "Assets Manager",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

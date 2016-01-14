@@ -1,0 +1,15 @@
+{
+  "projectName": "widgets",
+  "gameName": "widgets",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.widgets",
+  "gameInstance": "widgetsGame",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 8026746,
+  "gameWidth": "640",
+  "toolFlag": 28
+}

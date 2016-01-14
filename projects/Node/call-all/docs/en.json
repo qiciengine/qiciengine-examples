@@ -1,0 +1,10 @@
+{
+  "name": "callAll",
+  "desc": "How to operate a group of nodes",
+  "tags": ["onClick", "forEach"],
+  "preview": "preview.png",
+  "category": "Node",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

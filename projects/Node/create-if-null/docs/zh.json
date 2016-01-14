@@ -1,0 +1,10 @@
+{
+  "name": "createIfNull",
+  "desc": "定时创建图片，如果图片池中没有可用图片，则创建新的图片",
+  "tags": ["add"],
+  "preview": "preview.png",
+  "category": "Node节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

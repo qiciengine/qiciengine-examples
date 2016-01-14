@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "ClickOnAnImage": "Assets/state/ClickOnAnImage.bin"
+  },
+  "entryScene": "ClickOnAnImage"
+}

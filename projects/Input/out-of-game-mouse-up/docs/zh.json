@@ -1,0 +1,10 @@
+{
+  "name": "pointerUpOutOfGame",
+  "desc": "演示在游戏外也能触发 UP 事件",
+  "tags": ["input", "onPointerUp", "onPointerDown"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

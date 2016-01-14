@@ -1,0 +1,10 @@
+{
+  "name": "mousePosition",
+  "desc": "演示 input#onCursorMove 事件的使用",
+  "tags": ["input", "onCursorMove", "mouse"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

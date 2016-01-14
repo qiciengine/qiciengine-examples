@@ -1,0 +1,24 @@
+{
+  "projectName": "qcplay",
+  "gameName": "dota",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.dota",
+  "gameInstance": "dotaGame",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1",
+  "loading": "Assets/prefabs/loading.bin",
+  "backgroundColor": 0,
+  "gameWidth": "640",
+  "toolFlag": 28,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": true,
+  "appCache": true
+}

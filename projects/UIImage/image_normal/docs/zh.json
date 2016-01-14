@@ -1,0 +1,10 @@
+{
+  "name": "imageNormal",
+  "desc": "介绍如何动态更改图片的各个属性",
+  "tags": ["UIImage", "frame", "pivot", "position", "rotation", "colorTint", "size", "interactive"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ExtraUI",
+  "desc": "Exrra UI",
+  "tags": ["extraUI", "UI"],
+  "preview": "preview.png",
+  "category": "Plugin",
+  "order": 2,
+  "width": 800,
+  "height": 600
+}

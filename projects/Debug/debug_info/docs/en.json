@@ -1,0 +1,10 @@
+{
+  "name": "DebugViewer",
+  "desc": "Component: qc.DebugViewer",
+  "tags": ["DebugViewer", "Debug"],
+  "preview": "preview.png",
+  "category": "Debug",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "DebugViewer",
+  "desc": "组件：qc.DebugViewer，查看帧率等信息",
+  "tags": ["DebugViewer", "Debug"],
+  "preview": "preview.png",
+  "category": "调试",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

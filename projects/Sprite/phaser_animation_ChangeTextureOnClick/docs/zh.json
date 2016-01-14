@@ -1,0 +1,10 @@
+{
+  "name": "changeTexture",
+  "desc": "介绍动态修改精灵 texture，播放新的帧动画",
+  "tags": ["sprite", "texture", "playAnimation"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

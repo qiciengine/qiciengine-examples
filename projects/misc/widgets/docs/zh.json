@@ -1,0 +1,10 @@
+{
+  "name": "widgets",
+  "desc": "介绍各个控件的使用",
+  "tags": ["widgets"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

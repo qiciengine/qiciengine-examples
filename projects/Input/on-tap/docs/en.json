@@ -1,0 +1,10 @@
+{
+  "name": "onTap",
+  "desc": "Introduce the diffenrence between tap and click. Tap is quick click",
+  "tags": ["input", "onClick", "isTap", "isDoubleTap", "isDoubleClick"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

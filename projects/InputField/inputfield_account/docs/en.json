@@ -1,0 +1,10 @@
+{
+  "name": "passwordInput",
+  "desc": "Introduce Password type of InputField",
+  "tags": ["inputField", "password"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

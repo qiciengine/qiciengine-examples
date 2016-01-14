@@ -1,0 +1,10 @@
+{
+  "name": "FilterMixed",
+  "desc": "演示 filterGroup 组件的各种 filter 效果",
+  "tags": ["filter"],
+  "preview": "preview.png",
+  "category": "着色器",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

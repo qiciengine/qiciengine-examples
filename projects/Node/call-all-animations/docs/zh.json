@@ -1,0 +1,10 @@
+{
+  "name": "callAllAnimations",
+  "desc": "介绍对一组节点执行动画播放",
+  "tags": ["onClick", "forEach", "playAnimation", "add"],
+  "preview": "preview.png",
+  "category": "Node节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

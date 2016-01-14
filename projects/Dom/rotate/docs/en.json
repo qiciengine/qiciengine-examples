@@ -1,0 +1,10 @@
+{
+  "name": "DomRotate",
+  "desc": "Add TweenRotation component to dom node",
+  "tags": ["DOM", "background", "TweenRotation"],
+  "preview": "preview.png",
+  "category": "Dom",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

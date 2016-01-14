@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Anchors": "Assets/state/Anchors.bin"
+  },
+  "entryScene": "Anchors"
+}

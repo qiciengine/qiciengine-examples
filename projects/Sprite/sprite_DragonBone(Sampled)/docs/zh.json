@@ -1,0 +1,10 @@
+{
+  "name": "dragonBoneSampled",
+  "desc": "介绍精灵的采样 dragonBone 骨骼动画，可与 dragonBone 源骨骼动画进行效果比对",
+  "tags": ["sprite", "DragonBone"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

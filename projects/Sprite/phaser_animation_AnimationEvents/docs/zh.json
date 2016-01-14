@@ -1,0 +1,10 @@
+{
+  "name": "animationEvents",
+  "desc": "介绍动画的事件",
+  "tags": ["sprite", "onStart", "onLoopFinished", "onFinished"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

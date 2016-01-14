@@ -1,0 +1,10 @@
+{
+  "name": "BodyScale",
+  "desc": "RigidBody scaling on collision",
+  "tags": ["arcade", "RigidBody", "scale"],
+  "preview": "preview.png",
+  "category": "Arcade Physics",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

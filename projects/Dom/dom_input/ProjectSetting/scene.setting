@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Dom": "Assets/state/Dom.bin"
+  },
+  "entryScene": "Dom"
+}

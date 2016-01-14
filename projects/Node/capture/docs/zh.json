@@ -1,0 +1,10 @@
+{
+  "name": "capture",
+  "desc": "介绍截屏功能",
+  "tags": ["onClick", "onDragStart", "onDrag", "onDragEnd", "snapshotAsImage", "snapshotAsAtlas"],
+  "preview": "preview.png",
+  "category": "Node节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

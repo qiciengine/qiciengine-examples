@@ -1,0 +1,10 @@
+{
+  "name": "keyMovement",
+  "desc": "How to use keyboard input to move and rotate world",
+  "tags": ["input", "isKeyDown", "isShiftDown", "add", "setChildIndex"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

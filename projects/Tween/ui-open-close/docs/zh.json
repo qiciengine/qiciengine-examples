@@ -1,0 +1,10 @@
+{
+  "name": "uiOpenClose",
+  "desc": "介绍使用 Tween 组件实现界面打开和关闭的效果",
+  "tags": ["Tween", "TweenScale", "TweenAlpha"],
+  "preview": "preview.png",
+  "category": "tween曲线",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

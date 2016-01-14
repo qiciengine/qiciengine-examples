@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "CenterMiddle": "Assets/state/CenterMiddle.bin"
+  },
+  "entryScene": "CenterMiddle"
+}

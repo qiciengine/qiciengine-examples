@@ -1,0 +1,10 @@
+{
+  "name": "tweenAlpha",
+  "desc": "Introduce qc.TweenAlpha plugin",
+  "tags": ["Tween", "TweenAlpha"],
+  "preview": "preview.png",
+  "category": "Tween",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

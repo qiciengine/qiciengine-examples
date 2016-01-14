@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "BounceKnock": "Assets/state/BounceKnock.bin"
+  },
+  "entryScene": "BounceKnock"
+}

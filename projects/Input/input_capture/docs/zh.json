@@ -1,0 +1,10 @@
+{
+  "name": "inputCapture",
+  "desc": "演示 interactive 属性对点击事件响应的影响",
+  "tags": ["input", "interactive", "onClick"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

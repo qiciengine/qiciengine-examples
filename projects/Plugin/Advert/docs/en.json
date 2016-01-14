@@ -1,0 +1,10 @@
+{
+  "name": "advert",
+  "desc": "Introduce qc.Advert plugin",
+  "tags": ["advert"],
+  "preview": "preview.png",
+  "category": "Plugin",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

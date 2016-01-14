@@ -1,0 +1,10 @@
+{
+  "name": "changeRotation",
+  "desc": "Rotate pictures whose pivot is different",
+  "tags": ["UIImage", "rotation", "pivot"],
+  "preview": "preview.png",
+  "category": "UIImage",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

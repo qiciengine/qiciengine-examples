@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "EmitterWidth": "Assets/state/EmitterWidth.bin"
+  },
+  "entryScene": "EmitterWidth"
+}

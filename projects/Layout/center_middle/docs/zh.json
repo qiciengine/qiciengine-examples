@@ -1,0 +1,10 @@
+{
+  "name": "centerMiddle",
+  "desc": "演示 recttransform 中的 center-middle 居中模式",
+  "tags": ["Layout", "recttransform", "center-middle"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

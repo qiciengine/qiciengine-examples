@@ -1,0 +1,10 @@
+{
+  "name": "customLayout",
+  "desc": "How to create custom Inspector Panel",
+  "tags": ["Inspector"],
+  "preview": "preview.png",
+  "category": "Inspector",
+  "order": 2,
+  "width": 800,
+  "height": 600
+}

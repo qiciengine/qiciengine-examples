@@ -1,0 +1,11 @@
+{
+  "name": "dota",
+  "desc": "How to impletment a game demo like dota",
+  "tags": ["project", "dota"],
+  "preview": "preview.png",
+  "category": "Project",
+  "order": 1,
+  "width": 800,
+  "height": 600,
+  "copyright": "<a href='http://www.lilith.sh' target='_blank'>lilith</a>"
+}

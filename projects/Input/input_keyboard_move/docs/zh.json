@@ -1,0 +1,10 @@
+{
+  "name": "keyboardMove",
+  "desc": "演示使用方向键控制图片移动",
+  "tags": ["input", "isKeyDown", "keyboard"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

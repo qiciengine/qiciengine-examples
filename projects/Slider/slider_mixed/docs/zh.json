@@ -1,0 +1,10 @@
+{
+  "name": "slider",
+  "desc": "介绍滑动条的使用",
+  "tags": ["onValueChange", "Slider", "onClick"],
+  "preview": "preview.png",
+  "category": "滑动条",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

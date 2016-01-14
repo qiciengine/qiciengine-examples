@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "OnCallback": "Assets/state/OnCallback.bin"
+  },
+  "entryScene": "OnCallback"
+}

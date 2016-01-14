@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Sprite": "Assets/state/Sprite.bin"
+  },
+  "entryScene": "Sprite"
+}

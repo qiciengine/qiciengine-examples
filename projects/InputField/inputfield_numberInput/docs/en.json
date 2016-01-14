@@ -1,0 +1,10 @@
+{
+  "name": "numberInput",
+  "desc": "Introduce Number type of InputField, the diffenrence from Int type is that `.` is allowed",
+  "tags": ["inputField"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tablelayout",
+  "desc": "How to use ScrollView and TableLayout to implement app layout window",
+  "tags": ["Layout", "ScrollView", "TableLayout"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

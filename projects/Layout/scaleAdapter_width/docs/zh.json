@@ -1,0 +1,10 @@
+{
+  "name": "scaleAdapter_width",
+  "desc": "演示 scaleAdapter 组件的 width 模式",
+  "tags": ["Layout", "scaleAdapter"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

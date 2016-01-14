@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "audioSupportInfo": "Assets/state/audioSupportInfo.bin"
+  },
+  "entryScene": "audioSupportInfo"
+}

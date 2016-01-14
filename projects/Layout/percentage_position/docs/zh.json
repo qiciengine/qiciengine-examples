@@ -1,0 +1,10 @@
+{
+  "name": "setAnchor",
+  "desc": "演示手动修改 recttransform 中 minAnchor 和 maxAnchor",
+  "tags": ["Layout", "recttransform"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

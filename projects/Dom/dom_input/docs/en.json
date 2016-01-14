@@ -1,0 +1,10 @@
+{
+  "name": "DomInput",
+  "desc": "How to handle click event in dom node",
+  "tags": ["DOM", "input", "onClick"],
+  "preview": "preview.png",
+  "category": "Dom",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

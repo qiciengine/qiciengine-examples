@@ -1,0 +1,10 @@
+{
+  "name": "mousePosition",
+  "desc": "How to use input#onCursorMove event",
+  "tags": ["input", "onCursorMove", "mouse"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

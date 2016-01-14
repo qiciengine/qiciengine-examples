@@ -1,0 +1,10 @@
+{
+  "name": "pointerOver",
+  "desc": "Introduce pointer's over event",
+  "tags": ["input", "onEnter", "onExit"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "BodyEnable",
+  "desc": "演示RigidBody#enable的使用",
+  "tags": ["arcade", "RigidBody", "enable"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

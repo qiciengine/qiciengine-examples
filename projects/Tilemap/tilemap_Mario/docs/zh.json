@@ -1,0 +1,10 @@
+{
+  "name": "mario",
+  "desc": "通过超级玛利奥游戏例子来介绍瓦片地图的使用",
+  "tags": ["tilemap", "mario"],
+  "preview": "preview.png",
+  "category": "瓦片地图",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

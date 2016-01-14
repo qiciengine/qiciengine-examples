@@ -1,0 +1,10 @@
+{
+  "name": "addSpriteDynamic",
+  "desc": "介绍通过代码加载资源并创建精灵对象",
+  "tags": ["sprite", "add", "assets"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

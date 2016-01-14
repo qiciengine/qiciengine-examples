@@ -1,0 +1,10 @@
+{
+  "name": "DomOpenUrl",
+  "desc": "How to set innerHTML property of dom and css config to show a url link",
+  "tags": ["DOM", "url", "innerHTML"],
+  "preview": "preview.png",
+  "category": "Dom",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

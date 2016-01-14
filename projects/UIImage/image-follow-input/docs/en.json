@@ -1,0 +1,10 @@
+{
+  "name": "imageMove",
+  "desc": "How to drag picture",
+  "tags": ["UIImage", "onPointerMove"],
+  "preview": "preview.png",
+  "category": "UIImage",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

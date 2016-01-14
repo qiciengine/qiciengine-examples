@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "aspect_ratio": "Assets/state/aspect_ratio.bin"
+  },
+  "entryScene": "aspect_ratio"
+}

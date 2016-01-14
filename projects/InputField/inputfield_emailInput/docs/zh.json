@@ -1,0 +1,10 @@
+{
+  "name": "emailInput",
+  "desc": "演示 email 类型输入框",
+  "tags": ["inputField", "email"],
+  "preview": "preview.png",
+  "category": "输入框",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

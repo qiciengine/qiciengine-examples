@@ -1,0 +1,15 @@
+{
+  "projectName": "BounceAcceleration",
+  "gameName": "BounceAcceleration",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.BounceAcceleration",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 5066061,
+  "gameWidth": "640",
+  "toolFlag": 28
+}

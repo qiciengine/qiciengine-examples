@@ -1,0 +1,16 @@
+{
+  "projectName": "LeftBottom",
+  "gameName": "LeftBottom",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.demo.left_bottom",
+  "gameInstance": "qc_game",
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "develop": false,
+  "toolFlag": 28,
+  "version": "1",
+  "loading": ""
+}

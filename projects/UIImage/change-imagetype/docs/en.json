@@ -1,0 +1,10 @@
+{
+  "name": "changeImagetype",
+  "desc": "Introduce the use of imageType property",
+  "tags": ["UIImage", "imageType"],
+  "preview": "preview.png",
+  "category": "UIImage",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

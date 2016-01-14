@@ -1,0 +1,10 @@
+{
+  "name": "LoadAssets",
+  "desc": "如何加载各类资源，例如图集、声音、字体等",
+  "tags": ["arcade", "RigidBody", "Assets", "load"],
+  "preview": "preview.png",
+  "category": "资源管理",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

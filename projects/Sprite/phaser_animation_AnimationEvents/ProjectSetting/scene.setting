@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "AnimationEvents": "Assets/state/AnimationEvents.bin"
+  },
+  "entryScene": "AnimationEvents"
+}

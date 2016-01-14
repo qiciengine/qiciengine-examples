@@ -1,0 +1,10 @@
+{
+  "name": "dropLimitation",
+  "desc": "演示拖动方块到指定的分组中",
+  "tags": ["input", "onDrag", "onDragEnd"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

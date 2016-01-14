@@ -1,0 +1,10 @@
+{
+  "name": "LoadSprite",
+  "desc": "加载精灵资源（图集和动作）",
+  "tags": ["Assets", "load", "Sprite"],
+  "preview": "preview.png",
+  "category": "资源管理",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

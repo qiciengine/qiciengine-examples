@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Table": "Assets/state/Table.bin"
+  },
+  "entryScene": "Table"
+}

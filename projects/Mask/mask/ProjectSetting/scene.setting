@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Mask": "Assets/state/Mask.bin"
+  },
+  "entryScene": "Mask"
+}

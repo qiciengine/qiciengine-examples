@@ -1,0 +1,10 @@
+{
+  "name": "bitmapFont",
+  "desc": "介绍使用 bitmapFont 字体显示文本",
+  "tags": ["UIText", "bitmapFont"],
+  "preview": "preview.png",
+  "category": "UIText文本",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

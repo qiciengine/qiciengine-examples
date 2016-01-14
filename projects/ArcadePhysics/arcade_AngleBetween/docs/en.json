@@ -1,0 +1,10 @@
+{
+  "name": "AngleBetween",
+  "desc": "How to user 'RigidBody#angleBetween'",
+  "tags": ["arcade", "RigidBody", "angleBetween"],
+  "preview": "preview.png",
+  "category": "Arcade Physics",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

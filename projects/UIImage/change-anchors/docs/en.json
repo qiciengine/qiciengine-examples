@@ -1,0 +1,10 @@
+{
+  "name": "changeAnchor",
+  "desc": "How to use setAnchor to change picture's anchor",
+  "tags": ["UIImage", "setAnchor"],
+  "preview": "preview.png",
+  "category": "UIImage",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,195 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "9d318ece-8b6d-4521-88d3-c10045836a82",
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.9874213836478134,
+      2.886792452830207,
+      1.9874213836478134,
+      2.886792452830207,
+      632,
+      918,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9937106918238994
+    ],
+    "scaleY": [
+      3,
+      0.9937106918238994
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIRoot",
+        "data": {
+          "uuid": "6176588d-d43c-4a99-9f5e-14d4201540c0",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "UIRoot"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.ScaleAdapter",
+              "data": {
+                "class": "qc.ScaleAdapter",
+                "data": {
+                  "enable": true,
+                  "target": null,
+                  "referenceResolution": [
+                    24,
+                    "qc.Point",
+                    [
+                      960,
+                      640
+                    ]
+                  ],
+                  "manualType": [
+                    3,
+                    3
+                  ],
+                  "fullTarget": [
+                    5,
+                    true
+                  ],
+                  "gameObjectRecord": [
+                    4,
+                    [
+                      0.5578125,
+                      0.5578125,
+                      640,
+                      1604.4817927170868
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "clazz": "qc.engine.UI",
+              "data": {
+                "class": "qc.engine.UI",
+                "data": {
+                  "enable": true
+                }
+              }
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            960,
+            1394.4303797468356,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            0.6583333333333333
+          ],
+          "scaleY": [
+            3,
+            0.6583333333333333
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": []
+        }
+      }
+    ]
+  },
+  "dependences": {}
+}

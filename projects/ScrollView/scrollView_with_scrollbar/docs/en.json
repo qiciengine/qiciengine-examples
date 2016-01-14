@@ -1,0 +1,10 @@
+{
+  "name": "withScrollbar",
+  "desc": "Introduce ScrollView Component with scrollbar",
+  "tags": ["onValueChange", "scrollView", "onClick", "ScrollBar"],
+  "preview": "preview.png",
+  "category": "ScrollView",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

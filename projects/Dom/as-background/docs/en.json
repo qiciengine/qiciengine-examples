@@ -1,0 +1,10 @@
+{
+  "name": "AsBackground",
+  "desc": "How to set Dom as background",
+  "tags": ["DOM", "background"],
+  "preview": "preview.png",
+  "category": "Dom",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Restart",
+  "desc": "How to use 'Sound#stop' and 'Sound#play'",
+  "tags": ["audio", "Sound", "stop", "play"],
+  "preview": "preview.png",
+  "category": "Audio",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Sources": "Assets/state/Sources.bin"
+  },
+  "entryScene": "Sources"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "inputState",
+  "desc": "Introduce state property of InputField",
+  "tags": ["inputField"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,11 @@
+/* css for dom */
+.content {
+    color: white;
+    font-size: 16px;
+    border: 1px solid red;
+    padding:5px;
+    line-height: 1.5;
+}
+.content h3 {
+    color: green;
+}

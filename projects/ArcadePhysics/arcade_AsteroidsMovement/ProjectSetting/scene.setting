@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "AsteroidsMovement": "Assets/state/AsteroidsMovement.bin"
+  },
+  "entryScene": "AsteroidsMovement"
+}

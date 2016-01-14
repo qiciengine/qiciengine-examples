@@ -1,0 +1,15 @@
+{
+  "projectName": "QQ",
+  "gameName": "QQ",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.qq",
+  "gameInstance": "qqGame",
+  "div": "",
+  "orientation": 1,
+  "qcVer": "0.9",
+  "loading": "",
+  "backgroundColor": 0,
+  "gameWidth": "640",
+  "version": "1",
+  "toolFlag": 28
+}

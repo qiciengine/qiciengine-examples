@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "ParticleAlpha": "Assets/state/ParticleAlpha.bin"
+  },
+  "entryScene": "ParticleAlpha"
+}

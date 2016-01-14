@@ -1,0 +1,10 @@
+{
+  "name": "Performance DragonBone",
+  "desc": "30个复杂的骨骼动画渲染效率",
+  "tags": ["Performance", "DragonBone"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

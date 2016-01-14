@@ -1,0 +1,25 @@
+{
+  "projectName": "text",
+  "gameName": "text",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.text",
+  "gameInstance": "testGame",
+  "div": "",
+  "orientation": 1,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 1856184,
+  "gameWidth": "640",
+  "toolFlag": 28,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": true
+}

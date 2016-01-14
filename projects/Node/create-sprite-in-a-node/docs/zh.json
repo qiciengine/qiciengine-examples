@@ -1,0 +1,10 @@
+{
+  "name": "createSpriteInNode",
+  "desc": "点击屏幕，创建图片挂载到指定节点下",
+  "tags": ["add","onPointerUp"],
+  "preview": "preview.png",
+  "category": "Node节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

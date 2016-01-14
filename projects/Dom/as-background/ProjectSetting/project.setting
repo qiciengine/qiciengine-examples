@@ -1,0 +1,16 @@
+{
+  "projectName": "AsBackground",
+  "gameName": "AsBackground",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.demo",
+  "gameInstance": "qc_game",
+  "backgroundColor": 0,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": true,
+  "develop": false,
+  "toolFlag": 28,
+  "loading": "",
+  "version": "1.0"
+}

@@ -1,0 +1,94 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "2bf55861-6b18-4267-a09d-73006af64029",
+    "_prefab": [
+      7,
+      "6fcc7f11-4617-4479-b1ef-c8bce26278ef"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "pepper"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0.5,
+      0.5,
+      0,
+      0,
+      169,
+      413.5,
+      33,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "Assets/texture/fruitnveg32wh37_21.bin",
+      "551e1b52-0e53-43e0-8392-20cabd6c9ed7"
+    ],
+    "frame": null,
+    "imageType": [
+      3,
+      0
+    ]
+  },
+  "dependences": {
+    "551e1b52-0e53-43e0-8392-20cabd6c9ed7": {
+      "key": "Assets/texture/fruitnveg32wh37_21.bin",
+      "uuid": "551e1b52-0e53-43e0-8392-20cabd6c9ed7"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "frameAnimation",
+  "desc": "介绍精灵的帧动画",
+  "tags": ["sprite", "frameAnimation"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

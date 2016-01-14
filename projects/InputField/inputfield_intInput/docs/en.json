@@ -1,0 +1,10 @@
+{
+  "name": "intInput",
+  "desc": "Introduce Int type of InputField, that only input number",
+  "tags": ["inputField"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

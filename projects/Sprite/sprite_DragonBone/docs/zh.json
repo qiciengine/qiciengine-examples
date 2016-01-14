@@ -1,0 +1,10 @@
+{
+  "name": "dragonBone",
+  "desc": "介绍精灵的 dragonBone 骨骼动画",
+  "tags": ["sprite", "DragonBone"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

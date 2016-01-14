@@ -1,0 +1,10 @@
+{
+  "name": "prefabAdd",
+  "desc": "介绍预制的克隆创建",
+  "tags": ["onDown", "clone"],
+  "preview": "preview.png",
+  "category": "预制",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

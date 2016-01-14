@@ -1,0 +1,10 @@
+{
+  "name": "startUp",
+  "desc": "演示一个简单的、功能点较完整的游戏样例",
+  "tags": ["GetStart", "startUp"],
+  "preview": "preview.png",
+  "category": "入门样例",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

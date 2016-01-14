@@ -1,0 +1,10 @@
+{
+  "name": "tweenMixed",
+  "desc": "在代码中控制多个 Tween 一起播放",
+  "tags": ["Tween", "TweenGroup", "playGroupForward"],
+  "preview": "preview.png",
+  "category": "tween曲线",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

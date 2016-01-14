@@ -1,0 +1,10 @@
+{
+  "name": "addInputField",
+  "desc": "演示如何使用代码创建输入框",
+  "tags": ["inputField", "add"],
+  "preview": "preview.png",
+  "category": "输入框",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

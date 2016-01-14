@@ -1,0 +1,10 @@
+{
+  "name": "mask",
+  "desc": "演示 Mask 组件的使用",
+  "tags": ["Mask"],
+  "preview": "preview.png",
+  "category": "Mask组件",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

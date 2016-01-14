@@ -1,0 +1,10 @@
+{
+  "name": "mouseButtons",
+  "desc": "演示鼠标按键的点击事件响应",
+  "tags": ["input", "onPointerDown", "onPointerUp", "getPointer"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

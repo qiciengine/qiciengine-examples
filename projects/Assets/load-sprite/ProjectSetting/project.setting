@@ -1,0 +1,16 @@
+{
+  "projectName": "LoadImage",
+  "gameName": "LoadImage",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.demo",
+  "gameInstance": "qc_game",
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "develop": false,
+  "toolFlag": 28,
+  "loading": "",
+  "version": "1.0"
+}

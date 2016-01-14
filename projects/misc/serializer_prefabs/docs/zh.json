@@ -1,0 +1,10 @@
+{
+  "name": "Serializer Prefabs",
+  "desc": "使用：qc.Serializer.PREFABS",
+  "tags": ["Serializer", "Prefab", "Prefabs"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 600,
+  "height": 400
+}

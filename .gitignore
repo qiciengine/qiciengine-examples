@@ -1,0 +1,11 @@
+**/.idea
+**/Temp
+**/index.html
+**/.scene_backup
+**/ProjectSetting/editor.setting
+**/Assets/meta/globalUrlMap.js
+**/Assets/meta/globalUrlMap.js.meta
+**/Build
+**/globalUrlMap.js
+**/_book
+node_modules

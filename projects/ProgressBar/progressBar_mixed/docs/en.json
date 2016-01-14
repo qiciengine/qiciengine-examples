@@ -1,0 +1,10 @@
+{
+  "name": "progressBar",
+  "desc": "Introduce ProgressBar Component",
+  "tags": ["progressBar"],
+  "preview": "preview.png",
+  "category": "ProgressBar",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

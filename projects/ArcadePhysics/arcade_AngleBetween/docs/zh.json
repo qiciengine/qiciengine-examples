@@ -1,0 +1,10 @@
+{
+  "name": "AngleBetween",
+  "desc": "演示RigidBody#angleBetween的使用",
+  "tags": ["arcade", "RigidBody", "angleBetween"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,1 @@
+{"animations":{"tigerAtk2":{"frames":["tigerAtk2.png","tigerAtk2.png"],"rate":"1","loop":false},"medAtk":{"frames":["medAtk.png"],"rate":10,"loop":false},"vsAtk":{"frames":["vsAtk.png","vsAtk.png"],"rate":10,"loop":false},"qopAttack2":{"frames":["qopAtk2.png","qopAtk2.png"],"rate":10,"loop":false}}}

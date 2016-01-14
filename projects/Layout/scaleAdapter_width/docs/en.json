@@ -1,0 +1,10 @@
+{
+  "name": "scaleAdapter_width",
+  "desc": "Introduce width mode of scaleAdapter Component",
+  "tags": ["Layout", "scaleAdapter"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

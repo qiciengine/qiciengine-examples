@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Audio": "Assets/state/Audio.bin"
+  },
+  "entryScene": "Audio"
+}

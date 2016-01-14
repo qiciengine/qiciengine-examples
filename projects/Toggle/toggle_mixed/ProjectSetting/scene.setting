@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "toggle": "Assets/state/toggle.bin"
+  },
+  "entryScene": "toggle"
+}

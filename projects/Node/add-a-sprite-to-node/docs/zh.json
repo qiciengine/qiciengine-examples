@@ -1,0 +1,10 @@
+{
+  "name": "addSpriteToNode",
+  "desc": "介绍如何创建精灵，并挂载在 node 下",
+  "tags": ["add", "setChildIndex"],
+  "preview": "preview.png",
+  "category": "Node节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

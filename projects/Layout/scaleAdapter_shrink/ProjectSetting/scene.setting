@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "ScaleAdapter": "Assets/state/ScaleAdapter.bin"
+  },
+  "entryScene": "ScaleAdapter"
+}

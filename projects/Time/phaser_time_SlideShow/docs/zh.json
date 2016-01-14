@@ -1,0 +1,10 @@
+{
+  "name": "slideShow",
+  "desc": "介绍定时切换背景图片的功能",
+  "tags": ["timer"],
+  "preview": "preview.png",
+  "category": "时间系统",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

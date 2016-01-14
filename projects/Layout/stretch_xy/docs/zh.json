@@ -1,0 +1,10 @@
+{
+  "name": "stretchXY",
+  "desc": "演示 recttransform 中 x、y 轴方向上的 stretch 模式",
+  "tags": ["Layout", "recttransform", "stretchXY"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "ClickBurst": "Assets/state/ClickBurst.bin"
+  },
+  "entryScene": "ClickBurst"
+}

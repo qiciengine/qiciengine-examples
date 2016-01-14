@@ -1,0 +1,10 @@
+{
+  "name": "extendService",
+  "desc": "介绍如何扩展后台服务",
+  "tags": ["extendService"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

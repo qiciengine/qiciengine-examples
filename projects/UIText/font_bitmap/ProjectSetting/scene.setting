@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Font": "Assets/state/Font.bin"
+  },
+  "entryScene": "Font"
+}

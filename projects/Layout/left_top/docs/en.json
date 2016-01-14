@@ -1,0 +1,10 @@
+{
+  "name": "leftTop",
+  "desc": "Introduce left-top mode of recttransform",
+  "tags": ["Layout", "recttransform", "left-top"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

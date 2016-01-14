@@ -1,0 +1,10 @@
+{
+  "name": "pointerUpOutOfGame",
+  "desc": "Introduce UP event can also be triggered out of game",
+  "tags": ["input", "onPointerUp", "onPointerDown"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

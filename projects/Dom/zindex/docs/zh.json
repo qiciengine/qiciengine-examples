@@ -1,0 +1,10 @@
+{
+  "name": "DomZindex",
+  "desc": "演示 Dom zindex 的使用",
+  "tags": ["DOM", "zindex"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

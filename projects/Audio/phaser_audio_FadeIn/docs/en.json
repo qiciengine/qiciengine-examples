@@ -1,0 +1,10 @@
+{
+  "name": "FadeIn",
+  "desc": "How to use 'Sound#fadeIn'",
+  "tags": ["audio", "Sound", "fadeIn"],
+  "preview": "preview.png",
+  "category": "Audio",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

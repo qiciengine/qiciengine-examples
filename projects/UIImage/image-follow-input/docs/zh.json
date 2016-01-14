@@ -1,0 +1,10 @@
+{
+  "name": "imageMove",
+  "desc": "演示对图片进行拖动",
+  "tags": ["UIImage", "onPointerMove"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

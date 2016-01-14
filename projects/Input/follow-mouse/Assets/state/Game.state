@@ -1,0 +1,307 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "8b48d8fb-90a4-4018-a43c-c9926abbcaf2",
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.9759036144578488,
+      4.7530120481927725,
+      1.9759036144578488,
+      4.7530120481927725,
+      328,
+      789,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9879518072289156
+    ],
+    "scaleY": [
+      3,
+      0.9879518072289156
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "ba82e1f3-1d67-4922-866e-18827bfb8e53",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "ball"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.arcade.RigidBody",
+              "data": {
+                "class": "qc.arcade.RigidBody",
+                "data": {
+                  "enable": true,
+                  "mass": [
+                    3,
+                    1
+                  ],
+                  "collideWorldBounds": [
+                    5,
+                    false
+                  ],
+                  "allowRotation": [
+                    5,
+                    true
+                  ],
+                  "allowGravity": [
+                    5,
+                    true
+                  ],
+                  "velocity": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "maxVelocity": [
+                    24,
+                    "qc.Point",
+                    [
+                      10000,
+                      10000
+                    ]
+                  ],
+                  "acceleration": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "drag": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "gravity": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "friction": [
+                    24,
+                    "qc.Point",
+                    [
+                      1,
+                      0
+                    ]
+                  ],
+                  "angularVelocity": [
+                    3,
+                    0
+                  ],
+                  "maxAngular": [
+                    3,
+                    1000
+                  ],
+                  "angularAcceleration": [
+                    3,
+                    0
+                  ],
+                  "angularDrag": [
+                    3,
+                    0
+                  ],
+                  "bounce": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "immovable": [
+                    5,
+                    false
+                  ],
+                  "moves": [
+                    5,
+                    true
+                  ],
+                  "checkCollision": [
+                    9,
+                    {
+                      "none": false,
+                      "any": true,
+                      "up": true,
+                      "down": true,
+                      "left": true,
+                      "right": true
+                    }
+                  ],
+                  "tilePadding": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "collides": [
+                    19,
+                    []
+                  ],
+                  "overlaps": [
+                    19,
+                    []
+                  ]
+                }
+              }
+            },
+            {
+              "clazz": "qc.demo.UI",
+              "data": {
+                "class": "qc.demo.UI",
+                "data": {
+                  "enable": true
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            0,
+            164,
+            394.5,
+            32,
+            32,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/texture/shinyball.bin",
+            "f1c98776-9f14-4c65-8ae7-5847a433ba8c"
+          ],
+          "frame": null,
+          "defaultAnimation": [
+            8,
+            null
+          ]
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "f1c98776-9f14-4c65-8ae7-5847a433ba8c": {
+      "key": "Assets/texture/shinyball.bin",
+      "uuid": "f1c98776-9f14-4c65-8ae7-5847a433ba8c"
+    }
+  }
+}

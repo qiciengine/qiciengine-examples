@@ -1,0 +1,10 @@
+{
+  "name": "serializer",
+  "desc": "介绍 serializer 序列化功能",
+  "tags": ["serializer"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

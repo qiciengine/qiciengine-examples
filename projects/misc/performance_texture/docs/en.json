@@ -1,0 +1,10 @@
+{
+  "name": "Performance Texture",
+  "desc": "100 UIImage objects",
+  "tags": ["Performance", "UIImage"],
+  "preview": "preview.png",
+  "category": "Misc",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

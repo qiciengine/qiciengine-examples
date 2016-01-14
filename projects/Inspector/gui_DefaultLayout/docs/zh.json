@@ -1,0 +1,10 @@
+{
+  "name": "defaultLayout",
+  "desc": "演示创建默认的 Inspector 面板",
+  "tags": ["Inspector"],
+  "preview": "preview.png",
+  "category": "Inspector面板",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

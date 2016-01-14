@@ -1,0 +1,10 @@
+{
+  "name": "mouseWheel",
+  "desc": "How to use input#onWheel event",
+  "tags": ["input", "onWheel", "mouse"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

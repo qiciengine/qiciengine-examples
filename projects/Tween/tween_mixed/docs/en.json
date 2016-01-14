@@ -1,0 +1,10 @@
+{
+  "name": "tweenMixed",
+  "desc": "How to play multi tween together throught coding",
+  "tags": ["Tween", "TweenGroup", "playGroupForward"],
+  "preview": "preview.png",
+  "category": "Tween",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

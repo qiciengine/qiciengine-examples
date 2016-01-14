@@ -1,0 +1,10 @@
+{
+  "name": "dragAndDrop",
+  "desc": "演示 DrapAndDrop 功能",
+  "tags": ["input", "dragAndDrop", "onDrag", "onDragStart", "onDragEnd", "onDragDrop", "isAllowDrop"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "worldInput",
+  "desc": "演示键盘 keyDown 事件中的 keyCode 参数值",
+  "tags": ["input", "onKeyDown", "keyCode"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

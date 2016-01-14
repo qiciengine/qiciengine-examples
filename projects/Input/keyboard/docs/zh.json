@@ -1,0 +1,10 @@
+{
+  "name": "keyboardShip",
+  "desc": "演示使用方向键移动飞船，同时背景跟随滚动",
+  "tags": ["input", "keyboard", "isKeyDown"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

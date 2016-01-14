@@ -1,0 +1,10 @@
+{
+  "name": "tableLayout",
+  "desc": "全面介绍 TableLayout 中各个属性的使用及对应的效果",
+  "tags": ["TableLayout"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

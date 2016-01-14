@@ -1,0 +1,10 @@
+{
+  "name": "changeTexture",
+  "desc": "Change sprite's texture manunally, and play new frame animation",
+  "tags": ["sprite", "texture", "playAnimation"],
+  "preview": "preview.png",
+  "category": "Sprite",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

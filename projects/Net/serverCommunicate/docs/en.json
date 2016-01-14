@@ -1,0 +1,10 @@
+{
+  "name": "serverCommunicate",
+  "desc": "Introduce the use of serverCommunicate plugin",
+  "tags": ["serverCommunicate"],
+  "preview": "preview.png",
+  "category": "Network",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

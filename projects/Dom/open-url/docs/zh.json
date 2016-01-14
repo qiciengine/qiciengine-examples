@@ -1,0 +1,10 @@
+{
+  "name": "DomOpenUrl",
+  "desc": "演示 Dom 中设置 innerHTML 以及 css 配置，实现点击链接打开网页的效果",
+  "tags": ["DOM", "url", "innerHTML"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

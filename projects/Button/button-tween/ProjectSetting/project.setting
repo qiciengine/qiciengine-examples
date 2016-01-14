@@ -1,0 +1,22 @@
+{
+  "projectName": "ButtonTween",
+  "gameName": "ButtonTween",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.demo",
+  "gameInstance": "qc_game",
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "develop": false,
+  "toolFlag": 28,
+  "version": "1",
+  "loading": "",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": true
+}

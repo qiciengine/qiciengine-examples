@@ -1,0 +1,10 @@
+{
+  "name": "anchors",
+  "desc": "演示如何使用 recttransform 进行界面布局",
+  "tags": ["Layout", "recttransform"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

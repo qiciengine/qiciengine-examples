@@ -1,0 +1,10 @@
+{
+  "name": "AngularAcceleration",
+  "desc": "演示RigidBody#angularAcceleration的使用",
+  "tags": ["arcade", "RigidBody", "angularAcceleration"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 20,
+  "width": 800,
+  "height": 600
+}

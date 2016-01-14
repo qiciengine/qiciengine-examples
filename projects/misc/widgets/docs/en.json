@@ -1,0 +1,10 @@
+{
+  "name": "widgets",
+  "desc": "Introduce the use of UI controls",
+  "tags": ["widgets"],
+  "preview": "preview.png",
+  "category": "Misc",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

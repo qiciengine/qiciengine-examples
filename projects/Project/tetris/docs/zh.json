@@ -1,0 +1,10 @@
+{
+  "name": "tetris",
+  "desc": "介绍神奇六边形游戏的实现",
+  "tags": ["project", "tetris"],
+  "preview": "preview.png",
+  "category": "样例工程",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

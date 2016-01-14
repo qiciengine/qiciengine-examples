@@ -1,0 +1,10 @@
+{
+  "name": "changeScale",
+  "desc": "介绍不同 pivot 的图片的放大效果",
+  "tags": ["UIImage", "scale", "pivot"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

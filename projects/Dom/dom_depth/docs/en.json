@@ -1,0 +1,10 @@
+{
+  "name": "DomPos",
+  "desc": "How to use pos property of dom node",
+  "tags": ["DOM", "pos"],
+  "preview": "preview.png",
+  "category": "Dom",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

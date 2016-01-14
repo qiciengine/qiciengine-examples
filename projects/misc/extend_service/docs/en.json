@@ -1,0 +1,10 @@
+{
+  "name": "extendService",
+  "desc": "How to extend service",
+  "tags": ["extendService"],
+  "preview": "preview.png",
+  "category": "Misc",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

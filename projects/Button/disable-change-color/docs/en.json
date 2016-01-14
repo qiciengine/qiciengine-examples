@@ -1,0 +1,10 @@
+{
+  "name": "DisableChangeColor",
+  "desc": "Disable the button",
+  "tags": ["Button", "UIState", "DISABLED", "state"],
+  "preview": "preview.png",
+  "category": "Button",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "loadingPrefab",
+  "desc": "介绍切换场景的加载 loading 动画的实现",
+  "tags": ["onStartLoad", "onEndLoad"],
+  "preview": "preview.png",
+  "category": "预制",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

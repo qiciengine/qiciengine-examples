@@ -1,0 +1,10 @@
+{
+  "name": "multiTouch",
+  "desc": "How to impletment multi touch",
+  "tags": ["input", "onPointerDown", "onPointerUp", "onPointerMove", "getPointer"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

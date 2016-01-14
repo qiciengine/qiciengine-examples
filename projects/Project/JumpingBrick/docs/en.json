@@ -1,0 +1,11 @@
+{
+  "name": "JumpingBrick",
+  "desc": "",
+  "tags": ["project", "JumpingBrick"],
+  "preview": "preview.png",
+  "category": "Project",
+  "order": 1,
+  "width": 800,
+  "height": 600,
+  "copyright": "<a href='http://www.ketchappstudio.com' target='_blank'>Ketchapp</a>"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wechat",
+  "desc": "介绍微信插件的使用",
+  "tags": ["wechat"],
+  "preview": "preview.png",
+  "category": "插件",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

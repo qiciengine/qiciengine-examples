@@ -1,0 +1,10 @@
+{
+  "name": "AccelerateToPoint",
+  "desc": "How to use 'RigidBody#moveToObject'",
+  "tags": ["arcade", "RigidBody", "moveToObject"],
+  "preview": "preview.png",
+  "category": "Arcade Physics",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

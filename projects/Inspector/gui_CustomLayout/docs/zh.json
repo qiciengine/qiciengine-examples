@@ -1,0 +1,10 @@
+{
+  "name": "customLayout",
+  "desc": "演示创建自定义 Inspector 面板",
+  "tags": ["Inspector"],
+  "preview": "preview.png",
+  "category": "Inspector面板",
+  "order": 2,
+  "width": 800,
+  "height": 600
+}

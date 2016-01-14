@@ -1,0 +1,10 @@
+{
+  "name": "drawLine",
+  "desc": "How to use Graphics node to draw line",
+  "tags": ["Graphics"],
+  "preview": "preview.png",
+  "category": "Graphics",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

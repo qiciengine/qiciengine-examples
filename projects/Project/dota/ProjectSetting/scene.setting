@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Dota": "Assets/state/Dota.bin"
+  },
+  "entryScene": "Dota"
+}

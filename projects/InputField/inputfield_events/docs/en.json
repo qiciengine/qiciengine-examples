@@ -1,0 +1,10 @@
+{
+  "name": "event",
+  "desc": "Introduce InputField#onValueChange and InputField#onStateChange",
+  "tags": ["inputField", "onValueChange", "onStateChange"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

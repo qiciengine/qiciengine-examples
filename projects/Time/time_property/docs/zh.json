@@ -1,0 +1,10 @@
+{
+  "name": "timeProperty",
+  "desc": "介绍 game#time 的各个属性值及作用",
+  "tags": ["time", "fixedTime", "deltaTime", "frameRate", "now", "scaledTime", "timeScale"],
+  "preview": "preview.png",
+  "category": "时间系统",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

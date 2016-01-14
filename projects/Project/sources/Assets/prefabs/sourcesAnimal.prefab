@@ -1,0 +1,394 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "90f0d150-28cc-4418-99ce-6c59f74feacc",
+    "_prefab": [
+      7,
+      "8569e29c-2502-4837-9c7d-d6b31aa2728d"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "sourcesAnimal"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.demo.Animal",
+        "data": "b70f8d8d-b741-4d30-a6b1-8c4920be58fe"
+      },
+      {
+        "clazz": "qc.TweenPosition",
+        "data": "49c41b51-bcbb-4649-8cc6-35eccb35c83a"
+      }
+    ],
+    "position": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      72,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "b029f72e-06b5-47b4-b927-6c09f9f73892",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "icon"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            0,
+            38,
+            36,
+            70,
+            62,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/sources.bin",
+            "584e9977-046e-4dc9-be1c-b524e643c353"
+          ],
+          "frame": [
+            7,
+            "bear.png"
+          ],
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "4c28e76c-4707-4560-a4ab-914b83c80b97",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "explode"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            false
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            0,
+            38,
+            36,
+            86,
+            86,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/sources.bin",
+            "584e9977-046e-4dc9-be1c-b524e643c353"
+          ],
+          "frame": [
+            7,
+            "baozha11.png"
+          ],
+          "defaultAnimation": [
+            8,
+            null
+          ]
+        }
+      }
+    ]
+  },
+  "__json": {
+    "b70f8d8d-b741-4d30-a6b1-8c4920be58fe": {
+      "class": "qc.demo.Animal",
+      "data": {
+        "uuid": [
+          7,
+          "b70f8d8d-b741-4d30-a6b1-8c4920be58fe"
+        ],
+        "enable": true,
+        "icon": [
+          18,
+          "b029f72e-06b5-47b4-b927-6c09f9f73892"
+        ],
+        "explode": [
+          18,
+          "4c28e76c-4707-4560-a4ab-914b83c80b97"
+        ]
+      }
+    },
+    "49c41b51-bcbb-4649-8cc6-35eccb35c83a": {
+      "class": "qc.TweenPosition",
+      "data": {
+        "uuid": [
+          7,
+          "49c41b51-bcbb-4649-8cc6-35eccb35c83a"
+        ],
+        "enable": false,
+        "_curve": [
+          22,
+          "qc.BezierCurve",
+          [
+            [
+              0.008247422680412373,
+              0.005797101449275369,
+              1,
+              1
+            ],
+            [
+              0.2154639175257732,
+              0.21301359629463615,
+              2.9371731637389797,
+              2.9371731637389797
+            ],
+            [
+              0.7989691,
+              1.0528892,
+              0.38436481518516474,
+              0.38436481518516474
+            ],
+            [
+              0.9793814,
+              1.0320076,
+              -0.382101159142316,
+              -0.382101159142316
+            ],
+            [
+              1.0082474226804123,
+              1.005797101449275,
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sampleMethod": [
+          3,
+          0
+        ],
+        "style": [
+          3,
+          0
+        ],
+        "delay": [
+          3,
+          0
+        ],
+        "duration": [
+          3,
+          0
+        ],
+        "tweenGroup": [
+          3,
+          0
+        ],
+        "flag": [
+          7,
+          ""
+        ],
+        "playOnAwake": [
+          5,
+          false
+        ],
+        "from": [
+          24,
+          "qc.Point",
+          [
+            0,
+            0
+          ]
+        ],
+        "to": [
+          24,
+          "qc.Point",
+          [
+            0,
+            0
+          ]
+        ],
+        "moveAxis": [
+          3,
+          255
+        ]
+      }
+    }
+  },
+  "dependences": {
+    "584e9977-046e-4dc9-be1c-b524e643c353": {
+      "key": "Assets/atlas/sources.bin",
+      "uuid": "584e9977-046e-4dc9-be1c-b524e643c353"
+    }
+  }
+}

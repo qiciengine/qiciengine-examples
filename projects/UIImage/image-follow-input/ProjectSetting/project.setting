@@ -1,0 +1,25 @@
+{
+  "projectName": "ImageFollowInput",
+  "gameName": "ImageFollowInput",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.demo",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "gameWidth": "640",
+  "version": "1",
+  "loading": "",
+  "backgroundColor": 12044023,
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "toolFlag": 28,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": true
+}

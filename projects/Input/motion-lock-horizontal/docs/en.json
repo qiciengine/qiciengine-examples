@@ -1,0 +1,10 @@
+{
+  "name": "dragLockHorizontal",
+  "desc": "Drag picture move horizontally",
+  "tags": ["input", "onDrag"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

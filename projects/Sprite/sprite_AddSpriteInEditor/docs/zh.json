@@ -1,0 +1,10 @@
+{
+  "name": "addSpriteInEditor",
+  "desc": "介绍在编辑器中增加精灵对象",
+  "tags": ["sprite"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

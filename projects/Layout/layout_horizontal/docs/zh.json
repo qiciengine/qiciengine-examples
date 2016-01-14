@@ -1,0 +1,10 @@
+{
+  "name": "layoutHorizontal",
+  "desc": "演示 HorizontalLayout 组件的使用",
+  "tags": ["Layout", "HorizontalLayout"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

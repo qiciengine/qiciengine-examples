@@ -1,0 +1,10 @@
+{
+  "name": "followMouse",
+  "desc": "演示球跟随手指或鼠标移动的效果",
+  "tags": ["input", "RigidBody", "moveToObject", "onPointerDown", "onPointerUp"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

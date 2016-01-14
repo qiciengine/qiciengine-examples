@@ -1,0 +1,10 @@
+{
+  "name": "createIfNull",
+  "desc": "Create new picture if there is no more picture in pool, or use picture in pool",
+  "tags": ["add"],
+  "preview": "preview.png",
+  "category": "Node",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

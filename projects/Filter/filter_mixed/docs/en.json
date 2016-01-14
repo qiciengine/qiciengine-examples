@@ -1,0 +1,10 @@
+{
+  "name": "FilterMixed",
+  "desc": "How to use filterGroup component to apply filter",
+  "tags": ["filter"],
+  "preview": "preview.png",
+  "category": "Filter",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

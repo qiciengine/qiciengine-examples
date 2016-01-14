@@ -1,0 +1,10 @@
+{
+  "name": "sources",
+  "desc": "介绍开心消消乐游戏 demo 的实现",
+  "tags": ["project", "sources"],
+  "preview": "preview.png",
+  "category": "样例工程",
+  "order": 1,
+  "width": 400,
+  "height": 600
+}

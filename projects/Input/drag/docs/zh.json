@@ -1,0 +1,10 @@
+{
+  "name": "drag",
+  "desc": "演示 Input#onDown 和 Input#onDrag 的使用",
+  "tags": ["input", "onDrag", "onDown"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

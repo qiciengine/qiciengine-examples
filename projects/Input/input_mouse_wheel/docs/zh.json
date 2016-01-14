@@ -1,0 +1,10 @@
+{
+  "name": "mouseWheel",
+  "desc": "演示 input#onWheel 鼠标滚轮事件的使用",
+  "tags": ["input", "onWheel", "mouse"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

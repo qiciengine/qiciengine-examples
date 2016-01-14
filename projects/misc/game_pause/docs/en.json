@@ -1,0 +1,10 @@
+{
+  "name": "gamePause",
+  "desc": "How to use 'onNativeClick' event to pause game",
+  "tags": ["onNativeClick"],
+  "preview": "preview.png",
+  "category": "Misc",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

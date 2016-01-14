@@ -1,0 +1,10 @@
+{
+  "name": "bringToTop",
+  "desc": "演示点击图片将图片显示在最上层",
+  "tags": ["input", "onDrag", "onDown", "addScript", "add", "setChildIndex"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "BounceKnock",
+  "desc": "碰撞与反弹",
+  "tags": ["arcade", "RigidBody", "collide", "bounce"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

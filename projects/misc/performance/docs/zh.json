@@ -1,0 +1,10 @@
+{
+  "name": "performance",
+  "desc": "测试游戏性能",
+  "tags": ["performance"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

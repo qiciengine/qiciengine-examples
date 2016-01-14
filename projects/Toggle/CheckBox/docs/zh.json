@@ -1,0 +1,10 @@
+{
+  "name": "CheckBox",
+  "desc": "如何实现一个复选框",
+  "tags": ["Toggle", "CheckBox"],
+  "preview": "preview.png",
+  "category": "Toggle开关",
+  "order": 11,
+  "width": 800,
+  "height": 600
+}

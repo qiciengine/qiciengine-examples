@@ -1,0 +1,10 @@
+{
+  "name": "dragLockVertical",
+  "desc": "Drag picture move vertically",
+  "tags": ["input", "onDrag"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

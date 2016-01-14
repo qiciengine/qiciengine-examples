@@ -1,0 +1,10 @@
+{
+  "name": "滑动开关",
+  "desc": "改变开关的外观",
+  "tags": ["Toggle"],
+  "preview": "preview.png",
+  "category": "Toggle开关",
+  "order": 12,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tweenScale",
+  "desc": "Introduce qc.tweenScale plugin",
+  "tags": ["Tween", "TweenScale"],
+  "preview": "preview.png",
+  "category": "Tween",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

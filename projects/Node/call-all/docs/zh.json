@@ -1,0 +1,10 @@
+{
+  "name": "callAll",
+  "desc": "介绍如何对一组节点进行操作",
+  "tags": ["onClick", "forEach"],
+  "preview": "preview.png",
+  "category": "Node节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

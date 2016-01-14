@@ -1,0 +1,10 @@
+{
+  "name": "withoutScrollbar",
+  "desc": "Introduce ScrollView Component without scrollbar",
+  "tags": ["onValueChange", "scrollView", "onClick"],
+  "preview": "preview.png",
+  "category": "ScrollView",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

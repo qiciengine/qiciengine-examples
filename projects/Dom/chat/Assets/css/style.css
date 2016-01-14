@@ -1,0 +1,33 @@
+/* css for dom */
+.clear { clear: both; }
+
+.chat2, .chat1 {
+    padding: 10px;
+    color: green;
+    border-bottom: 1px solid #ccc;
+}
+.chat2 .icon {
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+.chat2 .content {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.chat1 {
+    color: white;
+}
+.chat1 .icon {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.chat1 .content {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}

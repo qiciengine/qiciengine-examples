@@ -1,0 +1,10 @@
+{
+  "name": "DomImage",
+  "desc": "How to use dom to show image",
+  "tags": ["DOM", "image", "background"],
+  "preview": "preview.png",
+  "category": "Dom",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

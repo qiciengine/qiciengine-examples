@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Performance": "Assets/state/Performance.bin"
+  },
+  "entryScene": "Performance"
+}

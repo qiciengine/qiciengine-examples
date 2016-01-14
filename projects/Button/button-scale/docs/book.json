@@ -1,0 +1,16 @@
+{
+	"title": "QICI Engine",
+	"variables" : {
+	},
+
+	"plugins": [
+	    "anchor-navigation"
+	],
+
+	"pluginsConfig": {
+	},
+
+	"styles": {
+        "website": "http://docs.zuoyouxi.com/public/styles/website.css"
+    }
+}

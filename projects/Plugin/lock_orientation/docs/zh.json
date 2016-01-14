@@ -1,0 +1,10 @@
+{
+  "name": "lockOrientation",
+  "desc": "介绍 LockOrientation 插件的使用",
+  "tags": ["lockOrientation"],
+  "preview": "preview.png",
+  "category": "插件",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

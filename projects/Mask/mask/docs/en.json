@@ -1,0 +1,10 @@
+{
+  "name": "mask",
+  "desc": "Introduce Mask Component",
+  "tags": ["Mask"],
+  "preview": "preview.png",
+  "category": "Mask",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

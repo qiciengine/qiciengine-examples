@@ -1,0 +1,10 @@
+{
+  "name": "dragUpdate",
+  "desc": "演示拖动飞船的同时箭头指向飞船进行环绕的效果",
+  "tags": ["input", "onDrag", "onDragStart", "onDragEnd", "RigidBody", "angleBetween"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

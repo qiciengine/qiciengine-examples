@@ -1,0 +1,10 @@
+{
+  "name": "focus",
+  "desc": "How to use TAB to switch focus between three InputField",
+  "tags": ["inputField", "onKeyDown", "addKeyCapture", "isFocused"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

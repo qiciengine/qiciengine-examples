@@ -1,0 +1,10 @@
+{
+  "name": "swapChildrenInNode",
+  "desc": "Introduce qc.Node#swapChildren",
+  "tags": ["swapChildren","onPointerUp"],
+  "preview": "preview.png",
+  "category": "Node",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

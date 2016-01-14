@@ -1,0 +1,10 @@
+{
+  "name": "pointerEvents",
+  "desc": "How to use pointer that contain touch and mouse",
+  "tags": ["input", "pointer", "onPointerDown", "onPointerMove", "onPointerUp"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

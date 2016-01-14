@@ -1,0 +1,10 @@
+{
+  "name": "mouseDownDuration",
+  "desc": "How to use Input#isAnyMouseDown and Input#isAnyMouse",
+  "tags": ["input", "isAnyMouseDown", "isAnyMouse"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

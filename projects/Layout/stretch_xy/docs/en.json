@@ -1,0 +1,10 @@
+{
+  "name": "stretchXY",
+  "desc": "Introduce stretch mode of recttransform in asix X and Y",
+  "tags": ["Layout", "recttransform", "stretch"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "DomOverflow",
+  "desc": "演示 Dom 的 overflow 属性效果",
+  "tags": ["DOM", "overflow"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

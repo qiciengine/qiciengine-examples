@@ -1,0 +1,10 @@
+{
+  "name": "AsteroidsMovement",
+  "desc": "Rotate and move the RigidBody",
+  "tags": ["arcade", "RigidBody", "acceleration", "velocityFromRotation", "angularVelocity"],
+  "preview": "preview.png",
+  "category": "Arcade Physics",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

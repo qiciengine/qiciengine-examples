@@ -1,0 +1,10 @@
+{
+  "name": "advert",
+  "desc": "介绍广告插件的使用",
+  "tags": ["advert"],
+  "preview": "preview.png",
+  "category": "插件",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

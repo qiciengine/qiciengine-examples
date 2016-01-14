@@ -1,0 +1,10 @@
+{
+  "name": "toggle",
+  "desc": "Introduce Toggle control and qc.ToggleGroup plugin",
+  "tags": ["Toggle", "ToggleGroup"],
+  "preview": "preview.png",
+  "category": "Toggle",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

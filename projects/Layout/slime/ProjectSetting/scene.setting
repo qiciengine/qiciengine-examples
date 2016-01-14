@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Slime": "Assets/state/Slime.bin"
+  },
+  "entryScene": "Slime"
+}

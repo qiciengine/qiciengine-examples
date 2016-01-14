@@ -1,0 +1,10 @@
+{
+  "name": "QQ",
+  "desc": "How to use recttransform to impletment QQ window",
+  "tags": ["Layout", "recttransform"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

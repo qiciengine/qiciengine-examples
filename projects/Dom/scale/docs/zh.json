@@ -1,0 +1,10 @@
+{
+  "name": "DomScale",
+  "desc": "演示 Dom 使用 TweenScale 的效果",
+  "tags": ["DOM", "background", "TweenScale"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

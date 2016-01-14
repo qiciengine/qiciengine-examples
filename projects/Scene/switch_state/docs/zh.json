@@ -1,0 +1,10 @@
+{
+  "name": "switch_state",
+  "desc": "介绍使用 NodeFadeInOut 插件实现切屏效果",
+  "tags": ["LoadingPrefab", "onStartLoad", "onEndLoad", "NodeFadeInOut"],
+  "preview": "preview.png",
+  "category": "场景",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

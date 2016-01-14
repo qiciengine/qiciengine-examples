@@ -1,0 +1,10 @@
+{
+  "name": "rightMiddle",
+  "desc": "Introduce right-middle mode of recttransform",
+  "tags": ["Layout", "recttransform", "right-middle"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

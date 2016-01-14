@@ -1,0 +1,10 @@
+{
+  "name": "AsBackground",
+  "desc": "演示 Dom 图片作为背景的使用",
+  "tags": ["DOM", "background"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

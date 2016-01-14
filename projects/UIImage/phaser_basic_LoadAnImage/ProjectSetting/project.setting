@@ -1,0 +1,25 @@
+{
+  "projectName": "LoadAnImage",
+  "gameName": "LoadAnImage",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.LoadAnImage",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 0,
+  "gameWidth": "640",
+  "toolFlag": 28,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": true
+}

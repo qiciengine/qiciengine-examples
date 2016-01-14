@@ -1,0 +1,10 @@
+{
+  "name": "AngularVelocity",
+  "desc": "How to user 'RigidBody#angularVelocity'",
+  "tags": ["arcade", "RigidBody", "angularVelocity"],
+  "preview": "preview.png",
+  "category": "Arcade Physics",
+  "order": 30,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pointerOver",
+  "desc": "演示鼠标和触摸移入、移出的事件响应",
+  "tags": ["input", "onEnter", "onExit"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

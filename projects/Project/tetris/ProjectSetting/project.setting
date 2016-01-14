@@ -1,0 +1,16 @@
+{
+  "projectName": "Tetris",
+  "gameName": "Tetris",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.tetris",
+  "gameInstance": "game",
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": true,
+  "developerMode": false,
+  "toolFlag": 28,
+  "version": "1",
+  "loading": ""
+}

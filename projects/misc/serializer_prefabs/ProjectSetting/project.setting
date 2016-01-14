@@ -1,0 +1,21 @@
+{
+  "projectName": "SerializerPrefabs",
+  "gameName": "SerializerPrefabs",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.demo",
+  "gameInstance": "qc_game",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "developerMode": false,
+  "appCache": true,
+  "toolFlag": 28,
+  "loading": "",
+  "version": "1.0"
+}

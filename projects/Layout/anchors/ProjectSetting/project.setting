@@ -1,0 +1,15 @@
+{
+  "projectName": "anchors",
+  "gameName": "anchors",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.anchors",
+  "gameInstance": "anchorsGame",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 0,
+  "gameWidth": "640",
+  "toolFlag": 28
+}

@@ -1,0 +1,94 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "c290609a-83c7-4f3f-80ab-dfee904d88ca",
+    "_prefab": [
+      7,
+      ""
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "corn"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0.5,
+      0.5,
+      0,
+      0,
+      196,
+      171.5,
+      32,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "Assets/texture/fruitnveg32wh37_19.bin",
+      "af63dd69-3019-4bf8-941d-39ed12e6f4c8"
+    ],
+    "frame": null,
+    "imageType": [
+      3,
+      0
+    ]
+  },
+  "dependences": {
+    "af63dd69-3019-4bf8-941d-39ed12e6f4c8": {
+      "key": "Assets/texture/fruitnveg32wh37_19.bin",
+      "uuid": "af63dd69-3019-4bf8-941d-39ed12e6f4c8"
+    }
+  }
+}

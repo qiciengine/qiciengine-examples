@@ -1,0 +1,17 @@
+{
+  "projectName": "ServerCommunicate",
+  "gameName": "ServerCommunicate",
+  "companyName": "qici",
+  "bundleIdentifier": "com.qici.ServerCommunicate",
+  "gameInstance": "qc_game",
+  "gameWidth": "",
+  "backgroundColor": 4671303,
+  "orientation": 0,
+  "toolFlag": 28,
+  "loading": "",
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "version": "1.0"
+}

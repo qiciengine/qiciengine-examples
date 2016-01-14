@@ -1,0 +1,11 @@
+{
+  "name": "tower",
+  "desc": "How to impletment a game demo like Tower Defenser",
+  "tags": ["project", "tower"],
+  "preview": "preview.png",
+  "category": "Project",
+  "order": 1,
+  "width": 800,
+  "height": 600,
+  "copyright": "<a href='http://www.feiyu.com' target='_blank'>feiyu</a>"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "prefabAdd",
+  "desc": "How to clone prefab",
+  "tags": ["onDown", "clone"],
+  "preview": "preview.png",
+  "category": "Prefab",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "changePosition",
+  "desc": "Change position property of UIImage object to show different effect",
+  "tags": ["UIImage", "position"],
+  "preview": "preview.png",
+  "category": "UIImage",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

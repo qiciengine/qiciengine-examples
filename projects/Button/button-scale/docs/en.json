@@ -1,0 +1,10 @@
+{
+  "name": "Scale",
+  "desc": "How to create a button",
+  "tags": ["Button", "add", "resetNativeSize", "pivot"],
+  "preview": "preview.png",
+  "category": "Button",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

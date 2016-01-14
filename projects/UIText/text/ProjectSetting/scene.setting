@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "text": "Assets/state/text.bin"
+  },
+  "entryScene": "text"
+}

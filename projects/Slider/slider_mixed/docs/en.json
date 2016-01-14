@@ -1,0 +1,10 @@
+{
+  "name": "slider",
+  "desc": "Introduce Slider Component",
+  "tags": ["onValueChange", "Slider", "onClick"],
+  "preview": "preview.png",
+  "category": "Slider",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,49 @@
+/* css for dom */
+.background img, .mask img { width: 100%; height: 100%; }
+.debug { 
+    font-size:16px; color: green; 
+}
+.auto_combat {
+    background-image: url('../raw/auto.png');
+    background-repeat: no-repeat;
+}
+.black_outline {
+    -webkit-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;  
+    -moz-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;  
+    text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;   
+    *filter: Glow(Color=#000, Strength=1);
+}
+
+.round_rect {
+    border: 15px solid white;
+    -moz-border-image: url(../raw/round_rect.png) 15 fill stretch;
+    -webkit-border-image: url(../raw/round_rect.png) 15 fill stretch;
+	-o-border-image: url(../raw/round_rect.png) 15 fill stretch; 
+	border-image: url(../raw/round_rect.png) 15 fill stretch;
+}
+
+.time_icon {
+    background-image: url('../raw/hourglass.pvr.png');
+    background-repeat: no-repeat;
+}
+.coin {  
+    background-image: url('../raw/coin.png');
+    background-repeat: no-repeat;
+}
+.box {  
+    background-image: url('../raw/box.png');
+    background-repeat: no-repeat;
+}
+
+.white { color: white; line-height: 100%; }
+.small { font-size:20px; }
+.normal { font-size: 26px; }
+.big { font-size: 30px; }
+.bold { bold: weight; }
+.center { text-align: center; }
+
+.icon_background {
+    background-image: url('../raw/icon_background.png');
+    background-repeat: no-repeat;
+}
+.icon img { width: 100%; height: 100%; }

@@ -1,0 +1,10 @@
+{
+  "name": "DomText",
+  "desc": "演示 Dom 显示文本",
+  "tags": ["DOM", "text"],
+  "preview": "preview.png",
+  "category": "Dom节点",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

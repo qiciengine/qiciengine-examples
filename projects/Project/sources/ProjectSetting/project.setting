@@ -1,0 +1,24 @@
+{
+  "projectName": "sources",
+  "gameName": "sources",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.sources",
+  "gameInstance": "sourcesGame",
+  "div": "",
+  "orientation": 1,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "Assets/prefabs/loading.bin",
+  "backgroundColor": 0,
+  "gameWidth": "640",
+  "toolFlag": 28,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "appCache": true
+}

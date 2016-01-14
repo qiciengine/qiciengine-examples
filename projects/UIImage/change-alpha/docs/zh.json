@@ -1,0 +1,10 @@
+{
+  "name": "changeAlpha",
+  "desc": "点击图片改变透明度",
+  "tags": ["UIImage", "alpha"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

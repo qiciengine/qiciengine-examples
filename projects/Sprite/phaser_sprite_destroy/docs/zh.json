@@ -1,0 +1,10 @@
+{
+  "name": "destroySprite",
+  "desc": "介绍如何析构精灵对象",
+  "tags": ["sprite", "destroy"],
+  "preview": "preview.png",
+  "category": "精灵",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

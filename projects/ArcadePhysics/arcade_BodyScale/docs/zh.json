@@ -1,0 +1,10 @@
+{
+  "name": "BodyScale",
+  "desc": "刚体缩放改变对碰撞的影响",
+  "tags": ["arcade", "RigidBody", "scale"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

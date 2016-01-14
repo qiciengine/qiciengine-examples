@@ -1,0 +1,10 @@
+{
+  "name": "ninePatch",
+  "desc": "介绍图片九宫格的 Tiled 和 Sliced 类型显示效果",
+  "tags": ["UIImage", "ninePatch"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

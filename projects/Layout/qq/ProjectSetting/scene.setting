@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "QQ": "Assets/state/QQ.bin"
+  },
+  "entryScene": "QQ"
+}

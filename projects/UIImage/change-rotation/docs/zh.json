@@ -1,0 +1,10 @@
+{
+  "name": "changeRotation",
+  "desc": "介绍不同 pivot 的图片的旋转效果",
+  "tags": ["UIImage", "rotation", "pivot"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

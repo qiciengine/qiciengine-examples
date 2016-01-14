@@ -1,0 +1,15 @@
+{
+  "projectName": "tilemap_Mario",
+  "gameName": "Mario",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.mario",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "0.9.0",
+  "loading": "",
+  "backgroundColor": 4671303,
+  "gameWidth": "640",
+  "toolFlag": 28
+}

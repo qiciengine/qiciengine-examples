@@ -1,0 +1,10 @@
+{
+  "name": "uiOpenClose",
+  "desc": "Using tween plugin to open and close window",
+  "tags": ["Tween", "TweenScale", "TweenAlpha"],
+  "preview": "preview.png",
+  "category": "Tween",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

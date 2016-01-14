@@ -1,0 +1,10 @@
+{
+  "name": "LoadRawTexture",
+  "desc": "从网站下载图片并显示",
+  "tags": ["Assets", "loadTexture"],
+  "preview": "preview.png",
+  "category": "资源管理",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

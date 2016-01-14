@@ -1,0 +1,10 @@
+{
+  "name": "DomZindex",
+  "desc": "Introduce the zindex property of Dom",
+  "tags": ["DOM", "zindex"],
+  "preview": "preview.png",
+  "category": "Dom",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

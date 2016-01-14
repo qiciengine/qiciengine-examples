@@ -1,0 +1,10 @@
+{
+  "name": "clickOnImage",
+  "desc": "演示图片的点击事件的响应方式",
+  "tags": ["UIImage", "onClick"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

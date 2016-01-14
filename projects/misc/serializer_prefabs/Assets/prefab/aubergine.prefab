@@ -1,0 +1,94 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "c757e60e-9c4f-4ff6-bdd2-572c8c822e73",
+    "_prefab": [
+      7,
+      ""
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "aubergine"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0.5,
+      0.5,
+      0,
+      0,
+      196,
+      171.5,
+      31,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "Assets/texture/fruitnveg32wh37_18.bin",
+      "359ef555-afc8-4c0d-aea9-ae98bb5f8232"
+    ],
+    "frame": null,
+    "imageType": [
+      3,
+      0
+    ]
+  },
+  "dependences": {
+    "359ef555-afc8-4c0d-aea9-ae98bb5f8232": {
+      "key": "Assets/texture/fruitnveg32wh37_18.bin",
+      "uuid": "359ef555-afc8-4c0d-aea9-ae98bb5f8232"
+    }
+  }
+}

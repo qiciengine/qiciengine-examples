@@ -1,0 +1,32 @@
+// define a user behaviour
+var GUI = qc.defineBehaviour('qc.engine.GUI', qc.Behaviour, function() {
+}, {
+    int: qc.Serializer.INT,
+    ints: qc.Serializer.INTS,
+    number: qc.Serializer.NUMBER,
+    numbers: qc.Serializer.NUMBERS,
+    boolean: qc.Serializer.BOOLEAN,
+    booleans: qc.Serializer.BOOLEANS,
+    string: qc.Serializer.STRING,
+    strings: qc.Serializer.STRINGS,
+    mapping: qc.Serializer.MAPPING,
+    texture: qc.Serializer.TEXTURE,
+    textures: qc.Serializer.TEXTURES,
+    audio: qc.Serializer.AUDIO,
+    audios: qc.Serializer.AUDIOS,
+	color: qc.Serializer.COLOR,
+    colors: qc.Serializer.COLORS,
+    prefab: qc.Serializer.PREFAB,
+    prefabs: qc.Serializer.PREFABS,
+    node: qc.Serializer.NODE,
+    nodes: qc.Serializer.NODES,
+	geom: qc.Serializer.GEOM,
+	point: qc.Serializer.POINT,
+    rect: qc.Serializer.RECTANGLE,
+    circle: qc.Serializer.CIRCLE,
+    ellipse: qc.Serializer.ELLIPSE,
+	font: qc.Serializer.FONT,
+    fonts: qc.Serializer.FONTS,
+    textAsset: qc.Serializer.TEXTASSET,
+    excelAsset: qc.Serializer.EXCELASSET
+});

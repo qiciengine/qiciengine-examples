@@ -1,0 +1,244 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "333a758a-3bdb-47fb-b67d-82f8390ca6eb",
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      85.7017543859649,
+      0.6456140350877035,
+      85.7017543859649,
+      0.6456140350877035,
+      640,
+      1136,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.32280701754385965
+    ],
+    "scaleY": [
+      3,
+      0.32280701754385965
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.Node",
+        "data": {
+          "uuid": "b0b8f879-5a34-4e80-bee1-3411c2a376f8",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "node"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.engine.GUI",
+              "data": {
+                "class": "qc.engine.GUI",
+                "data": {
+                  "enable": true,
+                  "int": [
+                    1,
+                    null
+                  ],
+                  "ints": [
+                    2,
+                    null
+                  ],
+                  "number": [
+                    3,
+                    null
+                  ],
+                  "numbers": [
+                    4,
+                    null
+                  ],
+                  "boolean": [
+                    5,
+                    null
+                  ],
+                  "booleans": [
+                    6,
+                    null
+                  ],
+                  "string": [
+                    7,
+                    null
+                  ],
+                  "strings": [
+                    8,
+                    null
+                  ],
+                  "mapping": [
+                    9,
+                    null
+                  ],
+                  "texture": null,
+                  "textures": [
+                    11,
+                    []
+                  ],
+                  "audio": null,
+                  "audios": [
+                    13,
+                    []
+                  ],
+                  "color": null,
+                  "colors": [
+                    15,
+                    []
+                  ],
+                  "prefab": null,
+                  "prefabs": [
+                    17,
+                    []
+                  ],
+                  "node": null,
+                  "nodes": [
+                    19,
+                    []
+                  ],
+                  "geom": null,
+                  "point": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "rect": null,
+                  "circle": null,
+                  "ellipse": null,
+                  "font": [
+                    32,
+                    null,
+                    null
+                  ],
+                  "fonts": [
+                    33,
+                    []
+                  ],
+                  "textAsset": null,
+                  "excelAsset": null
+                }
+              }
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": []
+        }
+      }
+    ]
+  },
+  "dependences": {}
+}

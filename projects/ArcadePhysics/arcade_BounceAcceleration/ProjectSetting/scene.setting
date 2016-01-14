@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "BounceAcceleration": "Assets/state/BounceAcceleration.bin"
+  },
+  "entryScene": "BounceAcceleration"
+}

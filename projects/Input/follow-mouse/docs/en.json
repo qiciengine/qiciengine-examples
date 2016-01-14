@@ -1,0 +1,10 @@
+{
+  "name": "followMouse",
+  "desc": "Touch ball and move, ball will be following",
+  "tags": ["input", "RigidBody", "moveToObject", "onPointerDown", "onPointerUp"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

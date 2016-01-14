@@ -1,0 +1,10 @@
+{
+  "name": "Performance DragonBone",
+  "desc": "30 DragonBone animations",
+  "tags": ["Performance", "DragonBone"],
+  "preview": "preview.png",
+  "category": "Misc",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

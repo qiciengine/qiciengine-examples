@@ -1,0 +1,10 @@
+{
+  "name": "keyboard",
+  "desc": "Introduce keyboard's events",
+  "tags": ["input", "keyboard", "onKeyDown", "onKeyUp", "onKeyRepeat", "isAnyKeyDown", "isAnyKey", "isKeyDown"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

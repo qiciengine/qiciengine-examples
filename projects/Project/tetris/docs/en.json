@@ -1,0 +1,11 @@
+{
+  "name": "tetris",
+  "desc": "How to impletment tetris game",
+  "tags": ["project", "tetris"],
+  "preview": "preview.png",
+  "category": "Project",
+  "order": 1,
+  "width": 800,
+  "height": 600,
+  "copyright": "<a href='http://frvr.com' target='_blank'>FRVR</a>"
+}

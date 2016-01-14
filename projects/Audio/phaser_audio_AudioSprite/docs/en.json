@@ -1,0 +1,10 @@
+{
+  "name": "AudioSprite",
+  "desc": "How to use 'Sound#addMarker'",
+  "tags": ["audio", "Sound", "play", "addMarker"],
+  "preview": "preview.png",
+  "category": "Audio",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

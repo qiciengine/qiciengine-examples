@@ -1,0 +1,10 @@
+{
+  "name": "DisableChangeTexture",
+  "desc": "按钮不可用时，自动改变背景贴图",
+  "tags": ["Button", "UIState", "DISABLED", "state"],
+  "preview": "preview.png",
+  "category": "按钮",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

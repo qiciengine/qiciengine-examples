@@ -1,0 +1,5 @@
+{
+  "logicalScriptOrder": [
+    "Scripts/StartUp.js"
+  ]
+}

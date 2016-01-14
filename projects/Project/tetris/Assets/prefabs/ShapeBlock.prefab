@@ -1,0 +1,273 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "4c930146-c6c5-4efd-8da6-ba9a826aa825",
+    "_prefab": [
+      7,
+      "343d4ded-a2ee-4353-a0b3-2d0065a971a3"
+    ],
+    "name": [
+      7,
+      "ShapeBlock"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.tetris.ShapeUI",
+        "data": {
+          "class": "qc.tetris.ShapeUI",
+          "data": {
+            "enable": true,
+            "blockPrefab": [
+              16,
+              "343d4ded-a2ee-4353-a0b3-2d0065a971a3"
+            ]
+          }
+        }
+      }
+    ],
+    "position": [
+      0.5,
+      0.5,
+      0,
+      0,
+      0,
+      -115,
+      61,
+      64,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "f9605a51-7e71-4134-8c16-b81f3b17616a",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "shadow"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            60,
+            65,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/tetris.bin",
+            "de3b702b-f54a-45cb-ab40-b16ed470dd40"
+          ],
+          "frame": [
+            7,
+            "shadow.png"
+          ],
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      },
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "693b3129-50e7-4e20-9e86-f803e66db956",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "block"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            40,
+            45,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/tetris.bin",
+            "de3b702b-f54a-45cb-ab40-b16ed470dd40"
+          ],
+          "frame": [
+            7,
+            "white.png"
+          ],
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "343d4ded-a2ee-4353-a0b3-2d0065a971a3": {
+      "key": "343d4ded-a2ee-4353-a0b3-2d0065a971a3",
+      "uuid": "343d4ded-a2ee-4353-a0b3-2d0065a971a3"
+    },
+    "de3b702b-f54a-45cb-ab40-b16ed470dd40": {
+      "key": "Assets/atlas/tetris.bin",
+      "uuid": "de3b702b-f54a-45cb-ab40-b16ed470dd40"
+    }
+  }
+}

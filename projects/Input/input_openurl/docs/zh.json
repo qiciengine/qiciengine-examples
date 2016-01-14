@@ -1,0 +1,10 @@
+{
+  "name": "openUrl",
+  "desc": "点击打开网址，演示 input#nativeMode 属性的使用",
+  "tags": ["input", "onClick", "nativeMode"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

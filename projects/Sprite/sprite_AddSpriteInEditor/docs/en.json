@@ -1,0 +1,10 @@
+{
+  "name": "addSpriteInEditor",
+  "desc": "How to add sprite in editor",
+  "tags": ["sprite"],
+  "preview": "preview.png",
+  "category": "Sprite",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

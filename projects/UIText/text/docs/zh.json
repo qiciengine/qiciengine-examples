@@ -1,0 +1,10 @@
+{
+  "name": "text",
+  "desc": "全面介绍 UIText 的各种使用方式",
+  "tags": ["UIText"],
+  "preview": "preview.png",
+  "category": "UIText文本",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,15 @@
+{
+  "projectName": "switchState",
+  "gameName": "switchState",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.switchState",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "Assets/prefabs/loading.bin",
+  "backgroundColor": 4671303,
+  "gameWidth": "640",
+  "toolFlag": 28
+}

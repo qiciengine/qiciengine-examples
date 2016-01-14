@@ -1,0 +1,10 @@
+{
+  "name": "JumpingBrick",
+  "desc": "",
+  "tags": ["project", "JumpingBrick"],
+  "preview": "preview.png",
+  "category": "样例工程",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

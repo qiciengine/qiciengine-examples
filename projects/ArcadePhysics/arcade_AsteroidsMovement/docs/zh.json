@@ -1,0 +1,10 @@
+{
+  "name": "AsteroidsMovement",
+  "desc": "刚体旋转和移动",
+  "tags": ["arcade", "RigidBody", "acceleration", "velocityFromRotation", "angularVelocity"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

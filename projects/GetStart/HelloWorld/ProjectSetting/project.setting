@@ -1,0 +1,16 @@
+{
+  "projectName": "HelloWorld",
+  "gameName": "HelloWorld",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qici.helloworld",
+  "gameInstance": "qc_game",
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "develop": false,
+  "toolFlag": 28,
+  "version": "0.9",
+  "loading": ""
+}

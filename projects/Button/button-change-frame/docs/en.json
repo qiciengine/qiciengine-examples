@@ -1,0 +1,10 @@
+{
+  "name": "ChangeFrame",
+  "desc": "The events of Button: onClick, onEnter, onExit",
+  "tags": ["Button", "onUp", "onDown", "onClick", "onEnter", "onExit"],
+  "preview": "preview.png",
+  "category": "Button",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

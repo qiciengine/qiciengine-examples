@@ -1,0 +1,10 @@
+{
+  "name": "Restart",
+  "desc": "声音的停止与重新播放，演示'Sound#stop'和'Sound#play'的使用",
+  "tags": ["audio", "Sound", "stop", "play"],
+  "preview": "preview.png",
+  "category": "声音",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "serverCommunicate",
+  "desc": "介绍 serverCommunicate 插件的使用",
+  "tags": ["serverCommunicate"],
+  "preview": "preview.png",
+  "category": "网络相关",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

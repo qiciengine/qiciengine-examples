@@ -1,0 +1,10 @@
+{
+  "name": "wechat",
+  "desc": "Introduce qc.WeChat plugin",
+  "tags": ["wechat"],
+  "preview": "preview.png",
+  "category": "Plugin",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "leftMiddle",
+  "desc": "演示 recttransform 中的 left-middle 模式",
+  "tags": ["Layout", "recttransform", "left-middle"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

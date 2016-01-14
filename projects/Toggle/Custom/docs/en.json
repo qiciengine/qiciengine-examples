@@ -1,0 +1,10 @@
+{
+  "name": "Custom Toggle",
+  "desc": "Change a Toggle's appearence",
+  "tags": ["Toggle"],
+  "preview": "preview.png",
+  "category": "Toggle",
+  "order": 12,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ActionOnClick",
+  "desc": "按钮的事件：点击、按下、松开、鼠标进入和移出",
+  "tags": ["Button", "onUp", "onDown", "onClick", "onEnter", "onExit"],
+  "preview": "preview.png",
+  "category": "按钮",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "destroySprite",
+  "desc": "How to destroy a sprite",
+  "tags": ["sprite", "destroy"],
+  "preview": "preview.png",
+  "category": "Sprite",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "moveAnImage",
+  "desc": "演示 UIImage 控件挂载 TweenPosition 组件移动的效果",
+  "tags": ["UIImage", "TweenPosition"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,117 @@
+/* css for dom */
+.background { background-color:#1F1E1E; }
+.score_best {
+    font-weight: 60;
+    font-size:30px;
+    color: #ffffff; text-align: right;
+}
+.score_current{
+    color: #ffffff;
+    font-weight: 100;
+    font-size:50px;
+    text-align: center;
+}
+
+.board { width: 61px; height: 67px; position: absolute; background-repeat: no-repeat; }
+.board_gray {
+    background-image: url("../raw/gray.png");
+}
+.board_blue {
+    background-image: url("../raw/blue.png");
+}
+.board_cyan {
+    background-image: url("../raw/cyan.png");
+}
+.board_green {
+    background-image: url("../raw/green.png");
+}
+.board_lightyellow {
+    background-image: url("../raw/lightyellow.png");
+}
+.board_red {
+    background-image: url("../raw/red.png");
+}
+.board_yellow {
+    background-image: url("../raw/yellow.png");
+}
+
+/* Game Over */
+.gameover {
+    text-align: center;
+    width: 100%;
+    font-family: arial, sans serif;
+    background: url("../raw/bg.png") no-repeat;
+    color: #000000;
+}
+.gameover_title {
+    font-size: 40px;
+    margin-top: 10px;
+    height: 50px;
+    text-align: center;
+}
+.gameover_score {
+    font-size: 90px;
+    margin-top: -15px;
+    height: 98px;
+    text-align: center;
+}
+.gameover_pos {
+    text-align: center; font-size: 28px;
+    height: 40px;
+}
+.gameover_desc {
+    text-align: center; color: #ffffff;
+    height: 30px; font-size: 20px; line-height: 100%;
+}
+.gameover_share {
+    background: url("../raw/btn_blue.png") center no-repeat;
+    height: 76px;
+    line-height: 76px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.gameover_restart {
+    background: url("../raw/btn_yellow.png") center no-repeat;
+    text-align: center; color: #ffffff;
+    height: 76px;
+    line-height: 76px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.gameover_logo {
+    float: left;
+    background: url("../raw/logo.png") no-repeat;
+    width: 64px;
+    height: 62px;
+    margin: 8px 0px 0px 2px;
+}
+.gameover_act_desc {
+    color: #ffffff;
+    float: right;
+    width: 250px;
+    text-align: left;
+    height: 62px;
+    line-height: 62px;
+    margin-top: 8px;
+    font-size: 28px;
+}
+.clear { clear: both; }
+
+/* 分享提示 */
+.share {
+    background-color: #000000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    text-align: center; color: #ffffff;
+}
+.share_clue {
+    background-image: url("../raw/arrows.png");
+}
+.share_desc {
+    color: #ffffff; font-size: 60px; text-align: center;
+    line-height: 70px;
+}
+
+.debug { color: green; font-size:16px;}

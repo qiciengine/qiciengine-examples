@@ -1,0 +1,10 @@
+{
+  "name": "dragonBone",
+  "desc": "Introduce dragonBone animation",
+  "tags": ["sprite", "DragonBone"],
+  "preview": "preview.png",
+  "category": "Sprite",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

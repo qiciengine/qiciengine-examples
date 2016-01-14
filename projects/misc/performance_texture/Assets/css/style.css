@@ -1,0 +1,4 @@
+/* css for dom */
+.debug { color: green; font-size:16px; background-color:#ffffff; }
+
+.button { color: white; font-size:24px; border:2px solid green; line-height:40px;text-align:center; }

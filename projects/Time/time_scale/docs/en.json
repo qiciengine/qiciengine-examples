@@ -1,0 +1,10 @@
+{
+  "name": "TimeScale",
+  "desc": "How to use 'Time#timeScale'",
+  "tags": ["Time", "timeScale"],
+  "preview": "preview.png",
+  "category": "Time",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

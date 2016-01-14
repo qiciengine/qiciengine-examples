@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "BodyScale": "Assets/state/BodyScale.bin"
+  },
+  "entryScene": "BodyScale"
+}

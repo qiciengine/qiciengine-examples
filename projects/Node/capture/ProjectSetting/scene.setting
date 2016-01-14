@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "capture": "Assets/state/capture.bin"
+  },
+  "entryScene": "capture"
+}

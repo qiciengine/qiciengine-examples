@@ -1,0 +1,358 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "3091ae83-cd5d-430b-940a-2d58a924f5fc",
+    "_prefab": [
+      7,
+      ""
+    ],
+    "name": [
+      7,
+      "level"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.engine.LevelShow",
+        "data": "5df3f146-d54a-410c-bd6f-22febd73e666"
+      }
+    ],
+    "position": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "fe8af2cc-a104-4547-a0f5-d3151ca7eb5e",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "leftLevel"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/main.bin",
+            "b7bc8ac3-d577-4f60-baf1-443bcb64916b"
+          ],
+          "frame": [
+            7,
+            "white.png"
+          ],
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      },
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "6ff99197-69e5-4d1d-8229-776167459382",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "rightLevel"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/atlas/main.bin",
+            "b7bc8ac3-d577-4f60-baf1-443bcb64916b"
+          ],
+          "frame": [
+            7,
+            "white.png"
+          ],
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      },
+      {
+        "class": "qc.Node",
+        "data": {
+          "uuid": "1354b0f3-d345-4f39-b067-6490c9eac6d3",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "block"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            4294967295
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": []
+        }
+      }
+    ]
+  },
+  "__json": {
+    "5df3f146-d54a-410c-bd6f-22febd73e666": {
+      "class": "qc.engine.LevelShow",
+      "data": {
+        "uuid": [
+          7,
+          "5df3f146-d54a-410c-bd6f-22febd73e666"
+        ],
+        "enable": true,
+        "leftLevel": [
+          18,
+          "fe8af2cc-a104-4547-a0f5-d3151ca7eb5e"
+        ],
+        "rightLevel": [
+          18,
+          "6ff99197-69e5-4d1d-8229-776167459382"
+        ],
+        "block": [
+          18,
+          "1354b0f3-d345-4f39-b067-6490c9eac6d3"
+        ]
+      }
+    }
+  },
+  "dependences": {
+    "b7bc8ac3-d577-4f60-baf1-443bcb64916b": {
+      "key": "Assets/atlas/main.bin",
+      "uuid": "b7bc8ac3-d577-4f60-baf1-443bcb64916b"
+    }
+  }
+}

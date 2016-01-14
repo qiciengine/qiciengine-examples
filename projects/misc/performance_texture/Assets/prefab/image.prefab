@@ -1,0 +1,164 @@
+{
+  "class": "qc.UIImage",
+  "data": {
+    "uuid": "83f3dec4-e426-4064-a502-9db0e7f13e0c",
+    "_prefab": [
+      7,
+      "3af85b30-6409-47cb-b336-4f6be09af0ed"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "image"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.4433986272877064e-7,
+      -5.6060563524695795e-8,
+      1.4433986272877064e-7,
+      -5.6060563524695795e-8,
+      143,
+      143,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "Assets/texture/icon.bin",
+      "65020fdf-50d3-4d01-923d-140f7e6801f3"
+    ],
+    "frame": null,
+    "imageType": [
+      3,
+      0
+    ]
+  },
+  "__json": {
+    "e56a3301-a772-4221-b301-776eb1cbdf14": {
+      "class": "qc.TweenRotation",
+      "data": {
+        "uuid": [
+          7,
+          "e56a3301-a772-4221-b301-776eb1cbdf14"
+        ],
+        "enable": true,
+        "_curve": [
+          22,
+          "qc.BezierCurve",
+          [
+            [
+              0,
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "sampleMethod": [
+          3,
+          0
+        ],
+        "style": [
+          3,
+          1
+        ],
+        "delay": [
+          3,
+          0
+        ],
+        "duration": [
+          3,
+          2
+        ],
+        "tweenGroup": [
+          3,
+          0
+        ],
+        "flag": [
+          7,
+          ""
+        ],
+        "playOnAwake": [
+          5,
+          true
+        ],
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          6.283185307179586
+        ]
+      }
+    }
+  },
+  "dependences": {
+    "65020fdf-50d3-4d01-923d-140f7e6801f3": {
+      "key": "Assets/texture/icon.bin",
+      "uuid": "65020fdf-50d3-4d01-923d-140f7e6801f3"
+    }
+  }
+}

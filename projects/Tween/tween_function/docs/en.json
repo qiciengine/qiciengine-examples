@@ -1,0 +1,10 @@
+{
+  "name": "tweenFunction",
+  "desc": "Introduce qc.TweenFunction plugin",
+  "tags": ["Tween", "TweenFunction"],
+  "preview": "preview.png",
+  "category": "Tween",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

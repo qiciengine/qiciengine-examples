@@ -1,0 +1,10 @@
+{
+  "name": "keyMovement",
+  "desc": "演示键盘按键控制世界移动和旋转",
+  "tags": ["input", "isKeyDown", "isShiftDown", "add", "setChildIndex"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

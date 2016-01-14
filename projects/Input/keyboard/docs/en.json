@@ -1,0 +1,10 @@
+{
+  "name": "keyboardShip",
+  "desc": "Use direction key to move ship, in the while, background also move following the ship",
+  "tags": ["input", "keyboard", "isKeyDown"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

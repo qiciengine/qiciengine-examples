@@ -1,0 +1,10 @@
+{
+  "name": "slime",
+  "desc": "How to use recttransform to layout a game window like Slime game",
+  "tags": ["Layout", "recttransform"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

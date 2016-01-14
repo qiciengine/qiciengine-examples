@@ -1,0 +1,11 @@
+{
+  "name": "sources",
+  "desc": "How to impletment a game demo like Happy Elimination",
+  "tags": ["project", "sources"],
+  "preview": "preview.png",
+  "category": "Project",
+  "order": 1,
+  "width": 400,
+  "height": 600,
+  "copyright": "<a href='http://www.happyelements.cn' target='_blank'>Happy Elements</a>"
+}

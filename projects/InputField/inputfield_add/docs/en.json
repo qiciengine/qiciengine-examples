@@ -1,0 +1,10 @@
+{
+  "name": "addInputField",
+  "desc": "How to use code to create InputField",
+  "tags": ["inputField", "add"],
+  "preview": "preview.png",
+  "category": "InputField",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

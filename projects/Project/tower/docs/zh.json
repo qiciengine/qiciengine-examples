@@ -1,0 +1,10 @@
+{
+  "name": "tower",
+  "desc": "介绍塔防类型游戏的实现",
+  "tags": ["project", "tower"],
+  "preview": "preview.png",
+  "category": "样例工程",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

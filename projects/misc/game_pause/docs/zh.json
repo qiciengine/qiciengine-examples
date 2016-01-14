@@ -1,0 +1,10 @@
+{
+  "name": "gamePause",
+  "desc": "介绍使用 onNativeClick 事件实现游戏暂停功能",
+  "tags": ["onNativeClick"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "drag",
+  "desc": "How to use Input#onDown and Input#onDrag",
+  "tags": ["input", "onDrag", "onDown"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

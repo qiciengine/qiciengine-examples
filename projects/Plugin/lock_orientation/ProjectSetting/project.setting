@@ -1,0 +1,25 @@
+{
+  "projectName": "Default",
+  "gameName": "DefaultGame",
+  "companyName": "DefaultCompany",
+  "bundleIdentifier": "com.DefaultCompany.Default",
+  "gameInstance": "qc_game",
+  "div": "",
+  "orientation": 0,
+  "qcVer": "0.9",
+  "toolFlag": 28,
+  "gameWidth": "640",
+  "version": "1",
+  "loading": "",
+  "backgroundColor": 16777215,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": true
+}

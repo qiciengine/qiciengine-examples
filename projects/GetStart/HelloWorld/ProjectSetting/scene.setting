@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "HelloWorld": "Assets/state/HelloWorld.bin"
+  },
+  "entryScene": "HelloWorld"
+}

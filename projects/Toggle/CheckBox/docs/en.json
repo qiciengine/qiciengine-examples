@@ -1,0 +1,10 @@
+{
+  "name": "CheckBox",
+  "desc": "How to implement a CheckBox",
+  "tags": ["Toggle", "CheckBox"],
+  "preview": "preview.png",
+  "category": "Toggle",
+  "order": 11,
+  "width": 800,
+  "height": 600
+}

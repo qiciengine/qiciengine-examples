@@ -1,0 +1,10 @@
+{
+  "name": "loadingPrefab",
+  "desc": "How to set loading prefab while switch scene",
+  "tags": ["onStartLoad", "onEndLoad"],
+  "preview": "preview.png",
+  "category": "Prefab",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Device": "Assets/state/Device.bin"
+  },
+  "entryScene": "Device"
+}

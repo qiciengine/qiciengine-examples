@@ -1,0 +1,17 @@
+{
+  "projectName": "Default",
+  "gameName": "DefaultGame",
+  "companyName": "DefaultCompany",
+  "bundleIdentifier": "com.DefaultCompany.Default",
+  "gameInstance": "qc_game",
+  "gameWidth": "",
+  "backgroundColor": 0,
+  "orientation": 0,
+  "toolFlag": 28,
+  "loading": "",
+  "transparent": true,
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "version": "1.0"
+}

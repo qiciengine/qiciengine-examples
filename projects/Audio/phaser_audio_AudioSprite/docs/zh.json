@@ -1,0 +1,10 @@
+{
+  "name": "AudioSprite",
+  "desc": "播放声音片段，演示Sound#addMarker的使用",
+  "tags": ["audio", "Sound", "play", "addMarker"],
+  "preview": "preview.png",
+  "category": "声音",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

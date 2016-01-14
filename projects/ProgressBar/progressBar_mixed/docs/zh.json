@@ -1,0 +1,10 @@
+{
+  "name": "progressBar",
+  "desc": "介绍进度条控件的使用",
+  "tags": ["progressBar"],
+  "preview": "preview.png",
+  "category": "进度条",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

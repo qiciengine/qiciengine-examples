@@ -1,0 +1,10 @@
+{
+  "name": "childPriority",
+  "desc": "Introduce the input's priority between parent node and child node",
+  "tags": ["input", "onClick", "onDrag", "TweenScale"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

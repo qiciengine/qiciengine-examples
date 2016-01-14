@@ -1,0 +1,10 @@
+{
+  "name": "AccelerateToPoint",
+  "desc": "演示RigidBody#moveToObject的使用",
+  "tags": ["arcade", "RigidBody", "moveToObject"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

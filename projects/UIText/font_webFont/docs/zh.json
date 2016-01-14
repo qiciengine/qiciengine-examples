@@ -1,0 +1,10 @@
+{
+  "name": "webFont",
+  "desc": "介绍使用 webFont 字体显示文本",
+  "tags": ["UIText", "webFont"],
+  "preview": "preview.png",
+  "category": "UIText文本",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "QQ",
+  "desc": "演示使用 recttransform 布局实现 QQ 界面",
+  "tags": ["Layout", "recttransform"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

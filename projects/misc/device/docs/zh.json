@@ -1,0 +1,10 @@
+{
+  "name": "device",
+  "desc": "演示设备相关的属性",
+  "tags": ["device"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

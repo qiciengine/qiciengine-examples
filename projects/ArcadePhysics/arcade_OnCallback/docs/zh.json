@@ -1,0 +1,10 @@
+{
+  "name": "OnCallback",
+  "desc": "监听碰撞事件和重合事件：onCollide、onOverlap",
+  "tags": ["arcade", "RigidBody", "onCollide", "onOverlap"],
+  "preview": "preview.png",
+  "category": "Arcade物理插件",
+  "order": 40,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,19 @@
+{
+  "projectName": "tower",
+  "gameName": "tower",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.demo.tower",
+  "gameInstance": "towerGame",
+  "div": "",
+  "orientation": 2,
+  "qcVer": "0.9",
+  "version": "1.0",
+  "loading": "",
+  "backgroundColor": 0,
+  "toolFlag": 28,
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "develop": true
+}

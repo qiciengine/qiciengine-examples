@@ -1,0 +1,10 @@
+{
+  "name": "numberInput",
+  "desc": "演示 Number 类型输入框，与 Int 类型不同的是：可以为小数",
+  "tags": ["inputField"],
+  "preview": "preview.png",
+  "category": "输入框",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

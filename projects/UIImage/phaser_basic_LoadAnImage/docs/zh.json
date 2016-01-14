@@ -1,0 +1,10 @@
+{
+  "name": "loadImage",
+  "desc": "介绍在代码中加载图片资源并创建图片对象",
+  "tags": ["UIImage", "add", "load"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

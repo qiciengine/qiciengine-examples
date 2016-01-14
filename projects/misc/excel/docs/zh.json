@@ -1,0 +1,10 @@
+{
+  "name": "excel",
+  "desc": "介绍 excel 表格的使用",
+  "tags": ["excel"],
+  "preview": "preview.png",
+  "category": "其它",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

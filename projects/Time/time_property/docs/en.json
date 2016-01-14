@@ -1,0 +1,10 @@
+{
+  "name": "timeProperty",
+  "desc": "Introduce the use of game#time",
+  "tags": ["time", "fixedTime", "deltaTime", "frameRate", "now", "scaledTime", "timeScale"],
+  "preview": "preview.png",
+  "category": "Time",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

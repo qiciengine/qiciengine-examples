@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Layout": "Assets/state/Layout.bin"
+  },
+  "entryScene": "Layout"
+}

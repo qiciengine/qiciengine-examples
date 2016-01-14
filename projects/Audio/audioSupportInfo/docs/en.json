@@ -1,0 +1,10 @@
+{
+  "name": "AudioSupportInfo",
+  "desc": "Support mp3? Support ogg? Support WebAudio",
+  "tags": ["audio", "Sound"],
+  "preview": "preview.png",
+  "category": "Audio",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}

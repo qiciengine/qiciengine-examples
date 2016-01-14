@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "Filter": "Assets/state/Filter.bin"
+  },
+  "entryScene": "Filter"
+}

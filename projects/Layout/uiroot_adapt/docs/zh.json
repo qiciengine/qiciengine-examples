@@ -1,0 +1,10 @@
+{
+  "name": "uirootAdapt",
+  "desc": "演示 UIRoot 中 ScaleAdapter 组件的使用",
+  "tags": ["Layout", "ScaleAdapter"],
+  "preview": "preview.png",
+  "category": "界面布局",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

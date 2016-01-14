@@ -1,0 +1,10 @@
+{
+  "name": "dragLockVertical",
+  "desc": "演示拖动图片垂直方向移动",
+  "tags": ["input", "onDrag"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

@@ -1,0 +1,10 @@
+{
+  "name": "pointerEvents",
+  "desc": "演示 pointer 事件(包含 touch 和 mouse)的使用",
+  "tags": ["input", "pointer", "onPointerDown", "onPointerMove", "onPointerUp"],
+  "preview": "preview.png",
+  "category": "输入与交互",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

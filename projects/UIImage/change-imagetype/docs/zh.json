@@ -1,0 +1,10 @@
+{
+  "name": "changeImagetype",
+  "desc": "介绍动态修改图片的 imageType 属性的显示效果",
+  "tags": ["UIImage", "imageType"],
+  "preview": "preview.png",
+  "category": "UIImage图片",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

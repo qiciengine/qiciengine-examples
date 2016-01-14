@@ -1,0 +1,10 @@
+{
+  "name": "Tween",
+  "desc": "Tween the button",
+  "tags": ["Button", "TweenScale"],
+  "preview": "preview.png",
+  "category": "Button",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

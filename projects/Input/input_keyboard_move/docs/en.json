@@ -1,0 +1,10 @@
+{
+  "name": "keyboardMove",
+  "desc": "How to use direction key to move picture",
+  "tags": ["input", "isKeyDown", "keyboard"],
+  "preview": "preview.png",
+  "category": "Input",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}
