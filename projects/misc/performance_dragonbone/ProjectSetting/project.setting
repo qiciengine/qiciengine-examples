@@ -14,7 +14,7 @@
   "renderer": "Auto",
   "transparent": false,
   "developerMode": false,
-  "appCache": true,
+  "appCache": false,
   "toolFlag": 28,
   "loading": "",
   "version": "1"

@@ -1,2 +1,10 @@
 /* css for dom */
 .debug { font-size:16px; color:green;}
+
+.button {
+    font-size: 30px;
+    color: white;
+    background-color: gray;
+    border: 2px solid green;
+    text-align: center;
+}

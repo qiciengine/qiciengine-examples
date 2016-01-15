@@ -19,10 +19,9 @@ var AddMan = qc.defineBehaviour('qc.demo.AddMan', qc.Behaviour, function() {
     root: qc.Serializer.NODE
 });
 
-// 初始化处理，一开始就扔400个帧动画进来
 AddMan.prototype.awake = function() {
-    var total = 20;
-    if (this.game.device.webGL) total = 200;
+    var total = 50;
+    if (this.game.phaser.renderType === Phaser.WEBGL) total = 200;
     for (var i = 0; i < total; i++) this.onClick();
 };
 

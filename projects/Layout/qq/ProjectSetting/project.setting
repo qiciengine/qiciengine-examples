@@ -11,5 +11,14 @@
   "backgroundColor": 0,
   "gameWidth": "640",
   "version": "1",
-  "toolFlag": 28
+  "toolFlag": 28,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "dirtyRectangles": true
 }

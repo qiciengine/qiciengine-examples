@@ -21,8 +21,8 @@ var AddSprite = qc.defineBehaviour('qc.demo.AddSprite', qc.Behaviour, function()
 
 // 初始化处理，一开始就扔100个动画进来
 AddSprite.prototype.onEnable = function() {
-    var total = 2;
-    if (this.game.device.webGL) total = 100;
+    var total = 5;
+    if (this.game.phaser.renderType === Phaser.WEBGL) total = 50;
     for (var i = 0; i < total; i++) this.onClick();
 };
 

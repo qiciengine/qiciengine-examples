@@ -2,28 +2,38 @@ var UI = qc.defineBehaviour('qc.engine.UI', qc.Behaviour, function() {
 }, {
     // fields need to be serialized
     texturePrefab: qc.Serializer.PREFAB,
-    btn: qc.Serializer.NODE,
+    btn1000: qc.Serializer.NODE,
     root: qc.Serializer.NODE
 });
 
 UI.prototype.awake = function() {
     var self = this;
-    this.obs = [];
+    self.obs = [];
     for (var i = 0; i < 200; i++) {
-        var o = this.game.add.clone(this.texturePrefab, this.root);    
-        o.x = this.game.math.random(0, 480);
-        o.y = this.game.math.random(0, 800);
-        this.obs.push(o);
+        var o = this.game.add.clone(self.texturePrefab, self.root);    
+        o.x = self.game.math.random(0, self.game.width);
+        o.y = self.game.math.random(0, self.game.height);
+        self.obs.push(o);
     }
-    this.root.static = true;
+    self.root.static = true;
     
-    self.addListener(self.btn.onClick, function() {
-        self.game.phaser.forceSingleUpdate = false;  
+    self.count = 200;
+    self.addListener(self.btn1000.onClick, function() {
+        if (self.count >= 1000) return;
+        // add 800 
+        for (var i = 0; i < 800; i++) {
+            var o = self.game.add.clone(self.texturePrefab, self.root);    
+            o.x = self.game.math.random(0, self.game.width);
+            o.y = self.game.math.random(0, self.game.height);
+            self.obs.push(o);
+        }
+        self.count = 1000;
+        alert('add complete!');
     });
 };
 
 UI.prototype.update = function() {
-    for (var i = 0; i < 200; i++) {
+    for (var i = 0; i < this.count; i++) {
         this.obs[i].rotation += 0.15;
     }
 };

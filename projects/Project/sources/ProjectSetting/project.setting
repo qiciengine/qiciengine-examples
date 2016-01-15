@@ -20,5 +20,7 @@
   "renderer": "Auto",
   "antialias": true,
   "transparent": false,
-  "appCache": true
+  "appCache": true,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": true
 }

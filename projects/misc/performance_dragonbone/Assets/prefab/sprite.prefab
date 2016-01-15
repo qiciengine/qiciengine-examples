@@ -4,7 +4,7 @@
     "uuid": "47caf233-094a-41a5-893c-31e8ae0f6b45",
     "_prefab": [
       7,
-      ""
+      "4ee247f2-a05a-41a3-b13b-759521cf3463"
     ],
     "__lock": [
       5,
@@ -78,6 +78,10 @@
       10,
       "Assets/sprite/panda.bin",
       "f0ff280c-74f8-44da-9c48-27934c8aa2cf"
+    ],
+    "frame": [
+      7,
+      "other/Shadow"
     ],
     "defaultAnimation": [
       8,

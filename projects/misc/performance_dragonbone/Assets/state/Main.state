@@ -37,12 +37,12 @@
     "position": [
       0,
       0,
-      1.9840637450199097,
-      2.3705179282868585,
-      1.9840637450199097,
-      2.3705179282868585,
-      498,
-      595,
+      1.9878419452887783,
+      2.8571428571429465,
+      1.9878419452887783,
+      2.8571428571429465,
+      654,
+      940,
       0,
       0,
       0,
@@ -54,11 +54,11 @@
     ],
     "scaleX": [
       3,
-      0.9920318725099602
+      0.993920972644377
     ],
     "scaleY": [
       3,
-      0.9920318725099602
+      0.993920972644377
     ],
     "rotation": [
       3,
@@ -172,7 +172,7 @@
           ],
           "innerHTML": [
             true,
-            "FPS: 30.1<br>Draw Calls: (N/A)<br>Total: 1.0 ms<br>Logic: 0.1 ms<br>Render: 0.7 ms<br>PreUpdate: 0.1 ms<br>Update: 0.0 ms<br>PostUpdate: 0.0 ms<br>TransformCalc: undefined"
+            "FPS: 31.2<br>Draw Calls: 1<br>Total: 0.3 ms<br>Logic: 0.1 ms<br>Render: 0.3 ms<br>PreUpdate: 0.0 ms<br>Update: 0.0 ms<br>PostUpdate: 0.0 ms<br>TransformCalc: 0"
           ],
           "zIndex": [
             1,
@@ -223,9 +223,111 @@
               "spritePrefab": [
                 16,
                 "4ee247f2-a05a-41a3-b13b-759521cf3463"
+              ],
+              "btn": [
+                18,
+                "959f91da-faf0-467e-a4ec-0ad931919cd7"
               ]
             }
           }
+        }
+      },
+      {
+        "class": "qc.Dom",
+        "data": {
+          "uuid": "959f91da-faf0-467e-a4ec-0ad931919cd7",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "btn"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            10.061162079510831,
+            158.9663608562697,
+            10.061162079510831,
+            158.9663608562697,
+            125.77675840978584,
+            47.431192660549954,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            true
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "pos": [
+            3,
+            1
+          ],
+          "className": [
+            7,
+            "button"
+          ],
+          "overflow": [
+            7,
+            "hidden"
+          ],
+          "innerHTML": [
+            true,
+            "200"
+          ],
+          "zIndex": [
+            1,
+            "1"
+          ]
         }
       }
     ]

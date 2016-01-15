@@ -124,7 +124,11 @@ var publish = function(projectPath, toDir, isEnglish) {
     var targetZipPath = path.join(toDir, 'docs', path.parse(projectPath).name + '.zip');
     var zipDir = [ 'Assets', 'Editor', 'Plugins', 'ProjectSetting', 'Scripts'];
     var zipCmd = 'cd \'' + projectPath + '\';zip -r -q \'' + targetZipPath + '\' ' + zipDir.join(' ');
-    exec(zipCmd);
+    try { exec(zipCmd); }
+    catch (e) {
+        faildList[toDir] = 'gitbook fail.';
+        return;
+    }
     
     var sourceEn = path.join(projectPath, 'docs/en.json');
     var sourceZh = path.join(projectPath, 'docs/zh.json');

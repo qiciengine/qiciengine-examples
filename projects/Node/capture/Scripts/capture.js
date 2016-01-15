@@ -30,40 +30,42 @@ capture.prototype.onDrag = function(event) {
     var startY = source.startY;
     var endX = source.x;
     var endY = source.y;
-    
-    this.mask.x = Math.min(startX, endX);
-    this.mask.y = Math.min(startY, endY);
-    this.mask.width = Math.abs(startX - endX);
-    this.mask.height = Math.abs(startY - endY);
+
+    var wt = this.mask.parent.worldTransform;
+    var p1 = wt.applyInverse(new qc.Point(startX, startY));
+    var p2 = wt.applyInverse(new qc.Point(endX, endY));
+
+    this.mask.x = Math.min(p1.x, p2.x);
+    this.mask.y = Math.min(p1.y, p2.y);
+    this.mask.width = Math.abs(p2.x - p1.x);
+    this.mask.height = Math.abs(p2.y - p1.y);
 };
 
 // 拖拽结束尝试截屏指定区域
 capture.prototype.onDragEnd = function(event) {
     // 隐藏 mask 区域
     this.mask.visible = false;
-    
+
     var source = event.source;
     var startX = source.startX;
     var startY = source.startY;
     var endX = source.x;
     var endY = source.y;
-    
+
     // 根据世界矩阵，计算相对 capNode 的逻辑坐标
-    var p1 = new qc.Point(Math.min(startX, endX), Math.min(startY, endY));
-    var p2 = new qc.Point(Math.max(startX, endX), Math.max(startY, endY));
     var wt = this.capNode.worldTransform;
-    p1 = wt.applyInverse(p1);
-    p2 = wt.applyInverse(p2);
-    
-    var rectLeft = Math.max(p1.x, 0);
-    var rectRight = Math.min(p2.x, this.capNode.width);
-    var rectUp = Math.max(p1.y, 0);
-    var rectDown = Math.min(p2.y, this.capNode.height);
-    
-    var p0 = wt.apply(new qc.Point(0, 0));
-    p1 = wt.apply(new qc.Point(rectLeft, rectUp));
-    p2 = wt.apply(new qc.Point(rectRight, rectDown));
-    
+    var p1 = wt.applyInverse(new qc.Point(startX, startY));
+    var p2 = wt.applyInverse(new qc.Point(endX, endY));
+
+    var rectLeft = Math.max(Math.min(p1.x, p2.x), 0);
+    var rectRight = Math.min(Math.max(p1.x, p2.x), this.capNode.width);
+    var rectUp = Math.max(Math.min(p1.y, p2.y), 0);
+    var rectDown = Math.min(Math.max(p1.y, p2.y), this.capNode.height);
+
+    var p0 = new qc.Point(0, 0);
+    p1 = new qc.Point(rectLeft, rectUp);
+    p2 = new qc.Point(rectRight, rectDown);
+
     if (p2.x > p1.x && p2.y > p1.y)
         // 有效的区域
 		this.capture(new qc.Rectangle(p1.x - p0.x, p1.y - p0.y, p2.x - p1.x, p2.y - p1.y));
@@ -78,12 +80,12 @@ capture.prototype.capture = function(bounds) {
     div.appendChild(img);
     img.style.width = '100%';
     img.style.height = '100%';
-    
+
     // 现在已知 ios 的 safari 需要强制更改 div 属性，否则不会显示
     // desktop、安卓或者 Ios 的其他浏览器无这个问题。
     // 强制设置让其显示
     div.style.opacity = '0.999999';
-    
+
     // 2. 截屏到 atlas 对象上
 	this.capNode.snapshotAsAtlas('capture', bounds, 150, 150);
 	this.imgNode.texture = null;

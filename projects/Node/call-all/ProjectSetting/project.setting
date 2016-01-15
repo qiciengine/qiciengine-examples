@@ -12,11 +12,5 @@
   "develop": false,
   "toolFlag": 28,
   "loading": "",
-  "version": "1.0",
-  "frameRate": {
-    "mobile": 30,
-    "desktop": 60
-  },
-  "dirtyRectangles": true,
-  "dirtyRectanglesShow": true
+  "version": "1.0"
 }

@@ -3,3 +3,11 @@
     color:white;
     font-size:16px;
 }
+
+.button {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border: 2px solid green;
+    background-color: gray;
+}

@@ -11,5 +11,15 @@
   "version": "1",
   "loading": "",
   "backgroundColor": 11053224,
-  "toolFlag": 28
+  "toolFlag": 28,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "dirtyRectangles": false,
+  "dirtyRectanglesShow": false
 }

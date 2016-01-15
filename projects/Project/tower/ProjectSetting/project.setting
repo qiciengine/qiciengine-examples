@@ -15,5 +15,12 @@
   "renderer": "Auto",
   "antialias": true,
   "transparent": false,
-  "develop": true
+  "develop": true,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "appCache": true,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": true
 }
