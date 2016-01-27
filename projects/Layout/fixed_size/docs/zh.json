@@ -1,0 +1,10 @@
+{
+  "name": "Fixed Game Size",
+  "desc": "工程设置: FixedGameSize的使用（固定画布大小）",
+  "tags": ["Layout", "FixedGameSize"],
+  "preview": "preview.png",
+  "category": "Layout",
+  "order": 1,
+  "width": 300,
+  "height": 200
+}

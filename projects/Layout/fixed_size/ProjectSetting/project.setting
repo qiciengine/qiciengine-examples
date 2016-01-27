@@ -1,0 +1,28 @@
+{
+  "projectName": "FixedSize",
+  "gameName": "FixedSize",
+  "companyName": "qcplay",
+  "bundleIdentifier": "com.qcplay.FixedSize",
+  "gameInstance": "game",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": true,
+    "width": 300,
+    "height": 200
+  },
+  "backgroundColor": 4671303,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Auto",
+  "transparent": false,
+  "developerMode": false,
+  "appCache": true,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": false,
+  "toolFlag": 124,
+  "version": "1",
+  "loading": ""
+}
