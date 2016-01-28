@@ -141,6 +141,6 @@ var publish = function(projectPath, toDir, isEnglish) {
 };
 
 require('./Start.js');
-module.exports.publish('/Users/weism/qici/demo', '/Users/weism/qici/version/demo/zh');
-module.exports.publish('/Users/weism/qici/demo', '/Users/weism/qici/version/demo/en', true);
+module.exports.publish('/Users/weism/qici/qiciengine-examples/projects', '/Users/weism/qici/version/demo/zh');
+module.exports.publish('/Users/weism/qici/qiciengine-examples/projects', '/Users/weism/qici/version/demo/en', true);
 process.exit();

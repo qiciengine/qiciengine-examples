@@ -7,11 +7,20 @@
   "gameWidth": "",
   "backgroundColor": 4671303,
   "orientation": 0,
-  "toolFlag": 28,
-  "loading": "Assets/prefabs/loading.bin",
+  "toolFlag": 124,
+  "loading": "",
   "runInBackground": true,
   "renderer": "Auto",
   "antialias": true,
   "transparent": false,
-  "version": "1.0"
+  "version": "1.0",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": true,
+    "width": 640,
+    "height": 960
+  }
 }

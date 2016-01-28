@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Excel": "Assets/state/Excel.bin"
+    "Excel": "Assets/scene/Excel.bin"
   },
   "entryScene": "Excel"
 }

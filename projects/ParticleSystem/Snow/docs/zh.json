@@ -1,0 +1,10 @@
+{
+  "name": "Snow",
+  "desc": "模拟下雪效果",
+  "tags": ["snow", "particle", "particlesystem"],
+  "preview": "preview.png",
+  "category": "粒子系统",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

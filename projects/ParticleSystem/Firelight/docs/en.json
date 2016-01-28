@@ -1,0 +1,10 @@
+{
+  "name": "Firelight",
+  "desc": "Simulate firelight",
+  "tags": ["fire", "firelight", "particle", "particlesystem"],
+  "preview": "preview.png",
+  "category": "Particle System",
+  "order": 6,
+  "width": 800,
+  "height": 600
+}

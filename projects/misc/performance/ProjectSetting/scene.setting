@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Performance": "Assets/state/Performance.bin"
+    "Performance": "Assets/scene/Performance.bin"
   },
   "entryScene": "Performance"
 }

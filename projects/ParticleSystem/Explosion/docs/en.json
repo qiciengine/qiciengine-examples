@@ -1,0 +1,10 @@
+{
+  "name": "Explosion",
+  "desc": "Simulate exolosion effect",
+  "tags": ["explosion", "particle", "particlesystem"],
+  "preview": "preview.png",
+  "category": "Particle System",
+  "order": 3,
+  "width": 800,
+  "height": 600
+}

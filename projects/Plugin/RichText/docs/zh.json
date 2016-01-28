@@ -1,0 +1,10 @@
+{
+  "name": "RichText",
+  "desc": "富文本插件的使用",
+  "tags": ["RichText", "Text"],
+  "preview": "preview.png",
+  "category": "插件",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

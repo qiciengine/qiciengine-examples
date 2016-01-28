@@ -1,0 +1,396 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      98.1,
+      262.16625,
+      98.1,
+      262.16625,
+      327,
+      705,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.4
+    ],
+    "scaleY": [
+      3,
+      0.4
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIRoot",
+        "data": {
+          "uuid": "eb35aee2-56de-4b82-b7d8-b498656bbfe8",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "UIRoot"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.ScaleAdapter",
+              "data": "31f10109-7815-4f3f-a492-952e894dff83"
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            800,
+            1724.7706422018348,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            0.40875
+          ],
+          "scaleY": [
+            3,
+            0.40875
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [
+            {
+              "class": "com.qici.richText.RichText",
+              "data": {
+                "uuid": "870ca7e5-17d5-4f42-9894-11c5973d89b8",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "RichText"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.engine.RichTextHandle",
+                    "data": "6fd2c288-93e1-4564-92f5-61b1e721f9e6"
+                  },
+                  {
+                    "clazz": "com.qici.richText.RichTextEmoji",
+                    "data": "2ea96f32-83a6-44fa-84ee-5ead4f976484"
+                  },
+                  {
+                    "clazz": "com.qici.richText.RichTextEmoji",
+                    "data": "c7445d8c-4181-4340-b305-d3918aa82816"
+                  }
+                ],
+                "position": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  800,
+                  1153,
+                  0,
+                  0,
+                  0,
+                  571.7706422018348,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  true
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "text": [
+                  7,
+                  "[size=40][color=#00ffff]富文本[/size]\n[size=24]富文本使用一组固定的格式描述文本的显示情况。[/size]\n[size=24]在这[image package=emoji frame=\"1.png\" width=45 height=45/]行[size=50]里可[charspace=-20]以包含[/size]各种[size=60][stroke][underline color=#ff7722]奇奇[/stroke][strikethrough color=#ff0000]怪怪[/size]的[vertical-align=top]上上[/vertical-align][vertical-align=bottom]下下[/vertical-align][size=60]大大[/size][size=20][vertical-align=middle]小小[/size][b]各模[b][i]各样[i][color=#ff0000][image package=emoji frame=\"5.png\" width=32 height=32/][/color][color=#ff7700]颜[/color][color=#0077ff]六[/color][color=#00ffff]色[/color]的文字和图片![image package=city frame=\"level5.png\"/][/size]\n[size=32][color=#00ffff]格式说明[/size]\n[size=24]\n1. 标记使用 [b][i][aaaa][标记]内容[/标记][/aaaa][/i][/b] 或者 [b][i][aaaa][标记/][/aaaa][/i][/b] 表示标记的有效范围。\n2. 如果标记不在支持的范围，则直接文本显示其包含的所有内容。\n\t例如：[bbbb][aaaa][d]aa[/d][/aaaa][/bbbb] 最终显示文本为[aaaa][d]aa[/d][/aaaa]\n[/size]\n[size=32][color=#00ffff]已经支持的标记[/size]\n[size=23][b][i][color=#ff7700]color[/i][/b]\t\t文本颜色 效果:[color=#00ffff]文本[/color][color=rgb(255,255,0)]文本[/color]\n[b][i][color=#ff7700]size[/i][/b]\t\t文本大小 效果:[size=12][color=#00ffff]文本[/size]\n[b][i][color=#ff7700]text-align[/i][/b]\t\t行文本的对齐方式，可选值有start，end，center，justify 效果:\n[text-align=start][color=#00ffff]文本[/text-align]\n[text-align=center][color=#00ffff]文本[/text-align]\n[text-align=end][color=#00ffff]文本[/text-align]\n[text-align=justify][color=#00ffff]文本[/text-align]\n[b][i][color=#ff7700]vertical-align[/i][/b]\t\t文本在行内的对齐方式，可选值top，middle，bottom 效果:\n[size=40]文本[size=12][color=#00ffff][vertical-align=top]文本[/vertical-align][vertical-align=middle]文本[/vertical-align][vertical-align=bottom]文本[/vertical-align][/size][/size]\n[b][i][color=#ff7700]b[/i][/b]\t\t粗体  效果:[b][color=#00ffff]文本[/b]\n[b][i][color=#ff7700]i[/i][/b]\t\t斜体 效果:[i][color=#00ffff]文本[/i]\n[b][i][color=#ff7700]linespace[/i][/b]\t\t文本的行间距 效果:[lineSpace=50][color=#00ffff]文本[/lineSpace]\n[b][i][color=#ff7700]charspace[/i][/b]\t\t字间距 效果:[charspace=10][color=#00ffff]文本[/charspace]\n[b][i][color=#ff7700]lineweight[/i][/b]\t\t行水平显示时为行高，竖直显示时为行宽 效果:[lineweight=33][color=#00ffff]文本[/lineweight]\n[b][i][color=#ff7700]underline[/i][/b]\t\t下划线 效果:[underline][color=#00ffff]文本[/underline]\n[b][i][color=#ff7700]strikethrough[/i][/b]\t\t删除线 效果:[strikethrough color=#ffff00][color=#00ffff]文本[/strikethrough]\n[b][i][color=#ff7700]stroke[/i][/b]\t\t中空绘制 效果:[stroke][size=50][color=#00ffff]文本[/stroke]\n[b][i][color=#ff7700]click[/i][/b]\t点击处理，点击时调用RichText对象上挂载脚本的对应方法 效果:[click='onMyClick'][underline color=#ff0000][color=#00ffff]文本[/underline][/click] \n[b][i][color=#ff7700]image[/i][/b] 图片 [size=50]效果 [image package=emoji frame=\"1.png\" width=100 height=100/]图片显示[/size]\n[/size]"
+                ],
+                "wrap": [
+                  3,
+                  0
+                ],
+                "order": [
+                  3,
+                  0
+                ],
+                "font": [
+                  32,
+                  "sans-serif",
+                  null
+                ],
+                "bold": [
+                  5,
+                  false
+                ],
+                "italic": [
+                  5,
+                  false
+                ],
+                "fontSize": [
+                  3,
+                  10
+                ],
+                "color": [
+                  14,
+                  4294967295
+                ],
+                "updateBounds": [
+                  5,
+                  true
+                ]
+              },
+              "__json": {
+                "6fd2c288-93e1-4564-92f5-61b1e721f9e6": {
+                  "class": "qc.engine.RichTextHandle",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "6fd2c288-93e1-4564-92f5-61b1e721f9e6"
+                    ],
+                    "enable": true
+                  }
+                },
+                "2ea96f32-83a6-44fa-84ee-5ead4f976484": {
+                  "class": "com.qici.richText.RichTextEmoji",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "2ea96f32-83a6-44fa-84ee-5ead4f976484"
+                    ],
+                    "enable": true,
+                    "richText": [
+                      18,
+                      "870ca7e5-17d5-4f42-9894-11c5973d89b8"
+                    ],
+                    "packageName": [
+                      7,
+                      "emoji"
+                    ],
+                    "packageAtlas": [
+                      10,
+                      "Assets/atlas/numerical.bin",
+                      "693c169b-9bbc-461e-8f3e-24d2f4de2fa4"
+                    ]
+                  }
+                },
+                "c7445d8c-4181-4340-b305-d3918aa82816": {
+                  "class": "com.qici.richText.RichTextEmoji",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "c7445d8c-4181-4340-b305-d3918aa82816"
+                    ],
+                    "enable": true,
+                    "richText": [
+                      18,
+                      "870ca7e5-17d5-4f42-9894-11c5973d89b8"
+                    ],
+                    "packageName": [
+                      7,
+                      "city"
+                    ],
+                    "packageAtlas": [
+                      10,
+                      "Assets/atlas/city.bin",
+                      "a915179a-1dbf-41b2-854f-1256c469cf18"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "__json": {
+          "31f10109-7815-4f3f-a492-952e894dff83": {
+            "class": "qc.ScaleAdapter",
+            "data": {
+              "uuid": [
+                7,
+                "31f10109-7815-4f3f-a492-952e894dff83"
+              ],
+              "enable": true,
+              "target": null,
+              "referenceResolution": [
+                24,
+                "qc.Point",
+                [
+                  800,
+                  600
+                ]
+              ],
+              "manualType": [
+                3,
+                3
+              ],
+              "fullTarget": [
+                5,
+                true
+              ],
+              "gameObjectRecord": [
+                4,
+                [
+                  0.40875,
+                  0.40875,
+                  800,
+                  1724.7706422018348
+                ]
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "693c169b-9bbc-461e-8f3e-24d2f4de2fa4": {
+      "key": "Assets/atlas/numerical.bin",
+      "uuid": "693c169b-9bbc-461e-8f3e-24d2f4de2fa4"
+    },
+    "a915179a-1dbf-41b2-854f-1256c469cf18": {
+      "key": "Assets/atlas/city.bin",
+      "uuid": "a915179a-1dbf-41b2-854f-1256c469cf18"
+    }
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "scene": {
-    "AutoScale": "Assets/state/AutoScale.bin"
-  },
-  "entryScene": "AutoScale"
-}

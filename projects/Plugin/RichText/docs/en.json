@@ -1,0 +1,10 @@
+{
+  "name": "RichText",
+  "desc": "Introduce com.qici.richText.RichText plugin",
+  "tags": ["RichText", "Text"],
+  "preview": "preview.png",
+  "category": "Plugin",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}
