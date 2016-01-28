@@ -1,0 +1,10 @@
+{
+  "name": "actionEvent",
+  "desc": "如何在动作编辑器中增加动作事件",
+  "tags": ["actionEditor"],
+  "preview": "preview.png",
+  "category": "动作编辑器",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

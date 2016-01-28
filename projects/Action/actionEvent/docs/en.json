@@ -1,0 +1,10 @@
+{
+  "name": "actionEvent",
+  "desc": "How to add action event",
+  "tags": ["actionEditor"],
+  "preview": "preview.png",
+  "category": "Action",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

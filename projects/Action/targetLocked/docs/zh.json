@@ -1,0 +1,10 @@
+{
+  "name": "targetLocked",
+  "desc": "介绍动作编辑器中 targetLocked 属性的作用",
+  "tags": ["actionEditor"],
+  "preview": "preview.png",
+  "category": "动作编辑器",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

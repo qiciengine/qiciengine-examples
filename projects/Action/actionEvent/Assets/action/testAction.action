@@ -1,0 +1,61 @@
+{
+  "dependences": {},
+  "id": 1,
+  "targetObject": "81e85262-17e1-47f2-af30-cdc55ae2fde7",
+  "targetLocked": true,
+  "loop": false,
+  "samples": 60,
+  "name": "testAction",
+  "scripts": [
+    {
+      "clazz": "qc.engine.action",
+      "data": "9dc044cf-4a55-4318-aa09-8610aabe8bc9"
+    }
+  ],
+  "__json": {
+    "9dc044cf-4a55-4318-aa09-8610aabe8bc9": {
+      "class": "qc.engine.action",
+      "data": {
+        "uuid": [
+          7,
+          "9dc044cf-4a55-4318-aa09-8610aabe8bc9"
+        ],
+        "enable": true
+      }
+    }
+  },
+  "propertyList": {
+    "/": {
+      "2": [
+        [
+          1,
+          [
+            [
+              0,
+              0,
+              0,
+              0.25132741228718347
+            ],
+            [
+              25,
+              6.283185307179586,
+              0.25132741228718347,
+              -0.25132741228718347
+            ],
+            [
+              50,
+              0,
+              -0.25132741228718347,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "eventList": "[[25,\"testEvent\",\"1\"],[50,\"testEvent\",\"2\"]]"
+}

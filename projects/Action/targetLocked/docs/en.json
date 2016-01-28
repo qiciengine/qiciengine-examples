@@ -1,0 +1,10 @@
+{
+  "name": "targetLocked",
+  "desc": "Introduce the \'targetLocked\' attrib in Action Editor",
+  "tags": ["actionEditor"],
+  "preview": "preview.png",
+  "category": "Action",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}
