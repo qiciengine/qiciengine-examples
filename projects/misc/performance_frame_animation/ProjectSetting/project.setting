@@ -17,5 +17,10 @@
   "appCache": false,
   "toolFlag": 28,
   "loading": "",
-  "version": "1"
+  "version": "1",
+  "fixedGameSize": {
+    "enabled": true,
+    "width": 800,
+    "height": 600
+  }
 }

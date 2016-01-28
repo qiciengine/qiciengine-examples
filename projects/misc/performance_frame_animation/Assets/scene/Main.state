@@ -37,12 +37,12 @@
     "position": [
       0,
       0,
-      1.9878419452887215,
-      2.857142857142833,
-      1.9878419452887215,
-      2.857142857142833,
-      654,
-      940,
+      1.3532338308457383,
+      267.01492537313436,
+      1.3532338308457383,
+      267.01492537313436,
+      800,
+      600,
       0,
       0,
       0,
@@ -54,11 +54,11 @@
     ],
     "scaleX": [
       3,
-      0.993920972644377
+      0.6766169154228856
     ],
     "scaleY": [
       3,
-      0.993920972644377
+      0.6766169154228856
     ],
     "rotation": [
       3,
@@ -172,7 +172,7 @@
           ],
           "innerHTML": [
             true,
-            "FPS: 36.0<br>Draw Calls: 1<br>Total: 0.5 ms<br>Logic: 0.2 ms<br>Render: 0.2 ms<br>PreUpdate: 0.1 ms<br>Update: 0.1 ms<br>PostUpdate: 0.1 ms<br>TransformCalc: 0"
+            "FPS: 30.0<br>Draw Calls: 1<br>Total: 1.1 ms<br>Logic: 0.2 ms<br>Render: 0.7 ms<br>PreUpdate: 0.1 ms<br>Update: 0.0 ms<br>PostUpdate: 0.1 ms<br>TransformCalc: 0"
           ],
           "zIndex": [
             1,
@@ -195,6 +195,10 @@
               "duration": [
                 3,
                 1
+              ],
+              "detail": [
+                5,
+                false
               ]
             }
           },

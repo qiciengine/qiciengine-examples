@@ -11,7 +11,7 @@
   "version": "1",
   "loading": "",
   "backgroundColor": 11382189,
-  "toolFlag": 28,
+  "toolFlag": 124,
   "frameRate": {
     "mobile": 30,
     "desktop": 60

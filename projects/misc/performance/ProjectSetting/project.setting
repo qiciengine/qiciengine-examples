@@ -19,5 +19,10 @@
   "runInBackground": true,
   "renderer": "Auto",
   "antialias": true,
-  "transparent": false
+  "transparent": false,
+  "fixedGameSize": {
+    "enabled": true,
+    "width": 800,
+    "height": 600
+  }
 }

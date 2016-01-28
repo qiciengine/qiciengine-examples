@@ -37,12 +37,12 @@
     "position": [
       0,
       0,
-      1.9878419452887783,
-      2.8571428571429465,
-      1.9878419452887783,
-      2.8571428571429465,
-      654,
-      940,
+      1.3532338308457383,
+      267.01492537313436,
+      1.3532338308457383,
+      267.01492537313436,
+      800,
+      600,
       0,
       0,
       0,
@@ -54,11 +54,11 @@
     ],
     "scaleX": [
       3,
-      0.993920972644377
+      0.6766169154228856
     ],
     "scaleY": [
       3,
-      0.993920972644377
+      0.6766169154228856
     ],
     "rotation": [
       3,
@@ -74,9 +74,87 @@
     ],
     "children": [
       {
+        "class": "qc.Node",
+        "data": {
+          "uuid": "3f506250-d7cc-47d0-af7a-24ab103cb2be",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "root"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": []
+        }
+      },
+      {
         "class": "qc.Dom",
         "data": {
-          "uuid": "4c6e6a76-8367-40ff-bca5-a459648da2b9",
+          "uuid": "ddfa1016-0b9f-4875-8306-7309827592e7",
           "_prefab": [
             7,
             ""
@@ -112,22 +190,22 @@
           "scripts": [
             {
               "clazz": "qc.DebugViewer",
-              "data": "76572dd1-4862-4297-a022-d5036668f049"
+              "data": "86f5f1fc-b8a8-44cd-a79d-a933fd676eed"
             },
             {
               "clazz": "qc.engine.UI",
-              "data": "5c2e758d-ab17-4192-bedf-da17739d85aa"
+              "data": "1d3d7545-4da6-4cf6-9c62-b323edbc9057"
             }
           ],
           "position": [
             0,
             0,
-            5,
-            5,
-            5,
-            5,
-            200,
-            200,
+            5.00000000000003,
+            5.00000000000003,
+            5.00000000000003,
+            5.00000000000003,
+            178.12538226299694,
+            171.21406727828747,
             0,
             0,
             0,
@@ -172,7 +250,7 @@
           ],
           "innerHTML": [
             true,
-            "FPS: 31.2<br>Draw Calls: 1<br>Total: 0.3 ms<br>Logic: 0.1 ms<br>Render: 0.3 ms<br>PreUpdate: 0.0 ms<br>Update: 0.0 ms<br>PostUpdate: 0.0 ms<br>TransformCalc: 0"
+            "FPS: 25.2<br>Draw Calls: 1<br>Total: 0.7 ms<br>Logic: 0.2 ms<br>Render: 0.3 ms<br>PreUpdate: 0.0 ms<br>Update: 0.1 ms<br>PostUpdate: 0.1 ms<br>TransformCalc: 0"
           ],
           "zIndex": [
             1,
@@ -180,12 +258,12 @@
           ]
         },
         "__json": {
-          "76572dd1-4862-4297-a022-d5036668f049": {
+          "86f5f1fc-b8a8-44cd-a79d-a933fd676eed": {
             "class": "qc.DebugViewer",
             "data": {
               "uuid": [
                 7,
-                "76572dd1-4862-4297-a022-d5036668f049"
+                "86f5f1fc-b8a8-44cd-a79d-a933fd676eed"
               ],
               "enable": true,
               "debugOn": [
@@ -195,38 +273,32 @@
               "duration": [
                 3,
                 1
+              ],
+              "detail": [
+                5,
+                false
               ]
             }
           },
-          "c7ee41d7-b7d1-4915-b0f9-d60b8818d82d": {
+          "1d3d7545-4da6-4cf6-9c62-b323edbc9057": {
             "class": "qc.engine.UI",
             "data": {
               "uuid": [
                 7,
-                "c7ee41d7-b7d1-4915-b0f9-d60b8818d82d"
+                "1d3d7545-4da6-4cf6-9c62-b323edbc9057"
               ],
               "enable": true,
-              "spritePrefab": [
+              "textPrefab": [
                 16,
-                "f3f8047d-6bbf-4908-bacf-03daadcf8881"
-              ]
-            }
-          },
-          "5c2e758d-ab17-4192-bedf-da17739d85aa": {
-            "class": "qc.engine.UI",
-            "data": {
-              "uuid": [
-                7,
-                "5c2e758d-ab17-4192-bedf-da17739d85aa"
+                "899a564d-1c06-44c7-9129-9e1cd4fbd5b6"
               ],
-              "enable": true,
-              "spritePrefab": [
-                16,
-                "4ee247f2-a05a-41a3-b13b-759521cf3463"
+              "root": [
+                18,
+                "3f506250-d7cc-47d0-af7a-24ab103cb2be"
               ],
               "btn": [
                 18,
-                "959f91da-faf0-467e-a4ec-0ad931919cd7"
+                "d25e0ef7-3465-4927-b173-4f066052941d"
               ]
             }
           }
@@ -235,7 +307,7 @@
       {
         "class": "qc.Dom",
         "data": {
-          "uuid": "959f91da-faf0-467e-a4ec-0ad931919cd7",
+          "uuid": "d25e0ef7-3465-4927-b173-4f066052941d",
           "_prefab": [
             7,
             ""
@@ -272,12 +344,12 @@
           "position": [
             0,
             0,
-            10.061162079510831,
-            158.9663608562697,
-            10.061162079510831,
-            158.9663608562697,
-            125.77675840978584,
-            47.431192660549954,
+            9.055045871559635,
+            161.98470948012275,
+            9.055045871559635,
+            161.98470948012275,
+            132.81957186544346,
+            50.44954128440327,
             0,
             0,
             0,
@@ -322,7 +394,7 @@
           ],
           "innerHTML": [
             true,
-            "200"
+            "500"
           ],
           "zIndex": [
             1,
@@ -333,9 +405,9 @@
     ]
   },
   "dependences": {
-    "4ee247f2-a05a-41a3-b13b-759521cf3463": {
-      "key": "4ee247f2-a05a-41a3-b13b-759521cf3463",
-      "uuid": "4ee247f2-a05a-41a3-b13b-759521cf3463"
+    "899a564d-1c06-44c7-9129-9e1cd4fbd5b6": {
+      "key": "899a564d-1c06-44c7-9129-9e1cd4fbd5b6",
+      "uuid": "899a564d-1c06-44c7-9129-9e1cd4fbd5b6"
     }
   }
 }
