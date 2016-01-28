@@ -1,0 +1,10 @@
+{
+  "name": "FallenLeaves",
+  "desc": "模拟落叶",
+  "tags": ["leave", "fallenleaves", "particle", "particlesystem"],
+  "preview": "preview.png",
+  "category": "粒子系统",
+  "order": 4,
+  "width": 800,
+  "height": 600
+}

@@ -1,6 +1,0 @@
-{
-  "scene": {
-    "Main": "Assets/state/Main.bin"
-  },
-  "entryScene": "Main"
-}

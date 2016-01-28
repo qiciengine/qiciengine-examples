@@ -1,0 +1,10 @@
+{
+  "name": "Rocket",
+  "desc": "Simulate rocket emission",
+  "tags": ["rocket", "particle", "particlesystem"],
+  "preview": "preview.png",
+  "category": "Particle System",
+  "order": 2,
+  "width": 800,
+  "height": 600
+}
