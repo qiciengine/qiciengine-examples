@@ -1,5 +1,5 @@
 // define a user behaviour
-var queryAABB = qc.defineBehaviour('qc.engine.queryAABB', qc.Behaviour, function() {
+var raycast = qc.defineBehaviour('qc.engine.raycast', qc.Behaviour, function() {
     // need this behaviour be scheduled in editor
     //this.runInEditor = true;
 }, {
@@ -11,7 +11,7 @@ var queryAABB = qc.defineBehaviour('qc.engine.queryAABB', qc.Behaviour, function
 });
 
 // Called when the script instance is being loaded.
-queryAABB.prototype.awake = function() {
+raycast.prototype.awake = function() {
     var self = this;
     self.points = [];
 
@@ -32,7 +32,7 @@ queryAABB.prototype.awake = function() {
 };
 
 // 删除旧的 points
-queryAABB.prototype.deletePoints = function(event) {
+raycast.prototype.deletePoints = function(event) {
     if (!this.points.length) return;
     for (var i = 0; i < this.points.length; i++) {
         this.points[i].destroy();
@@ -41,7 +41,7 @@ queryAABB.prototype.deletePoints = function(event) {
 };
 
 // 创建一个 img
-queryAABB.prototype.createPoint = function(x, y) {
+raycast.prototype.createPoint = function(x, y) {
     var img = this.game.add.image();
 	img.texture = this.game.assets.find('__builtin_resource__');
     img.pivotX = 0.5;
@@ -56,7 +56,7 @@ queryAABB.prototype.createPoint = function(x, y) {
 };
 
 // 拖拽的时候，绘制拖拽框
-queryAABB.prototype.onDrag = function(event) {
+raycast.prototype.onDrag = function(event) {
     var self = this;
     self.deletePoints();
 
@@ -84,7 +84,7 @@ queryAABB.prototype.onDrag = function(event) {
 };
 
 // 拖拽结束清空
-queryAABB.prototype.onDragEnd = function(event) {
+raycast.prototype.onDragEnd = function(event) {
     this.deletePoints();
     this.graphicsNode.clear();
 };
