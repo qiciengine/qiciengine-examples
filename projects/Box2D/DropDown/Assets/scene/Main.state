@@ -37,12 +37,12 @@
     "position": [
       0,
       0,
-      1.9888734353268092,
-      2.3365785813629714,
-      1.9888734353268092,
-      2.3365785813629714,
-      715,
-      840,
+      1.9835728952772058,
+      3.675564681724836,
+      1.9835728952772058,
+      3.675564681724836,
+      483,
+      895,
       0,
       0,
       0,
@@ -54,11 +54,11 @@
     ],
     "scaleX": [
       3,
-      0.9944367176634215
+      0.9917864476386037
     ],
     "scaleY": [
       3,
-      0.9944367176634215
+      0.9917864476386037
     ],
     "rotation": [
       3,
@@ -126,8 +126,8 @@
             0,
             0,
             0,
-            817.1428571428571,
-            960,
+            640,
+            1185.9213250517598,
             0,
             0,
             0,
@@ -139,11 +139,11 @@
           ],
           "scaleX": [
             3,
-            0.875
+            0.7546875
           ],
           "scaleY": [
             3,
-            0.875
+            0.7546875
           ],
           "rotation": [
             3,
@@ -202,8 +202,8 @@
                   0,
                   0,
                   0,
-                  817.1428571428571,
-                  960,
+                  640,
+                  1185.9213250517598,
                   0,
                   0,
                   0,
@@ -284,7 +284,7 @@
                         -20,
                         0,
                         20,
-                        960,
+                        1185.9213250517598,
                         0,
                         0,
                         0,
@@ -425,10 +425,10 @@
                         0,
                         0,
                         0,
-                        817.1428571428571,
+                        640,
                         0,
                         20,
-                        960,
+                        1185.9213250517598,
                         0,
                         0,
                         0,
@@ -571,7 +571,7 @@
                         -20,
                         0,
                         -20,
-                        817.1428571428571,
+                        640,
                         20,
                         0,
                         0,
@@ -714,8 +714,8 @@
                         0,
                         0,
                         0,
-                        960,
-                        817.1428571428571,
+                        1185.9213250517598,
+                        640,
                         20,
                         0,
                         0,
@@ -946,8 +946,8 @@
                   0,
                   0,
                   0,
-                  408.57142857142856,
-                  480,
+                  320,
+                  592.9606625258799,
                   100,
                   100,
                   0,
@@ -2147,6 +2147,314 @@
                   }
                 ]
               }
+            },
+            {
+              "class": "qc.UIText",
+              "data": {
+                "uuid": "d5b5aa88-75f3-432c-9abb-ae5db08e53bd",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "UIText"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.NodeMask",
+                    "data": "0ca2cb5b-c38c-48ae-868c-048f3ab84a3f"
+                  },
+                  {
+                    "clazz": "qc.TweenScale",
+                    "data": "6f11555d-f17a-46d2-ad01-207507104ae1"
+                  }
+                ],
+                "position": [
+                  0,
+                  0,
+                  34.782607890816394,
+                  34.782607735027526,
+                  34.782607890816394,
+                  34.782607735027526,
+                  120,
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "scaleX": [
+                  3,
+                  1.08119999999998
+                ],
+                "scaleY": [
+                  3,
+                  1.08119999999998
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "fontFamily": [
+                  3,
+                  0
+                ],
+                "alignH": [
+                  3,
+                  0
+                ],
+                "alignV": [
+                  3,
+                  2
+                ],
+                "font": [
+                  32,
+                  "Arial",
+                  null
+                ],
+                "bold": [
+                  5,
+                  false
+                ],
+                "fontSize": [
+                  3,
+                  30
+                ],
+                "color": [
+                  14,
+                  4294967295
+                ],
+                "text": [
+                  7,
+                  "Click anywhere to add item"
+                ],
+                "lineSpacing": [
+                  3,
+                  0
+                ],
+                "wrap": [
+                  5,
+                  false
+                ],
+                "enableGlow": [
+                  5,
+                  false
+                ],
+                "startColor": [
+                  14,
+                  4294901760
+                ],
+                "endColor": [
+                  14,
+                  4278190080
+                ],
+                "gradient": [
+                  5,
+                  false
+                ],
+                "stroke": [
+                  14,
+                  4278190080
+                ],
+                "strokeThickness": [
+                  3,
+                  0
+                ],
+                "glowColor": [
+                  14,
+                  4294901760
+                ],
+                "autoSize": [
+                  5,
+                  false
+                ],
+                "overflow": [
+                  5,
+                  true
+                ],
+                "shadowColor": [
+                  14,
+                  2147483648
+                ],
+                "shadowBlur": [
+                  3,
+                  10
+                ],
+                "shadowOffsetX": [
+                  3,
+                  3
+                ],
+                "shadowOffsetY": [
+                  3,
+                  3
+                ],
+                "enableShadow": [
+                  5,
+                  false
+                ]
+              },
+              "__json": {
+                "0ca2cb5b-c38c-48ae-868c-048f3ab84a3f": {
+                  "class": "qc.NodeMask",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "0ca2cb5b-c38c-48ae-868c-048f3ab84a3f"
+                    ],
+                    "enable": false,
+                    "checkInField": [
+                      5,
+                      false
+                    ],
+                    "minAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "maxAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "minRotation": [
+                      3,
+                      0
+                    ],
+                    "maxRotation": [
+                      3,
+                      6.283185307179586
+                    ],
+                    "clipType": [
+                      3,
+                      1
+                    ],
+                    "mode": [
+                      3,
+                      0
+                    ]
+                  }
+                },
+                "6f11555d-f17a-46d2-ad01-207507104ae1": {
+                  "class": "qc.TweenScale",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "6f11555d-f17a-46d2-ad01-207507104ae1"
+                    ],
+                    "enable": true,
+                    "_curve": [
+                      22,
+                      "qc.BezierCurve",
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "sampleMethod": [
+                      3,
+                      0
+                    ],
+                    "style": [
+                      3,
+                      2
+                    ],
+                    "delay": [
+                      3,
+                      0
+                    ],
+                    "duration": [
+                      3,
+                      1
+                    ],
+                    "tweenGroup": [
+                      3,
+                      0
+                    ],
+                    "flag": [
+                      7,
+                      ""
+                    ],
+                    "playOnAwake": [
+                      5,
+                      true
+                    ],
+                    "from": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "to": [
+                      24,
+                      "qc.Point",
+                      [
+                        1.2,
+                        1.2
+                      ]
+                    ]
+                  }
+                }
+              }
             }
           ]
         },
@@ -2202,314 +2510,6 @@
               "ballPrefab": [
                 16,
                 "afb0bc09-d2e5-48a0-b557-fd5ccaa6c14e"
-              ]
-            }
-          }
-        }
-      },
-      {
-        "class": "qc.UIText",
-        "data": {
-          "uuid": "d5b5aa88-75f3-432c-9abb-ae5db08e53bd",
-          "_prefab": [
-            7,
-            ""
-          ],
-          "__lock": [
-            5,
-            null
-          ],
-          "name": [
-            7,
-            "UIText"
-          ],
-          "ignoreDestroy": [
-            5,
-            false
-          ],
-          "alpha": [
-            3,
-            1
-          ],
-          "visible": [
-            5,
-            true
-          ],
-          "colorTint": [
-            14,
-            16777215
-          ],
-          "static": [
-            5,
-            false
-          ],
-          "scripts": [
-            {
-              "clazz": "qc.NodeMask",
-              "data": "0ca2cb5b-c38c-48ae-868c-048f3ab84a3f"
-            },
-            {
-              "clazz": "qc.TweenScale",
-              "data": "6f11555d-f17a-46d2-ad01-207507104ae1"
-            }
-          ],
-          "position": [
-            0,
-            0,
-            26.249999644035622,
-            26.24999966640506,
-            26.249999644035622,
-            26.24999966640506,
-            120,
-            30,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "scaleX": [
-            3,
-            1.1802
-          ],
-          "scaleY": [
-            3,
-            1.1802
-          ],
-          "rotation": [
-            3,
-            0
-          ],
-          "interactive": [
-            5,
-            false
-          ],
-          "isFiltersThrough": [
-            5,
-            null
-          ],
-          "children": [],
-          "fontFamily": [
-            3,
-            0
-          ],
-          "alignH": [
-            3,
-            0
-          ],
-          "alignV": [
-            3,
-            2
-          ],
-          "font": [
-            32,
-            "Arial",
-            null
-          ],
-          "bold": [
-            5,
-            false
-          ],
-          "fontSize": [
-            3,
-            30
-          ],
-          "color": [
-            14,
-            4294967295
-          ],
-          "text": [
-            7,
-            "Click anywhere to add item"
-          ],
-          "lineSpacing": [
-            3,
-            0
-          ],
-          "wrap": [
-            5,
-            false
-          ],
-          "enableGlow": [
-            5,
-            false
-          ],
-          "startColor": [
-            14,
-            4294901760
-          ],
-          "endColor": [
-            14,
-            4278190080
-          ],
-          "gradient": [
-            5,
-            false
-          ],
-          "stroke": [
-            14,
-            4278190080
-          ],
-          "strokeThickness": [
-            3,
-            0
-          ],
-          "glowColor": [
-            14,
-            4294901760
-          ],
-          "autoSize": [
-            5,
-            false
-          ],
-          "overflow": [
-            5,
-            true
-          ],
-          "shadowColor": [
-            14,
-            2147483648
-          ],
-          "shadowBlur": [
-            3,
-            10
-          ],
-          "shadowOffsetX": [
-            3,
-            3
-          ],
-          "shadowOffsetY": [
-            3,
-            3
-          ],
-          "enableShadow": [
-            5,
-            false
-          ]
-        },
-        "__json": {
-          "0ca2cb5b-c38c-48ae-868c-048f3ab84a3f": {
-            "class": "qc.NodeMask",
-            "data": {
-              "uuid": [
-                7,
-                "0ca2cb5b-c38c-48ae-868c-048f3ab84a3f"
-              ],
-              "enable": false,
-              "checkInField": [
-                5,
-                false
-              ],
-              "minAnchor": [
-                24,
-                "qc.Point",
-                [
-                  0,
-                  0
-                ]
-              ],
-              "maxAnchor": [
-                24,
-                "qc.Point",
-                [
-                  1,
-                  1
-                ]
-              ],
-              "minRotation": [
-                3,
-                0
-              ],
-              "maxRotation": [
-                3,
-                6.283185307179586
-              ],
-              "clipType": [
-                3,
-                1
-              ],
-              "mode": [
-                3,
-                0
-              ]
-            }
-          },
-          "6f11555d-f17a-46d2-ad01-207507104ae1": {
-            "class": "qc.TweenScale",
-            "data": {
-              "uuid": [
-                7,
-                "6f11555d-f17a-46d2-ad01-207507104ae1"
-              ],
-              "enable": true,
-              "_curve": [
-                22,
-                "qc.BezierCurve",
-                [
-                  [
-                    0,
-                    0,
-                    1,
-                    1
-                  ],
-                  [
-                    1,
-                    1,
-                    1,
-                    1
-                  ],
-                  [
-                    0,
-                    0
-                  ]
-                ]
-              ],
-              "sampleMethod": [
-                3,
-                0
-              ],
-              "style": [
-                3,
-                2
-              ],
-              "delay": [
-                3,
-                0
-              ],
-              "duration": [
-                3,
-                1
-              ],
-              "tweenGroup": [
-                3,
-                0
-              ],
-              "flag": [
-                7,
-                ""
-              ],
-              "playOnAwake": [
-                5,
-                true
-              ],
-              "from": [
-                24,
-                "qc.Point",
-                [
-                  1,
-                  1
-                ]
-              ],
-              "to": [
-                24,
-                "qc.Point",
-                [
-                  1.2,
-                  1.2
-                ]
               ]
             }
           }

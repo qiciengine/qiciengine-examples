@@ -1,0 +1,10 @@
+{
+  "name": "Body Rotate",
+  "desc": "",
+  "tags": ["Box2D"],
+  "preview": "preview.png",
+  "category": "Box2D",
+  "order": 40,
+  "width": 300,
+  "height": 400
+}

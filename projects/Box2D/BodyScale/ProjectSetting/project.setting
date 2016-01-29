@@ -32,7 +32,7 @@
       "useElapsedTime": false,
       "maxSimulatePerFrame": 3,
       "allowSleeping": true,
-      "debugDraw": false,
+      "debugDraw": true,
       "debugFlags": 31
     }
   },
