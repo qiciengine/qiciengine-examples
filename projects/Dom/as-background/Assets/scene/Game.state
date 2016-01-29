@@ -1,0 +1,261 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.975975975975956,
+      5.147147147147109,
+      1.975975975975956,
+      5.147147147147109,
+      329,
+      857,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.987987987987988
+    ],
+    "scaleY": [
+      3,
+      0.987987987987988
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.Dom",
+        "data": {
+          "uuid": "d0a2ac6c-6b8b-4485-81da-65c401efd9ba",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "dom-background"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            329,
+            857,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "pos": [
+            3,
+            0
+          ],
+          "className": [
+            7,
+            "background"
+          ],
+          "overflow": [
+            7,
+            "hidden"
+          ],
+          "innerHTML": [
+            true,
+            "<img src=\"Assets/raw/b3.png\">\n\n\n\n\n\n\n\n\n\n"
+          ],
+          "zIndex": [
+            1,
+            "-1"
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "2ce85987-35ad-4fe5-acba-29238b807a4d",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "Sprite"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            164.5,
+            428.5,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "Assets/sprite/texture.bin",
+            "39800c42-9140-4794-b6e4-0105faaeea55"
+          ],
+          "frame": [
+            7,
+            "parts/clothes3"
+          ],
+          "defaultAnimation": [
+            7,
+            "stand"
+          ]
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "39800c42-9140-4794-b6e4-0105faaeea55": {
+      "key": "Assets/sprite/texture.bin",
+      "uuid": "39800c42-9140-4794-b6e4-0105faaeea55"
+    }
+  }
+}

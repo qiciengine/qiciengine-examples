@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Table": "Assets/state/Table.bin"
+    "Table": "Assets/scene/Table.bin"
   },
   "entryScene": "Table"
 }

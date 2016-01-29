@@ -1,6 +1,6 @@
 {
   "scene": {
-    "mario": "Assets/state/mario.bin"
+    "mario": "Assets/scene/mario.bin"
   },
   "entryScene": "mario"
 }

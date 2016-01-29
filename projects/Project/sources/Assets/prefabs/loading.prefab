@@ -1,1 +1,608 @@
-{"class":"qc.UIRoot","data":{"uuid":"1a9ff338-8a0c-499d-82eb-765d2653961b","_prefab":[7,"cb607d9f-8376-4e1b-bd12-e63ac8d2ba22"],"name":[7,"loading"],"ignoreDestroy":[5,false],"alpha":[3,1],"visible":[5,true],"renderable":[5,false],"colorTint":[14,16777215],"scripts":[{"clazz":"qc.ScaleAdapter","data":{"class":"qc.ScaleAdapter","data":{"enable":true,"target":null,"referenceResolution":[24,"qc.Point",[640,960]],"manualType":[3,0],"fullTarget":[5,true],"gameObjectRecord":[19,[null,null,null,null]]}}},{"clazz":"qc.demo.LoadingUI","data":{"class":"qc.demo.LoadingUI","data":{"enable":true,"progress":null,"clue":[18,"7b77f9cf-03fc-4c47-a04a-fe4b0e371afb"]}}},{"clazz":"qc.Plugins.NodeFadeInOut","data":{"class":"qc.Plugins.NodeFadeInOut","data":{"enable":false,"_curve":[22,"qc.BezierCurve",[[0,0,1,1],[1,1,1,1],[0,0]]],"sampleMethod":[3,0],"style":[3,0],"delay":[3,0],"duration":[3,1],"tweenGroup":[3,0],"fadeType":[3,0],"columnCount":[3,1],"rowCount":[3,1],"pivotX":[3,0.5],"pivotY":[3,0.5],"fadeStyle":[3,0],"fadeEffect":[3,0],"target":null}}}],"position":[0,0,0,0,0,0,586,291,0,0,0,0,0,0,1,1],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[{"class":"qc.UIImage","data":{"uuid":"24b7109d-d3ed-4322-a8fa-f386dde0ee88","_prefab":[7,""],"name":[7,"background"],"ignoreDestroy":[5,null],"alpha":[3,"1"],"visible":[5,true],"renderable":[5,true],"colorTint":[14,16777215],"scripts":[],"position":[0,0,-50,-50,-50,-50,686,391,-50,-50,-50,-50,0,0,1,1],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,0],"interactive":[5,true],"isFiltersThrough":[5,null],"children":[],"texture":[10,"__builtin_resource__","__builtin_resource__","__builtin_resource__"],"frame":[7,"empty.png"],"imageType":[3,0]}},{"class":"qc.Sprite","data":{"uuid":"c8f477f0-c180-4a8f-be15-845f170c8cf5","_prefab":[7,""],"name":[7,"ani"],"ignoreDestroy":[5,null],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,16777215],"scripts":[],"position":[0,0,-16.7505720823782,-44.33180778032042,276.2494279176218,101.16819221967958,100,100,0,0,0,0,0.5,0.5,0.5,0.5],"scaleX":[3,1.5],"scaleY":[3,1.5],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"de860ea8-12f2-4bc7-9e45-d6a504a1cf67","de860ea8-12f2-4bc7-9e45-d6a504a1cf67"],"frame":[7,"other/ying"],"defaultAnimation":[8,"idle"]}},{"class":"qc.UIText","data":{"uuid":"7b77f9cf-03fc-4c47-a04a-fe4b0e371afb","_prefab":[7,""],"name":[7,"%"],"ignoreDestroy":[5,false],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,16777215],"scripts":[{"clazz":"qc.NodeMask","data":{"class":"qc.NodeMask","data":{"enable":false,"checkInField":[5,false],"minAnchor":[24,"qc.Point",[0,0]],"maxAnchor":[24,"qc.Point",[1,1]],"minRotation":[3,0],"maxRotation":[3,6.283185307179586],"clipType":[3,0]}}}],"position":[0.5,0,0,42.499999999999915,293,187.99999999999991,400,40,0,0,0,0,0.5,0.5,0.5,0.5],"scaleX":[3,1.0000000267334341],"scaleY":[3,1.0000000267334341],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"fontFamily":[3,0],"alignH":[3,2],"alignV":[3,2],"multiAlign":[3,0],"font":[32,"Arial",null,null],"bold":[5,false],"fontSize":[3,24],"color":[14,4294967295],"text":[7,"努力加载中：0/0"],"lineSpacing":[3,0],"wrap":[5,false],"enableGlow":[5,false],"startColor":[14,4294901760],"endColor":[14,4278190080],"gradient":[5,false],"stroke":[14,4294967295],"strokeThickness":[3,0],"glowColor":[14,4294901760],"autoSize":[5,false],"overflow":[5,true],"shadowColor":[14,0],"shadowBlur":[3,0],"shadowOffsetX":[3,1],"shadowOffsetY":[3,1],"enableShadow":[5,false]}}]},"dependences":{"__builtin_resource__":{"key":"__builtin_resource__","uuid":"__builtin_resource__"},"de860ea8-12f2-4bc7-9e45-d6a504a1cf67":{"key":"de860ea8-12f2-4bc7-9e45-d6a504a1cf67","uuid":"de860ea8-12f2-4bc7-9e45-d6a504a1cf67"}}}
+{
+  "class": "qc.UIRoot",
+  "data": {
+    "uuid": "1a9ff338-8a0c-499d-82eb-765d2653961b",
+    "_prefab": [
+      7,
+      "cb607d9f-8376-4e1b-bd12-e63ac8d2ba22"
+    ],
+    "name": [
+      7,
+      "loading"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "renderable": [
+      5,
+      false
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.ScaleAdapter",
+        "data": {
+          "class": "qc.ScaleAdapter",
+          "data": {
+            "enable": true,
+            "target": null,
+            "referenceResolution": [
+              24,
+              "qc.Point",
+              [
+                640,
+                960
+              ]
+            ],
+            "manualType": [
+              3,
+              0
+            ],
+            "fullTarget": [
+              5,
+              true
+            ],
+            "gameObjectRecord": [
+              19,
+              [
+                null,
+                null,
+                null,
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.demo.LoadingUI",
+        "data": {
+          "class": "qc.demo.LoadingUI",
+          "data": {
+            "enable": true,
+            "progress": null,
+            "clue": [
+              18,
+              "7b77f9cf-03fc-4c47-a04a-fe4b0e371afb"
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.Plugins.NodeFadeInOut",
+        "data": {
+          "class": "qc.Plugins.NodeFadeInOut",
+          "data": {
+            "enable": false,
+            "_curve": [
+              22,
+              "qc.BezierCurve",
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "sampleMethod": [
+              3,
+              0
+            ],
+            "style": [
+              3,
+              0
+            ],
+            "delay": [
+              3,
+              0
+            ],
+            "duration": [
+              3,
+              1
+            ],
+            "tweenGroup": [
+              3,
+              0
+            ],
+            "fadeType": [
+              3,
+              0
+            ],
+            "columnCount": [
+              3,
+              1
+            ],
+            "rowCount": [
+              3,
+              1
+            ],
+            "pivotX": [
+              3,
+              0.5
+            ],
+            "pivotY": [
+              3,
+              0.5
+            ],
+            "fadeStyle": [
+              3,
+              0
+            ],
+            "fadeEffect": [
+              3,
+              0
+            ],
+            "target": null
+          }
+        }
+      }
+    ],
+    "position": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      586,
+      291,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "24b7109d-d3ed-4322-a8fa-f386dde0ee88",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "background"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            "1"
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "renderable": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            -50,
+            -50,
+            -50,
+            -50,
+            686,
+            391,
+            -50,
+            -50,
+            -50,
+            -50,
+            0,
+            0,
+            1,
+            1
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            true
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "__builtin_resource__",
+            "__builtin_resource__",
+            "__builtin_resource__"
+          ],
+          "frame": [
+            7,
+            "empty.png"
+          ],
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "c8f477f0-c180-4a8f-be15-845f170c8cf5",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "ani"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "renderable": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "scripts": [],
+          "position": [
+            0,
+            0,
+            -16.7505720823782,
+            -44.33180778032042,
+            276.2494279176218,
+            101.16819221967958,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1.5
+          ],
+          "scaleY": [
+            3,
+            1.5
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "de860ea8-12f2-4bc7-9e45-d6a504a1cf67",
+            "de860ea8-12f2-4bc7-9e45-d6a504a1cf67"
+          ],
+          "frame": [
+            7,
+            "other/ying"
+          ],
+          "defaultAnimation": [
+            7,
+            "idle"
+          ]
+        }
+      },
+      {
+        "class": "qc.UIText",
+        "data": {
+          "uuid": "7b77f9cf-03fc-4c47-a04a-fe4b0e371afb",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "%"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "renderable": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.NodeMask",
+              "data": {
+                "class": "qc.NodeMask",
+                "data": {
+                  "enable": false,
+                  "checkInField": [
+                    5,
+                    false
+                  ],
+                  "minAnchor": [
+                    24,
+                    "qc.Point",
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  "maxAnchor": [
+                    24,
+                    "qc.Point",
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  "minRotation": [
+                    3,
+                    0
+                  ],
+                  "maxRotation": [
+                    3,
+                    6.283185307179586
+                  ],
+                  "clipType": [
+                    3,
+                    0
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0,
+            0,
+            42.499999999999915,
+            293,
+            187.99999999999991,
+            400,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1.0000000267334341
+          ],
+          "scaleY": [
+            3,
+            1.0000000267334341
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "fontFamily": [
+            3,
+            0
+          ],
+          "alignH": [
+            3,
+            2
+          ],
+          "alignV": [
+            3,
+            2
+          ],
+          "multiAlign": [
+            3,
+            0
+          ],
+          "font": [
+            32,
+            "Arial",
+            null,
+            null
+          ],
+          "bold": [
+            5,
+            false
+          ],
+          "fontSize": [
+            3,
+            24
+          ],
+          "color": [
+            14,
+            4294967295
+          ],
+          "text": [
+            7,
+            "努力加载中：0/0"
+          ],
+          "lineSpacing": [
+            3,
+            0
+          ],
+          "wrap": [
+            5,
+            false
+          ],
+          "enableGlow": [
+            5,
+            false
+          ],
+          "startColor": [
+            14,
+            4294901760
+          ],
+          "endColor": [
+            14,
+            4278190080
+          ],
+          "gradient": [
+            5,
+            false
+          ],
+          "stroke": [
+            14,
+            4294967295
+          ],
+          "strokeThickness": [
+            3,
+            0
+          ],
+          "glowColor": [
+            14,
+            4294901760
+          ],
+          "autoSize": [
+            5,
+            false
+          ],
+          "overflow": [
+            5,
+            true
+          ],
+          "shadowColor": [
+            14,
+            0
+          ],
+          "shadowBlur": [
+            3,
+            0
+          ],
+          "shadowOffsetX": [
+            3,
+            1
+          ],
+          "shadowOffsetY": [
+            3,
+            1
+          ],
+          "enableShadow": [
+            5,
+            false
+          ]
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "__builtin_resource__": {
+      "key": "__builtin_resource__",
+      "uuid": "__builtin_resource__"
+    },
+    "de860ea8-12f2-4bc7-9e45-d6a504a1cf67": {
+      "key": "de860ea8-12f2-4bc7-9e45-d6a504a1cf67",
+      "uuid": "de860ea8-12f2-4bc7-9e45-d6a504a1cf67"
+    }
+  }
+}

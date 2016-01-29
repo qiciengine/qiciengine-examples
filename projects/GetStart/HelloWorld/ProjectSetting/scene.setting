@@ -1,6 +1,6 @@
 {
   "scene": {
-    "HelloWorld": "Assets/state/HelloWorld.bin"
+    "HelloWorld": "Assets/scene/HelloWorld.bin"
   },
   "entryScene": "HelloWorld"
 }

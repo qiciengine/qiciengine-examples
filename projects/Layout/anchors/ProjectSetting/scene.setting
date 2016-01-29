@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Anchors": "Assets/state/Anchors.bin"
+    "Anchors": "Assets/scene/Anchors.bin"
   },
   "entryScene": "Anchors"
 }

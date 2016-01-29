@@ -1,6 +1,6 @@
 {
   "scene": {
-    "DebugView": "Assets/state/DebugView.bin"
+    "DebugView": "Assets/scene/DebugView.bin"
   },
   "entryScene": "DebugView"
 }

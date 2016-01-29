@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Time": "Assets/state/Time.bin"
+    "Time": "Assets/scene/Time.bin"
   },
   "entryScene": "Time"
 }

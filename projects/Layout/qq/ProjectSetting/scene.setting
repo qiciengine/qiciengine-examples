@@ -1,6 +1,6 @@
 {
   "scene": {
-    "QQ": "Assets/state/QQ.bin"
+    "QQ": "Assets/scene/QQ.bin"
   },
   "entryScene": "QQ"
 }

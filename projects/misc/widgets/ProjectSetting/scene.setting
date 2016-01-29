@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Widgets": "Assets/state/Widgets.bin"
+    "Widgets": "Assets/scene/Widgets.bin"
   },
   "entryScene": "Widgets"
 }

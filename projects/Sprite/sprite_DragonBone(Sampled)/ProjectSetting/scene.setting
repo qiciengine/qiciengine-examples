@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Sprite": "Assets/state/Sprite.bin"
+    "Sprite": "Assets/scene/Sprite.bin"
   },
   "entryScene": "Sprite"
 }

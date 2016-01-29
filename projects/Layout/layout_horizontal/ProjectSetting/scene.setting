@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Layout": "Assets/state/Layout.bin"
+    "Layout": "Assets/scene/Layout.bin"
   },
   "entryScene": "Layout"
 }

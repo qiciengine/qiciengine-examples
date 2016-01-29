@@ -1,6 +1,6 @@
 {
   "scene": {
-    "LockOrientation": "Assets/state/LockOrientation.bin"
+    "LockOrientation": "Assets/scene/LockOrientation.bin"
   },
   "entryScene": "LockOrientation"
 }

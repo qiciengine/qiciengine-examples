@@ -1,6 +1,6 @@
 {
   "scene": {
-    "RightMiddle": "Assets/state/RightMiddle.bin"
+    "RightMiddle": "Assets/scene/RightMiddle.bin"
   },
   "entryScene": "RightMiddle"
 }

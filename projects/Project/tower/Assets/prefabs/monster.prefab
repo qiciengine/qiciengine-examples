@@ -1,1 +1,656 @@
-{"class":"qc.Node","data":{"uuid":"cf5d8e46-5f68-45a5-a7dd-2dabd9aab3e1","_prefab":[7,"58ce1734-cfc6-4837-b5ff-cef8cbb17777"],"name":[7,"monster"],"ignoreDestroy":[5,false],"alpha":[3,1],"visible":[5,true],"renderable":[5,false],"colorTint":[14,16777215],"scripts":[{"clazz":"qc.TweenScale","data":{"class":"qc.TweenScale","data":{"enable":false,"_curve":[22,"qc.BezierCurve",[[0,0,1,1],[1,1,1,1],[0,0]]],"sampleMethod":[3,0],"style":[3,0],"delay":[3,0],"duration":[3,0.12],"tweenGroup":[3,0],"from":[24,"qc.Point",[0,0]],"to":[24,"qc.Point",[1,1]]}}},{"clazz":"qc.TweenPosition","data":{"class":"qc.TweenPosition","data":{"enable":false,"_curve":[22,"qc.BezierCurve",[[0,0,1,1],[1,1,1,1],[0,0]]],"sampleMethod":[3,0],"style":[3,0],"delay":[3,0],"duration":[3,1.3],"tweenGroup":[3,0],"from":[24,"qc.Point",[0,0]],"to":[24,"qc.Point",[0,0]],"moveAxis":[3,255]}}},{"clazz":"qc.demo.TowerMonster","data":{"class":"qc.demo.TowerMonster","data":{"sprite":[18,"be727452-8436-4825-bc9e-47ec94ceda24"],"disappearSprite":[18,"74f7dc0b-e42e-4f3a-91c7-b219b66dbd8e"],"appearSprite":[18,"21b52fa5-965d-45cc-a219-5ce22e1ab661"],"maxHp":[3,200],"money":[3,45]}}}],"position":[0.5,0.5,117.20594965673968,63.45537757437168,117.20594965673968,63.45537757437168,102,94,0,0,0,0,0,0,0,0],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[{"class":"qc.UIImage","data":{"uuid":"5698be03-ddb8-429e-8874-39a1207dd888","_prefab":[7,""],"name":[7,"阴影"],"ignoreDestroy":[5,null],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,4294967295],"scripts":[],"position":[0.5,1,1.0557377049185277,-6.617848970251572,1.0557377049185277,40.38215102974843,65,25,0,0,0,0,0.5,1,0.5,1],"scaleX":[3,0.7],"scaleY":[3,0.7],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"aadbb4b5-5d8a-44e1-b71c-5df3457b0740","aadbb4b5-5d8a-44e1-b71c-5df3457b0740"],"frame":[7,"投影.png"],"imageType":[3,0]}},{"class":"qc.Sprite","data":{"uuid":"be727452-8436-4825-bc9e-47ec94ceda24","_prefab":[7,""],"name":[7,"towerMonster"],"ignoreDestroy":[5,null],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,4294967295],"scripts":[],"position":[0.5,0.5,0,0,0,0,102,94,0,0,0,0,0.5,0.5,0.5,0.5],"scaleX":[3,0.7],"scaleY":[3,0.7],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"aadbb4b5-5d8a-44e1-b71c-5df3457b0740","aadbb4b5-5d8a-44e1-b71c-5df3457b0740"],"frame":[7,"怪物3.png"],"defaultAnimation":[8,null]}},{"class":"qc.Sprite","data":{"uuid":"74f7dc0b-e42e-4f3a-91c7-b219b66dbd8e","_prefab":[7,""],"name":[7,"disappear"],"ignoreDestroy":[5,null],"alpha":[3,1],"visible":[5,false],"renderable":[5,true],"colorTint":[14,4294967295],"scripts":[],"position":[0.5,0.5,0,-6.00997506234404,0,-6.00997506234404,164,161,0,0,0,0,0.5,0.5,0.5,0.5],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"aadbb4b5-5d8a-44e1-b71c-5df3457b0740","aadbb4b5-5d8a-44e1-b71c-5df3457b0740"],"frame":[7,"消失5.png"],"defaultAnimation":[8,null]}},{"class":"qc.Sprite","data":{"uuid":"21b52fa5-965d-45cc-a219-5ce22e1ab661","_prefab":[7,""],"name":[7,"appear"],"ignoreDestroy":[5,null],"alpha":[3,1],"visible":[5,false],"renderable":[5,true],"colorTint":[14,4294967295],"scripts":[{"clazz":"qc.TweenRotation","data":{"class":"qc.TweenRotation","data":{"enable":true,"_curve":[22,"qc.BezierCurve",[[0,0,1,1],[1,1,1,1],[0,0]]],"sampleMethod":[3,0],"style":[3,1],"delay":[3,0],"duration":[3,2],"tweenGroup":[3,0],"from":[3,0],"to":[3,6.28319]}}}],"position":[0.5,0.5,0,-9.615960099750453,0,-9.615960099750453,97,85,0,0,0,0,0.5,0.5,0.5,0.5],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,5.7931011799999546],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"aadbb4b5-5d8a-44e1-b71c-5df3457b0740","aadbb4b5-5d8a-44e1-b71c-5df3457b0740"],"frame":[7,"出现1.png"],"defaultAnimation":[8,null]}}]},"dependences":{"aadbb4b5-5d8a-44e1-b71c-5df3457b0740":{"key":"aadbb4b5-5d8a-44e1-b71c-5df3457b0740","uuid":"aadbb4b5-5d8a-44e1-b71c-5df3457b0740"}}}
+{
+  "class": "qc.Node",
+  "data": {
+    "uuid": "cf5d8e46-5f68-45a5-a7dd-2dabd9aab3e1",
+    "_prefab": [
+      7,
+      "58ce1734-cfc6-4837-b5ff-cef8cbb17777"
+    ],
+    "name": [
+      7,
+      "monster"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "renderable": [
+      5,
+      false
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.TweenScale",
+        "data": {
+          "class": "qc.TweenScale",
+          "data": {
+            "enable": false,
+            "_curve": [
+              22,
+              "qc.BezierCurve",
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "sampleMethod": [
+              3,
+              0
+            ],
+            "style": [
+              3,
+              0
+            ],
+            "delay": [
+              3,
+              0
+            ],
+            "duration": [
+              3,
+              0.12
+            ],
+            "tweenGroup": [
+              3,
+              0
+            ],
+            "from": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "to": [
+              24,
+              "qc.Point",
+              [
+                1,
+                1
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.TweenPosition",
+        "data": {
+          "class": "qc.TweenPosition",
+          "data": {
+            "enable": false,
+            "_curve": [
+              22,
+              "qc.BezierCurve",
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "sampleMethod": [
+              3,
+              0
+            ],
+            "style": [
+              3,
+              0
+            ],
+            "delay": [
+              3,
+              0
+            ],
+            "duration": [
+              3,
+              1.3
+            ],
+            "tweenGroup": [
+              3,
+              0
+            ],
+            "from": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "to": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "moveAxis": [
+              3,
+              255
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.demo.TowerMonster",
+        "data": {
+          "class": "qc.demo.TowerMonster",
+          "data": {
+            "sprite": [
+              18,
+              "be727452-8436-4825-bc9e-47ec94ceda24"
+            ],
+            "disappearSprite": [
+              18,
+              "74f7dc0b-e42e-4f3a-91c7-b219b66dbd8e"
+            ],
+            "appearSprite": [
+              18,
+              "21b52fa5-965d-45cc-a219-5ce22e1ab661"
+            ],
+            "maxHp": [
+              3,
+              200
+            ],
+            "money": [
+              3,
+              45
+            ]
+          }
+        }
+      }
+    ],
+    "position": [
+      0.5,
+      0.5,
+      117.20594965673968,
+      63.45537757437168,
+      117.20594965673968,
+      63.45537757437168,
+      102,
+      94,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIImage",
+        "data": {
+          "uuid": "5698be03-ddb8-429e-8874-39a1207dd888",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "阴影"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "renderable": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            4294967295
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            1,
+            1.0557377049185277,
+            -6.617848970251572,
+            1.0557377049185277,
+            40.38215102974843,
+            65,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            1,
+            0.5,
+            1
+          ],
+          "scaleX": [
+            3,
+            0.7
+          ],
+          "scaleY": [
+            3,
+            0.7
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740",
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740"
+          ],
+          "frame": [
+            7,
+            "投影.png"
+          ],
+          "imageType": [
+            3,
+            0
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "be727452-8436-4825-bc9e-47ec94ceda24",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "towerMonster"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "renderable": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            4294967295
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            102,
+            94,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            0.7
+          ],
+          "scaleY": [
+            3,
+            0.7
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740",
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740"
+          ],
+          "frame": [
+            7,
+            "怪物3.png"
+          ],
+          "defaultAnimation": [
+            7,
+            null
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "74f7dc0b-e42e-4f3a-91c7-b219b66dbd8e",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "disappear"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            false
+          ],
+          "renderable": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            4294967295
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            -6.00997506234404,
+            0,
+            -6.00997506234404,
+            164,
+            161,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740",
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740"
+          ],
+          "frame": [
+            7,
+            "消失5.png"
+          ],
+          "defaultAnimation": [
+            7,
+            null
+          ]
+        }
+      },
+      {
+        "class": "qc.Sprite",
+        "data": {
+          "uuid": "21b52fa5-965d-45cc-a219-5ce22e1ab661",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "name": [
+            7,
+            "appear"
+          ],
+          "ignoreDestroy": [
+            5,
+            null
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            false
+          ],
+          "renderable": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            4294967295
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.TweenRotation",
+              "data": {
+                "class": "qc.TweenRotation",
+                "data": {
+                  "enable": true,
+                  "_curve": [
+                    22,
+                    "qc.BezierCurve",
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "sampleMethod": [
+                    3,
+                    0
+                  ],
+                  "style": [
+                    3,
+                    1
+                  ],
+                  "delay": [
+                    3,
+                    0
+                  ],
+                  "duration": [
+                    3,
+                    2
+                  ],
+                  "tweenGroup": [
+                    3,
+                    0
+                  ],
+                  "from": [
+                    3,
+                    0
+                  ],
+                  "to": [
+                    3,
+                    6.28319
+                  ]
+                }
+              }
+            }
+          ],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            -9.615960099750453,
+            0,
+            -9.615960099750453,
+            97,
+            85,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            5.7931011799999546
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [],
+          "texture": [
+            10,
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740",
+            "aadbb4b5-5d8a-44e1-b71c-5df3457b0740"
+          ],
+          "frame": [
+            7,
+            "出现1.png"
+          ],
+          "defaultAnimation": [
+            7,
+            null
+          ]
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "aadbb4b5-5d8a-44e1-b71c-5df3457b0740": {
+      "key": "aadbb4b5-5d8a-44e1-b71c-5df3457b0740",
+      "uuid": "aadbb4b5-5d8a-44e1-b71c-5df3457b0740"
+    }
+  }
+}

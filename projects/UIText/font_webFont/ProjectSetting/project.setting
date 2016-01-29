@@ -11,7 +11,7 @@
   "backgroundColor": 4671303,
   "version": "1.0",
   "gameWidth": "640",
-  "toolFlag": 28,
+  "toolFlag": 124,
   "frameRate": {
     "mobile": 30,
     "desktop": 60

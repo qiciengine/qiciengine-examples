@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Dota": "Assets/state/Dota.bin"
+    "Dota": "Assets/scene/Dota.bin"
   },
   "entryScene": "Dota"
 }

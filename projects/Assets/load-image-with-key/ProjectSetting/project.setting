@@ -10,7 +10,18 @@
   "renderer": "Auto",
   "transparent": false,
   "develop": false,
-  "toolFlag": 28,
+  "toolFlag": 124,
   "loading": "",
-  "version": "1"
+  "version": "1",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "customSettings": {},
+  "dirtyRectangles": true
 }

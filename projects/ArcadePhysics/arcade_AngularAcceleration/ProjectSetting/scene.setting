@@ -1,6 +1,6 @@
 {
   "scene": {
-    "AngularAcceleration": "Assets/state/AngularAcceleration.bin"
+    "AngularAcceleration": "Assets/scene/AngularAcceleration.bin"
   },
   "entryScene": "AngularAcceleration"
 }
