@@ -11,10 +11,6 @@ var test = qc.defineBehaviour('qc.engine.test', qc.Behaviour, function() {
 //
 //};
 
-// Called every frame, if the behaviour is enabled.
-//test.prototype.update = function() {
-//
-//};
 test.prototype.onClick = function() {
     var node = qc_game.world.find('Sprite');
     var animator = node.getScript('qc.Animator');

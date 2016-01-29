@@ -15,24 +15,7 @@
   "loop": false,
   "samples": 60,
   "name": "testAction",
-  "scripts": [
-    {
-      "clazz": "qc.engine.action",
-      "data": "9dc044cf-4a55-4318-aa09-8610aabe8bc9"
-    }
-  ],
-  "__json": {
-    "9dc044cf-4a55-4318-aa09-8610aabe8bc9": {
-      "class": "qc.engine.action",
-      "data": {
-        "uuid": [
-          7,
-          "9dc044cf-4a55-4318-aa09-8610aabe8bc9"
-        ],
-        "enable": true
-      }
-    }
-  },
+  "scripts": [],
   "propertyList": {
     "/Sprite": {
       "1": [
@@ -197,5 +180,5 @@
       ]
     }
   },
-  "eventList": "[[12,\"testEvent\",\"34\"],[15,\"testEvent\",\"1\"],[24,\"testEvent\",\"abc\"],[30,null,null]]"
+  "eventList": "[]"
 }

@@ -16,6 +16,7 @@ var test = qc.defineBehaviour('qc.engine.test', qc.Behaviour, function() {
 //
 //};
 test.prototype.onClick = function() {
-    var animator = this.getScript('qc.Animator');
+    var node = this.gameObject.game.world.find('Sprite');
+    var animator = node.getScript('qc.Animator');
     animator.play();
 };
