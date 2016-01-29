@@ -12,5 +12,16 @@
   "develop": false,
   "toolFlag": 124,
   "loading": "",
-  "version": "1.0"
+  "version": "1.0",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "customSettings": {},
+  "dirtyRectangles": false
 }

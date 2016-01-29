@@ -1,6 +1,0 @@
-{
-  "scene": {
-    "FireStarter": "Assets/scene/FireStarter.bin"
-  },
-  "entryScene": "FireStarter"
-}

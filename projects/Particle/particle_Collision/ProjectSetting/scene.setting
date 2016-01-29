@@ -1,6 +1,0 @@
-{
-  "scene": {
-    "Collision": "Assets/scene/Collision.bin"
-  },
-  "entryScene": "Collision"
-}

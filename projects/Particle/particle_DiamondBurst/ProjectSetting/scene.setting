@@ -1,6 +1,0 @@
-{
-  "scene": {
-    "DiamondBurst": "Assets/scene/DiamondBurst.bin"
-  },
-  "entryScene": "DiamondBurst"
-}
