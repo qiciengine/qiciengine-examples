@@ -1,0 +1,10 @@
+{
+  "name": "BlendModes",
+  "desc": "Blend mode demo of particle system.",
+  "tags": ["blend", "blendmode", "particle", "particlesystem"],
+  "preview": "preview.png",
+  "category": "Particle System",
+  "order": 5,
+  "width": 800,
+  "height": 600
+}

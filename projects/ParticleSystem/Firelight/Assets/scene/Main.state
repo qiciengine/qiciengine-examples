@@ -1,0 +1,2405 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.9768786127167743,
+      2.9826589595375594,
+      1.9768786127167743,
+      2.9826589595375594,
+      342,
+      516,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9884393063583815
+    ],
+    "scaleY": [
+      3,
+      0.9884393063583815
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIRoot",
+        "data": {
+          "uuid": "1a63e1da-c45d-42f1-88c2-eceedb6f8fe7",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "UIRoot"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.ScaleAdapter",
+              "data": "187965a6-3ca2-480e-ba21-b900b411d7d7"
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            640,
+            965.6140350877192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            0.534375
+          ],
+          "scaleY": [
+            3,
+            0.534375
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [
+            {
+              "class": "qc.UIText",
+              "data": {
+                "uuid": "801d5b39-b9de-41f1-b933-f3c579c7b150",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "smoke"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.NodeMask",
+                    "data": "19826860-18b8-473e-97f7-cfb3c6517059"
+                  },
+                  {
+                    "clazz": "qc.EmitterViewer",
+                    "data": "e6f8caf3-9a4e-44bf-88ff-b0e234869b86"
+                  }
+                ],
+                "position": [
+                  0,
+                  1,
+                  10,
+                  -195,
+                  10,
+                  770.6140350877192,
+                  120,
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "fontFamily": [
+                  3,
+                  0
+                ],
+                "alignH": [
+                  3,
+                  0
+                ],
+                "alignV": [
+                  3,
+                  1
+                ],
+                "font": [
+                  32,
+                  "Arial",
+                  null
+                ],
+                "bold": [
+                  5,
+                  false
+                ],
+                "fontSize": [
+                  3,
+                  18
+                ],
+                "color": [
+                  14,
+                  4280221440
+                ],
+                "text": [
+                  7,
+                  "\n\n(smoke)\nAlive:9\nDead:0\nTotal:9"
+                ],
+                "lineSpacing": [
+                  3,
+                  0
+                ],
+                "wrap": [
+                  5,
+                  false
+                ],
+                "enableGlow": [
+                  5,
+                  false
+                ],
+                "startColor": [
+                  14,
+                  4294901760
+                ],
+                "endColor": [
+                  14,
+                  4278190080
+                ],
+                "gradient": [
+                  5,
+                  false
+                ],
+                "stroke": [
+                  14,
+                  4278190080
+                ],
+                "strokeThickness": [
+                  3,
+                  0
+                ],
+                "glowColor": [
+                  14,
+                  4294901760
+                ],
+                "autoSize": [
+                  5,
+                  false
+                ],
+                "overflow": [
+                  5,
+                  true
+                ],
+                "shadowColor": [
+                  14,
+                  2147483648
+                ],
+                "shadowBlur": [
+                  3,
+                  10
+                ],
+                "shadowOffsetX": [
+                  3,
+                  3
+                ],
+                "shadowOffsetY": [
+                  3,
+                  3
+                ],
+                "enableShadow": [
+                  5,
+                  false
+                ]
+              },
+              "__json": {
+                "19826860-18b8-473e-97f7-cfb3c6517059": {
+                  "class": "qc.NodeMask",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "19826860-18b8-473e-97f7-cfb3c6517059"
+                    ],
+                    "enable": false,
+                    "checkInField": [
+                      5,
+                      false
+                    ],
+                    "minAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "maxAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "minRotation": [
+                      3,
+                      0
+                    ],
+                    "maxRotation": [
+                      3,
+                      6.283185307179586
+                    ],
+                    "clipType": [
+                      3,
+                      1
+                    ],
+                    "mode": [
+                      3,
+                      0
+                    ]
+                  }
+                },
+                "f0eae5a6-79d4-41e1-b019-d76eba3779d1": {
+                  "class": "qc.EmitterViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "f0eae5a6-79d4-41e1-b019-d76eba3779d1"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "particleSystem": [
+                      18,
+                      "7360ce93-2f5f-43f1-b370-9dc5f3d437ba"
+                    ]
+                  }
+                },
+                "e6f8caf3-9a4e-44bf-88ff-b0e234869b86": {
+                  "class": "qc.EmitterViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "e6f8caf3-9a4e-44bf-88ff-b0e234869b86"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "particleSystem": [
+                      18,
+                      "83d21070-b28c-4db0-b9fe-76f15b106574"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "class": "qc.UIText",
+              "data": {
+                "uuid": "9dfe5b00-9909-4b59-a844-ec80fda34a5b",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "DebugViewer"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.NodeMask",
+                    "data": "19826860-18b8-473e-97f7-cfb3c6517059"
+                  },
+                  {
+                    "clazz": "qc.DebugViewer",
+                    "data": "34d02459-642d-4ded-af9f-a187329268a7"
+                  }
+                ],
+                "position": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  120,
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "fontFamily": [
+                  3,
+                  0
+                ],
+                "alignH": [
+                  3,
+                  0
+                ],
+                "alignV": [
+                  3,
+                  0
+                ],
+                "font": [
+                  32,
+                  "Arial",
+                  null
+                ],
+                "bold": [
+                  5,
+                  false
+                ],
+                "fontSize": [
+                  3,
+                  18
+                ],
+                "color": [
+                  14,
+                  4294901760
+                ],
+                "text": [
+                  7,
+                  "FPS: 30.0\nDraw Calls: 7\nTotal: 3.1 ms\nLogic: 0.8 ms\nRender: 1.8 ms\nPreUpdate: 0.3 ms\nUpdate: 0.3 ms\nPostUpdate: 0.2 ms\nTransformCalc: 0"
+                ],
+                "lineSpacing": [
+                  3,
+                  0
+                ],
+                "wrap": [
+                  5,
+                  false
+                ],
+                "enableGlow": [
+                  5,
+                  false
+                ],
+                "startColor": [
+                  14,
+                  4294901760
+                ],
+                "endColor": [
+                  14,
+                  4278190080
+                ],
+                "gradient": [
+                  5,
+                  false
+                ],
+                "stroke": [
+                  14,
+                  4278190080
+                ],
+                "strokeThickness": [
+                  3,
+                  0
+                ],
+                "glowColor": [
+                  14,
+                  4294901760
+                ],
+                "autoSize": [
+                  5,
+                  false
+                ],
+                "overflow": [
+                  5,
+                  true
+                ],
+                "shadowColor": [
+                  14,
+                  2147483648
+                ],
+                "shadowBlur": [
+                  3,
+                  10
+                ],
+                "shadowOffsetX": [
+                  3,
+                  3
+                ],
+                "shadowOffsetY": [
+                  3,
+                  3
+                ],
+                "enableShadow": [
+                  5,
+                  false
+                ]
+              },
+              "__json": {
+                "19826860-18b8-473e-97f7-cfb3c6517059": {
+                  "class": "qc.NodeMask",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "19826860-18b8-473e-97f7-cfb3c6517059"
+                    ],
+                    "enable": false,
+                    "checkInField": [
+                      5,
+                      false
+                    ],
+                    "minAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "maxAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "minRotation": [
+                      3,
+                      0
+                    ],
+                    "maxRotation": [
+                      3,
+                      6.283185307179586
+                    ],
+                    "clipType": [
+                      3,
+                      1
+                    ],
+                    "mode": [
+                      3,
+                      0
+                    ]
+                  }
+                },
+                "f0eae5a6-79d4-41e1-b019-d76eba3779d1": {
+                  "class": "qc.EmitterViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "f0eae5a6-79d4-41e1-b019-d76eba3779d1"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "particleSystem": [
+                      18,
+                      "7360ce93-2f5f-43f1-b370-9dc5f3d437ba"
+                    ]
+                  }
+                },
+                "34d02459-642d-4ded-af9f-a187329268a7": {
+                  "class": "qc.DebugViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "34d02459-642d-4ded-af9f-a187329268a7"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "duration": [
+                      3,
+                      1
+                    ],
+                    "detail": [
+                      5,
+                      false
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "class": "qc.UIText",
+              "data": {
+                "uuid": "2934baf3-bf32-4520-b0b2-7c2402520979",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "spark"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.NodeMask",
+                    "data": "19826860-18b8-473e-97f7-cfb3c6517059"
+                  },
+                  {
+                    "clazz": "qc.EmitterViewer",
+                    "data": "e6f8caf3-9a4e-44bf-88ff-b0e234869b86"
+                  }
+                ],
+                "position": [
+                  0,
+                  1,
+                  10,
+                  -100,
+                  10,
+                  865.6140350877192,
+                  120,
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "fontFamily": [
+                  3,
+                  0
+                ],
+                "alignH": [
+                  3,
+                  0
+                ],
+                "alignV": [
+                  3,
+                  1
+                ],
+                "font": [
+                  32,
+                  "Arial",
+                  null
+                ],
+                "bold": [
+                  5,
+                  false
+                ],
+                "fontSize": [
+                  3,
+                  18
+                ],
+                "color": [
+                  14,
+                  4280221440
+                ],
+                "text": [
+                  7,
+                  "\n\n(spark)\nAlive:8\nDead:0\nTotal:8"
+                ],
+                "lineSpacing": [
+                  3,
+                  0
+                ],
+                "wrap": [
+                  5,
+                  false
+                ],
+                "enableGlow": [
+                  5,
+                  false
+                ],
+                "startColor": [
+                  14,
+                  4294901760
+                ],
+                "endColor": [
+                  14,
+                  4278190080
+                ],
+                "gradient": [
+                  5,
+                  false
+                ],
+                "stroke": [
+                  14,
+                  4278190080
+                ],
+                "strokeThickness": [
+                  3,
+                  0
+                ],
+                "glowColor": [
+                  14,
+                  4294901760
+                ],
+                "autoSize": [
+                  5,
+                  false
+                ],
+                "overflow": [
+                  5,
+                  true
+                ],
+                "shadowColor": [
+                  14,
+                  2147483648
+                ],
+                "shadowBlur": [
+                  3,
+                  10
+                ],
+                "shadowOffsetX": [
+                  3,
+                  3
+                ],
+                "shadowOffsetY": [
+                  3,
+                  3
+                ],
+                "enableShadow": [
+                  5,
+                  false
+                ]
+              },
+              "__json": {
+                "19826860-18b8-473e-97f7-cfb3c6517059": {
+                  "class": "qc.NodeMask",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "19826860-18b8-473e-97f7-cfb3c6517059"
+                    ],
+                    "enable": false,
+                    "checkInField": [
+                      5,
+                      false
+                    ],
+                    "minAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "maxAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "minRotation": [
+                      3,
+                      0
+                    ],
+                    "maxRotation": [
+                      3,
+                      6.283185307179586
+                    ],
+                    "clipType": [
+                      3,
+                      1
+                    ],
+                    "mode": [
+                      3,
+                      0
+                    ]
+                  }
+                },
+                "f0eae5a6-79d4-41e1-b019-d76eba3779d1": {
+                  "class": "qc.EmitterViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "f0eae5a6-79d4-41e1-b019-d76eba3779d1"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "particleSystem": [
+                      18,
+                      "7360ce93-2f5f-43f1-b370-9dc5f3d437ba"
+                    ]
+                  }
+                },
+                "e6f8caf3-9a4e-44bf-88ff-b0e234869b86": {
+                  "class": "qc.EmitterViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "e6f8caf3-9a4e-44bf-88ff-b0e234869b86"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "particleSystem": [
+                      18,
+                      "b92e862c-46a7-4863-a55f-c395db042ad5"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "class": "qc.UIText",
+              "data": {
+                "uuid": "68915892-6643-4418-b835-79a98c60fb49",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "flame"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [
+                  {
+                    "clazz": "qc.NodeMask",
+                    "data": "19826860-18b8-473e-97f7-cfb3c6517059"
+                  },
+                  {
+                    "clazz": "qc.EmitterViewer",
+                    "data": "e6f8caf3-9a4e-44bf-88ff-b0e234869b86"
+                  }
+                ],
+                "position": [
+                  0,
+                  1,
+                  10,
+                  -5,
+                  10,
+                  960.6140350877192,
+                  120,
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "fontFamily": [
+                  3,
+                  0
+                ],
+                "alignH": [
+                  3,
+                  0
+                ],
+                "alignV": [
+                  3,
+                  1
+                ],
+                "font": [
+                  32,
+                  "Arial",
+                  null
+                ],
+                "bold": [
+                  5,
+                  false
+                ],
+                "fontSize": [
+                  3,
+                  18
+                ],
+                "color": [
+                  14,
+                  4280221440
+                ],
+                "text": [
+                  7,
+                  "\n\n(flame)\nAlive:74\nDead:2\nTotal:76"
+                ],
+                "lineSpacing": [
+                  3,
+                  0
+                ],
+                "wrap": [
+                  5,
+                  false
+                ],
+                "enableGlow": [
+                  5,
+                  false
+                ],
+                "startColor": [
+                  14,
+                  4294901760
+                ],
+                "endColor": [
+                  14,
+                  4278190080
+                ],
+                "gradient": [
+                  5,
+                  false
+                ],
+                "stroke": [
+                  14,
+                  4278190080
+                ],
+                "strokeThickness": [
+                  3,
+                  0
+                ],
+                "glowColor": [
+                  14,
+                  4294901760
+                ],
+                "autoSize": [
+                  5,
+                  false
+                ],
+                "overflow": [
+                  5,
+                  true
+                ],
+                "shadowColor": [
+                  14,
+                  2147483648
+                ],
+                "shadowBlur": [
+                  3,
+                  10
+                ],
+                "shadowOffsetX": [
+                  3,
+                  3
+                ],
+                "shadowOffsetY": [
+                  3,
+                  3
+                ],
+                "enableShadow": [
+                  5,
+                  false
+                ]
+              },
+              "__json": {
+                "19826860-18b8-473e-97f7-cfb3c6517059": {
+                  "class": "qc.NodeMask",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "19826860-18b8-473e-97f7-cfb3c6517059"
+                    ],
+                    "enable": false,
+                    "checkInField": [
+                      5,
+                      false
+                    ],
+                    "minAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "maxAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "minRotation": [
+                      3,
+                      0
+                    ],
+                    "maxRotation": [
+                      3,
+                      6.283185307179586
+                    ],
+                    "clipType": [
+                      3,
+                      1
+                    ],
+                    "mode": [
+                      3,
+                      0
+                    ]
+                  }
+                },
+                "f0eae5a6-79d4-41e1-b019-d76eba3779d1": {
+                  "class": "qc.EmitterViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "f0eae5a6-79d4-41e1-b019-d76eba3779d1"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "particleSystem": [
+                      18,
+                      "7360ce93-2f5f-43f1-b370-9dc5f3d437ba"
+                    ]
+                  }
+                },
+                "e6f8caf3-9a4e-44bf-88ff-b0e234869b86": {
+                  "class": "qc.EmitterViewer",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "e6f8caf3-9a4e-44bf-88ff-b0e234869b86"
+                    ],
+                    "enable": true,
+                    "debugOn": [
+                      5,
+                      true
+                    ],
+                    "particleSystem": [
+                      18,
+                      "52bc4cd9-2f38-41de-b270-9705f16d8ee3"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "__json": {
+          "187965a6-3ca2-480e-ba21-b900b411d7d7": {
+            "class": "qc.ScaleAdapter",
+            "data": {
+              "uuid": [
+                7,
+                "187965a6-3ca2-480e-ba21-b900b411d7d7"
+              ],
+              "enable": true,
+              "target": null,
+              "referenceResolution": [
+                24,
+                "qc.Point",
+                [
+                  640,
+                  960
+                ]
+              ],
+              "manualType": [
+                3,
+                3
+              ],
+              "fullTarget": [
+                5,
+                true
+              ],
+              "gameObjectRecord": [
+                4,
+                [
+                  0.5375,
+                  0.5375,
+                  718.139534883721,
+                  960.0000000000001
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "class": "qc.Node",
+        "data": {
+          "uuid": "ac061b6a-4d8f-485f-b92c-264ec9f6f44a",
+          "_prefab": [
+            7,
+            "50ff2229-6555-442f-9bf6-a9c26730bde7"
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "firelight"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [],
+          "position": [
+            0.5,
+            0.5,
+            0,
+            100,
+            171,
+            358,
+            100,
+            100,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "scaleX": [
+            3,
+            1
+          ],
+          "scaleY": [
+            3,
+            1
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [
+            {
+              "class": "qc.ParticleSystem",
+              "data": {
+                "uuid": "83d21070-b28c-4db0-b9fe-76f15b106574",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "smoke"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0.5,
+                  0.5,
+                  0,
+                  -100,
+                  0,
+                  -100,
+                  100,
+                  100,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "scaleX": [
+                  3,
+                  0.9999999994556655
+                ],
+                "scaleY": [
+                  3,
+                  0.9999999994556655
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "rendererType": [
+                  3,
+                  1
+                ],
+                "texture": [
+                  10,
+                  "Assets/atlas/fire.bin",
+                  "6a07c054-6855-4924-bf1c-cf746dc60cd5"
+                ],
+                "frames": [
+                  8,
+                  [
+                    "smoke.png"
+                  ]
+                ],
+                "zoneType": [
+                  3,
+                  1
+                ],
+                "zoneLength": [
+                  3,
+                  100
+                ],
+                "zoneRotation": [
+                  3,
+                  0
+                ],
+                "zoneRadius": [
+                  3,
+                  100
+                ],
+                "zoneWidth": [
+                  3,
+                  100
+                ],
+                "zoneHeight": [
+                  3,
+                  100
+                ],
+                "frequency": [
+                  3,
+                  0.36
+                ],
+                "quantity": [
+                  3,
+                  1
+                ],
+                "repeat": [
+                  3,
+                  -1
+                ],
+                "delay": [
+                  3,
+                  1
+                ],
+                "lifespan": [
+                  4,
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "angle": [
+                  4,
+                  [
+                    -105,
+                    -75
+                  ]
+                ],
+                "blendMode": [
+                  3,
+                  0
+                ],
+                "srcColorTint": [
+                  14,
+                  4285092946
+                ],
+                "dstColorTint": [
+                  14,
+                  4288039755
+                ],
+                "startAlpha": [
+                  4,
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "startScale": [
+                  4,
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "startRotation": [
+                  4,
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "startVelocity": [
+                  4,
+                  [
+                    50,
+                    70
+                  ]
+                ],
+                "angularVelocity": [
+                  4,
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "gravity": [
+                  24,
+                  "qc.Point",
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "maxParticles": [
+                  3,
+                  200
+                ],
+                "playOnAwake": [
+                  5,
+                  true
+                ],
+                "enableColorCurve": [
+                  5,
+                  false
+                ],
+                "colorCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableAlphaCurve": [
+                  5,
+                  true
+                ],
+                "alphaCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0.2,
+                      1,
+                      0.1732137494637011,
+                      0.1732137494637011
+                    ],
+                    [
+                      0.5,
+                      0.5,
+                      -1.2807764064044151,
+                      -1.2807764064044151
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableScaleCurve": [
+                  5,
+                  false
+                ],
+                "scaleCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableVelocityCurve": [
+                  5,
+                  false
+                ],
+                "velocityCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableAngularVelocityCurve": [
+                  5,
+                  false
+                ],
+                "angularVelocityCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "class": "qc.ParticleSystem",
+              "data": {
+                "uuid": "b92e862c-46a7-4863-a55f-c395db042ad5",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "spark"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0.5,
+                  0.5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "scaleX": [
+                  3,
+                  0.9999999994556655
+                ],
+                "scaleY": [
+                  3,
+                  0.9999999994556655
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "rendererType": [
+                  3,
+                  1
+                ],
+                "texture": [
+                  10,
+                  "Assets/atlas/fire.bin",
+                  "6a07c054-6855-4924-bf1c-cf746dc60cd5"
+                ],
+                "frames": [
+                  8,
+                  [
+                    "white.png"
+                  ]
+                ],
+                "zoneType": [
+                  3,
+                  1
+                ],
+                "zoneLength": [
+                  3,
+                  100
+                ],
+                "zoneRotation": [
+                  3,
+                  0
+                ],
+                "zoneRadius": [
+                  3,
+                  100
+                ],
+                "zoneWidth": [
+                  3,
+                  100
+                ],
+                "zoneHeight": [
+                  3,
+                  100
+                ],
+                "frequency": [
+                  3,
+                  0.36
+                ],
+                "quantity": [
+                  3,
+                  1
+                ],
+                "repeat": [
+                  3,
+                  -1
+                ],
+                "delay": [
+                  3,
+                  3
+                ],
+                "lifespan": [
+                  4,
+                  [
+                    3.5,
+                    3.5
+                  ]
+                ],
+                "angle": [
+                  4,
+                  [
+                    -105,
+                    -75
+                  ]
+                ],
+                "blendMode": [
+                  3,
+                  1
+                ],
+                "srcColorTint": [
+                  14,
+                  4292913177
+                ],
+                "dstColorTint": [
+                  14,
+                  4294901760
+                ],
+                "startAlpha": [
+                  4,
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "startScale": [
+                  4,
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "startRotation": [
+                  4,
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "startVelocity": [
+                  4,
+                  [
+                    70,
+                    100
+                  ]
+                ],
+                "angularVelocity": [
+                  4,
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "gravity": [
+                  24,
+                  "qc.Point",
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "maxParticles": [
+                  3,
+                  200
+                ],
+                "playOnAwake": [
+                  5,
+                  true
+                ],
+                "enableColorCurve": [
+                  5,
+                  false
+                ],
+                "colorCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableAlphaCurve": [
+                  5,
+                  true
+                ],
+                "alphaCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0.5,
+                      0.8,
+                      -0.836070863670443,
+                      -0.836070863670443
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableScaleCurve": [
+                  5,
+                  true
+                ],
+                "scaleCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableVelocityCurve": [
+                  5,
+                  false
+                ],
+                "velocityCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableAngularVelocityCurve": [
+                  5,
+                  false
+                ],
+                "angularVelocityCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "class": "qc.ParticleSystem",
+              "data": {
+                "uuid": "52bc4cd9-2f38-41de-b270-9705f16d8ee3",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "flame"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0.5,
+                  0.5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.5,
+                  0.5,
+                  0.5,
+                  0.5
+                ],
+                "scaleX": [
+                  3,
+                  0.9999999994556655
+                ],
+                "scaleY": [
+                  3,
+                  0.9999999994556655
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "rendererType": [
+                  3,
+                  1
+                ],
+                "texture": [
+                  10,
+                  "Assets/atlas/fire.bin",
+                  "6a07c054-6855-4924-bf1c-cf746dc60cd5"
+                ],
+                "frames": [
+                  8,
+                  [
+                    "white.png"
+                  ]
+                ],
+                "zoneType": [
+                  3,
+                  1
+                ],
+                "zoneLength": [
+                  3,
+                  100
+                ],
+                "zoneRotation": [
+                  3,
+                  0
+                ],
+                "zoneRadius": [
+                  3,
+                  100
+                ],
+                "zoneWidth": [
+                  3,
+                  100
+                ],
+                "zoneHeight": [
+                  3,
+                  100
+                ],
+                "frequency": [
+                  3,
+                  0.04
+                ],
+                "quantity": [
+                  3,
+                  1
+                ],
+                "repeat": [
+                  3,
+                  -1
+                ],
+                "delay": [
+                  3,
+                  0
+                ],
+                "lifespan": [
+                  4,
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "angle": [
+                  4,
+                  [
+                    -100,
+                    -80
+                  ]
+                ],
+                "blendMode": [
+                  3,
+                  1
+                ],
+                "srcColorTint": [
+                  14,
+                  4290599181
+                ],
+                "dstColorTint": [
+                  14,
+                  4289527808
+                ],
+                "startAlpha": [
+                  4,
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "startScale": [
+                  4,
+                  [
+                    1,
+                    1.5
+                  ]
+                ],
+                "startRotation": [
+                  4,
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "startVelocity": [
+                  4,
+                  [
+                    70,
+                    100
+                  ]
+                ],
+                "angularVelocity": [
+                  4,
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "gravity": [
+                  24,
+                  "qc.Point",
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "maxParticles": [
+                  3,
+                  200
+                ],
+                "playOnAwake": [
+                  5,
+                  true
+                ],
+                "enableColorCurve": [
+                  5,
+                  false
+                ],
+                "colorCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableAlphaCurve": [
+                  5,
+                  true
+                ],
+                "alphaCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0.5,
+                      0.8,
+                      -0.836070863670443,
+                      -0.836070863670443
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableScaleCurve": [
+                  5,
+                  false
+                ],
+                "scaleCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableVelocityCurve": [
+                  5,
+                  false
+                ],
+                "velocityCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "enableAngularVelocityCurve": [
+                  5,
+                  false
+                ],
+                "angularVelocityCurve": [
+                  22,
+                  "qc.BezierCurve",
+                  [
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "6a07c054-6855-4924-bf1c-cf746dc60cd5": {
+      "key": "Assets/atlas/fire.bin",
+      "uuid": "6a07c054-6855-4924-bf1c-cf746dc60cd5"
+    }
+  }
+}
