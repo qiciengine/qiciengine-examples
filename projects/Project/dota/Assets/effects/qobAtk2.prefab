@@ -1,1 +1,183 @@
-{"class":"qc.Sprite","data":{"uuid":"6303b4b1-87ee-4f63-b2aa-06a071a073a8","_prefab":[7,"0f423701-8257-42ef-beb9-c830f3ea9d36"],"name":[7,"qobAtk2"],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,4294967295],"scripts":[{"clazz":"qc.TweenPosition","data":{"class":"qc.TweenPosition","data":{"enable":false,"_curve":[22,"qc.BezierCurve",[[0,0,1,1],[1,1,1,1],[0,0]]],"sampleMethod":[3,0],"style":[3,0],"delay":[3,0],"duration":[3,0.3],"tweenGroup":[3,0],"from":[24,"qc.Point",[0,0]],"to":[24,"qc.Point",[0,0]],"moveAxis":[3,255]}}},{"clazz":"qc.demo.EffectFly","data":{"class":"qc.demo.EffectFly","data":{"enable":true,"offset":[24,"qc.Point",[80,0]],"left":[5,false]}}}],"position":[0.5,0.5,64.7492147065368,-34.398020312846995,64.7492147065368,-34.398020312846995,12,39,0,0,0,0,0,0,0,0],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,-1.612432741577793],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"8ad5fb22-18cf-4bef-b579-db9478c0e466","64f28832-95c9-45f9-8197-abdec89b6a11","8ad5fb22-18cf-4bef-b579-db9478c0e466"],"frame":[7,"qopAtk2.png"],"defaultAnimation":[8,"qopAttack2"]},"dependences":{"64f28832-95c9-45f9-8197-abdec89b6a11":{"key":"8ad5fb22-18cf-4bef-b579-db9478c0e466","uuid":"8ad5fb22-18cf-4bef-b579-db9478c0e466"}}}
+{
+  "class": "qc.Sprite",
+  "data": {
+    "uuid": "6303b4b1-87ee-4f63-b2aa-06a071a073a8",
+    "_prefab": [
+      7,
+      "0f423701-8257-42ef-beb9-c830f3ea9d36"
+    ],
+    "name": [
+      7,
+      "qobAtk2"
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "renderable": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.TweenPosition",
+        "data": {
+          "class": "qc.TweenPosition",
+          "data": {
+            "enable": false,
+            "_curve": [
+              22,
+              "qc.BezierCurve",
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "sampleMethod": [
+              3,
+              0
+            ],
+            "style": [
+              3,
+              0
+            ],
+            "delay": [
+              3,
+              0
+            ],
+            "duration": [
+              3,
+              0.3
+            ],
+            "tweenGroup": [
+              3,
+              0
+            ],
+            "from": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "to": [
+              24,
+              "qc.Point",
+              [
+                0,
+                0
+              ]
+            ],
+            "moveAxis": [
+              3,
+              255
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.demo.EffectFly",
+        "data": {
+          "class": "qc.demo.EffectFly",
+          "data": {
+            "enable": true,
+            "offset": [
+              24,
+              "qc.Point",
+              [
+                80,
+                0
+              ]
+            ],
+            "left": [
+              5,
+              false
+            ]
+          }
+        }
+      }
+    ],
+    "position": [
+      0.5,
+      0.5,
+      64.7492147065368,
+      -34.398020312846995,
+      64.7492147065368,
+      -34.398020312846995,
+      12,
+      39,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      -1.612432741577793
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "8ad5fb22-18cf-4bef-b579-db9478c0e466",
+      "64f28832-95c9-45f9-8197-abdec89b6a11",
+      "8ad5fb22-18cf-4bef-b579-db9478c0e466"
+    ],
+    "frame": [
+      7,
+      "qopAtk2.png"
+    ],
+    "defaultAnimation": [
+      7,
+      "qopAttack2"
+    ]
+  },
+  "dependences": {
+    "64f28832-95c9-45f9-8197-abdec89b6a11": {
+      "key": "8ad5fb22-18cf-4bef-b579-db9478c0e466",
+      "uuid": "8ad5fb22-18cf-4bef-b579-db9478c0e466"
+    }
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "class": "qc.Node",
+  "data": {
+    "_prefab": [
+      7,
+      "Temp/scene_editor.bin"
+    ],
+    "__lock": [
+      5,
+      null
+    ],
+    "name": [
+      7,
+      "world"
+    ],
+    "ignoreDestroy": [
+      5,
+      false
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "static": [
+      5,
+      false
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      1.980676328502426,
+      4.4299516908212695,
+      1.980676328502426,
+      4.4299516908212695,
+      410,
+      917,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9903381642512077
+    ],
+    "scaleY": [
+      3,
+      0.9903381642512077
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [
+      {
+        "class": "qc.UIRoot",
+        "data": {
+          "uuid": "200c9be0-c80f-4978-8e05-b76844e2269b",
+          "_prefab": [
+            7,
+            ""
+          ],
+          "__lock": [
+            5,
+            null
+          ],
+          "name": [
+            7,
+            "UIRoot"
+          ],
+          "ignoreDestroy": [
+            5,
+            false
+          ],
+          "alpha": [
+            3,
+            1
+          ],
+          "visible": [
+            5,
+            true
+          ],
+          "colorTint": [
+            14,
+            16777215
+          ],
+          "static": [
+            5,
+            false
+          ],
+          "scripts": [
+            {
+              "clazz": "qc.ScaleAdapter",
+              "data": "12e5ed80-ebd7-4a25-955c-5b42eaf8c308"
+            }
+          ],
+          "position": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            640,
+            1431.4146341463415,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scaleX": [
+            3,
+            0.640625
+          ],
+          "scaleY": [
+            3,
+            0.640625
+          ],
+          "rotation": [
+            3,
+            0
+          ],
+          "interactive": [
+            5,
+            false
+          ],
+          "isFiltersThrough": [
+            5,
+            null
+          ],
+          "children": [
+            {
+              "class": "qc.Dom",
+              "data": {
+                "uuid": "9f02d21a-888e-42b3-95c8-528017fdc659",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "background"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  640,
+                  1431.4146341463415,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "pos": [
+                  3,
+                  0
+                ],
+                "className": [
+                  7,
+                  "background"
+                ],
+                "overflow": [
+                  7,
+                  "hidden"
+                ],
+                "zIndex": [
+                  1,
+                  "-1"
+                ]
+              }
+            },
+            {
+              "class": "qc.Dom",
+              "data": {
+                "uuid": "e71c11bd-6e7d-4c6a-b32c-02d8f7208f15",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "dom"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  false
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0,
+                  0,
+                  90.11505056513981,
+                  304.4788816180855,
+                  90.11505056513981,
+                  304.4788816180855,
+                  282.9616626255797,
+                  140.9327861641874,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "pos": [
+                  3,
+                  1
+                ],
+                "className": [
+                  7,
+                  "front"
+                ],
+                "overflow": [
+                  7,
+                  "hidden"
+                ],
+                "innerHTML": [
+                  true,
+                  ""
+                ],
+                "zIndex": [
+                  1,
+                  "1"
+                ]
+              }
+            },
+            {
+              "class": "qc.Sprite",
+              "data": {
+                "uuid": "2a55247d-b4cf-4856-a571-90df7a28fe75",
+                "_prefab": [
+                  7,
+                  ""
+                ],
+                "__lock": [
+                  5,
+                  null
+                ],
+                "name": [
+                  7,
+                  "Sprite"
+                ],
+                "ignoreDestroy": [
+                  5,
+                  null
+                ],
+                "alpha": [
+                  3,
+                  1
+                ],
+                "visible": [
+                  5,
+                  true
+                ],
+                "colorTint": [
+                  14,
+                  16777215
+                ],
+                "static": [
+                  5,
+                  false
+                ],
+                "scripts": [],
+                "position": [
+                  0,
+                  0,
+                  230.04122459949087,
+                  433.91106529474825,
+                  230.04122459949087,
+                  433.91106529474825,
+                  100,
+                  100,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "scaleX": [
+                  3,
+                  1
+                ],
+                "scaleY": [
+                  3,
+                  1
+                ],
+                "rotation": [
+                  3,
+                  0
+                ],
+                "interactive": [
+                  5,
+                  false
+                ],
+                "isFiltersThrough": [
+                  5,
+                  null
+                ],
+                "children": [],
+                "texture": [
+                  10,
+                  "Assets/sprites/texture.bin",
+                  "39800c42-9140-4794-b6e4-0105faaeea55"
+                ],
+                "frame": [
+                  7,
+                  "parts/clothes3"
+                ],
+                "defaultAnimation": [
+                  7,
+                  "walk"
+                ]
+              }
+            }
+          ]
+        },
+        "__json": {
+          "12e5ed80-ebd7-4a25-955c-5b42eaf8c308": {
+            "class": "qc.ScaleAdapter",
+            "data": {
+              "uuid": [
+                7,
+                "12e5ed80-ebd7-4a25-955c-5b42eaf8c308"
+              ],
+              "enable": true,
+              "target": null,
+              "referenceResolution": [
+                24,
+                "qc.Point",
+                [
+                  640,
+                  960
+                ]
+              ],
+              "manualType": [
+                3,
+                3
+              ],
+              "fullTarget": [
+                5,
+                true
+              ],
+              "gameObjectRecord": [
+                4,
+                [
+                  0.640625,
+                  0.640625,
+                  640,
+                  1431.4146341463415
+                ]
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "dependences": {
+    "39800c42-9140-4794-b6e4-0105faaeea55": {
+      "key": "Assets/sprites/texture.bin",
+      "uuid": "39800c42-9140-4794-b6e4-0105faaeea55"
+    }
+  }
+}

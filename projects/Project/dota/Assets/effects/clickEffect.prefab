@@ -1,1 +1,93 @@
-{"class":"qc.Sprite","data":{"uuid":"5943a822-2772-4590-9a51-9f81a8225514","_prefab":[7,"029c0219-7d14-4309-af9f-cc58be8a003c"],"name":[7,"clickEffect"],"ignoreDestroy":[5,null],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,16777215],"scripts":[],"position":[0,0,58.5,58.5,58.5,58.5,0,0,0,0,0,0,0,0,0,0],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb","7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb"],"frame":[7,"other/元件 2"],"defaultAnimation":[8,"skillCast"]},"dependences":{"7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb":{"key":"7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb","uuid":"7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb"}}}
+{
+  "class": "qc.Sprite",
+  "data": {
+    "uuid": "5943a822-2772-4590-9a51-9f81a8225514",
+    "_prefab": [
+      7,
+      "029c0219-7d14-4309-af9f-cc58be8a003c"
+    ],
+    "name": [
+      7,
+      "clickEffect"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "renderable": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      58.5,
+      58.5,
+      58.5,
+      58.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb",
+      "7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb"
+    ],
+    "frame": [
+      7,
+      "other/元件 2"
+    ],
+    "defaultAnimation": [
+      7,
+      "skillCast"
+    ]
+  },
+  "dependences": {
+    "7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb": {
+      "key": "7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb",
+      "uuid": "7fef6777-f3a5-41e6-add8-ab8e7ae8ecbb"
+    }
+  }
+}

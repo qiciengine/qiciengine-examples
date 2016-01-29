@@ -1,6 +1,6 @@
 {
   "scene": {
-    "ProgressBar": "Assets/state/ProgressBar.bin"
+    "ProgressBar": "Assets/scene/ProgressBar.bin"
   },
   "entryScene": "ProgressBar"
 }

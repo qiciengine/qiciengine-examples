@@ -1,6 +1,6 @@
 {
   "scene": {
-    "BounceAcceleration": "Assets/state/BounceAcceleration.bin"
+    "BounceAcceleration": "Assets/scene/BounceAcceleration.bin"
   },
   "entryScene": "BounceAcceleration"
 }

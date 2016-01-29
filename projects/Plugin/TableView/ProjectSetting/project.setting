@@ -10,7 +10,7 @@
   "renderer": "Auto",
   "transparent": false,
   "developerMode": false,
-  "toolFlag": 28,
+  "toolFlag": 124,
   "frameRate": {
     "mobile": 30,
     "desktop": 60

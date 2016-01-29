@@ -22,5 +22,7 @@
   "appCache": true,
   "dirtyRectangles": true,
   "dirtyRectanglesShow": false,
-  "toolFlag": 124
+  "toolFlag": 124,
+  "customSettings": {},
+  "version": "1.0"
 }

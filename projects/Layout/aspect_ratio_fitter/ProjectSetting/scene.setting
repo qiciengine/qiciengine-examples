@@ -1,6 +1,6 @@
 {
   "scene": {
-    "aspect_ratio": "Assets/state/aspect_ratio.bin"
+    "aspect_ratio": "Assets/scene/aspect_ratio.bin"
   },
   "entryScene": "aspect_ratio"
 }

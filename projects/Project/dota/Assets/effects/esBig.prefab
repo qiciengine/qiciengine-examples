@@ -1,1 +1,93 @@
-{"class":"qc.Sprite","data":{"uuid":"e5d160d2-5d7a-4481-a3af-cc191df415eb","_prefab":[7,"7785a92d-8386-484c-adb7-839cfe670bb8"],"name":[7,"esBig"],"ignoreDestroy":[5,null],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,16777215],"scripts":[],"position":[0,0,117.77431906614805,-31.32295719844359,117.77431906614805,-31.32295719844359,0,0,0,0,0,0,0,0,0,0],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"a3098795-a269-4f29-8a09-206a593bc821","a3098795-a269-4f29-8a09-206a593bc821"],"frame":[7,"other/1"],"defaultAnimation":[8,"Es_ult"]},"dependences":{"a3098795-a269-4f29-8a09-206a593bc821":{"key":"a3098795-a269-4f29-8a09-206a593bc821","uuid":"a3098795-a269-4f29-8a09-206a593bc821"}}}
+{
+  "class": "qc.Sprite",
+  "data": {
+    "uuid": "e5d160d2-5d7a-4481-a3af-cc191df415eb",
+    "_prefab": [
+      7,
+      "7785a92d-8386-484c-adb7-839cfe670bb8"
+    ],
+    "name": [
+      7,
+      "esBig"
+    ],
+    "ignoreDestroy": [
+      5,
+      null
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "renderable": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      16777215
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      117.77431906614805,
+      -31.32295719844359,
+      117.77431906614805,
+      -31.32295719844359,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "a3098795-a269-4f29-8a09-206a593bc821",
+      "a3098795-a269-4f29-8a09-206a593bc821"
+    ],
+    "frame": [
+      7,
+      "other/1"
+    ],
+    "defaultAnimation": [
+      7,
+      "Es_ult"
+    ]
+  },
+  "dependences": {
+    "a3098795-a269-4f29-8a09-206a593bc821": {
+      "key": "a3098795-a269-4f29-8a09-206a593bc821",
+      "uuid": "a3098795-a269-4f29-8a09-206a593bc821"
+    }
+  }
+}

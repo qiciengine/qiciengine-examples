@@ -1,6 +1,6 @@
 {
   "scene": {
-    "serializer": "Assets/state/serializer.bin"
+    "serializer": "Assets/scene/serializer.bin"
   },
   "entryScene": "serializer"
 }

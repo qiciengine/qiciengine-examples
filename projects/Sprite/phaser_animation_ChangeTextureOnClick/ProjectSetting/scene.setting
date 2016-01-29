@@ -1,6 +1,6 @@
 {
   "scene": {
-    "ChangeTexture": "Assets/state/ChangeTexture.bin"
+    "ChangeTexture": "Assets/scene/ChangeTexture.bin"
   },
   "entryScene": "ChangeTexture"
 }

@@ -1,7 +1,7 @@
 {
   "scene": {
-    "StateFrom": "Assets/state/StateFrom.bin",
-    "StateTo": "Assets/state/StateTo.bin"
+    "StateFrom": "Assets/scene/StateFrom.bin",
+    "StateTo": "Assets/scene/StateTo.bin"
   },
   "entryScene": "StateFrom"
 }

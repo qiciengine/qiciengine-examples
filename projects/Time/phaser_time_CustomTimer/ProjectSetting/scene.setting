@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Timer": "Assets/state/Timer.bin"
+    "Timer": "Assets/scene/Timer.bin"
   },
   "entryScene": "Timer"
 }

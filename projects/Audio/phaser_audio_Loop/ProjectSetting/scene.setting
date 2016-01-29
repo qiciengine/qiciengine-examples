@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Audio": "Assets/state/Audio.bin"
+    "Audio": "Assets/scene/Audio.bin"
   },
   "entryScene": "Audio"
 }

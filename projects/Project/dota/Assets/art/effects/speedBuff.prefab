@@ -1,1 +1,90 @@
-{"class":"qc.Sprite","data":{"uuid":"6020113d-1a6d-4b33-8994-d0c46953eea3","_prefab":[7,""],"name":[7,"speedBuff"],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,4294967295],"scripts":[],"position":[0,0,-3.7056968575018914,-137.2963611992801,-3.7056968575018914,-137.2963611992801,0,0,0,0,0,0,0,0,0,0],"scaleX":[3,0.9999999860845188],"scaleY":[3,0.9999999860845188],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe","5216f059-7500-4ece-bd9c-b15c6f449b6f","2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe"],"frame":[7,"other/1"],"defaultAnimation":[8,"buff_sudu"]},"dependences":{"5216f059-7500-4ece-bd9c-b15c6f449b6f":{"key":"2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe","uuid":"2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe"}}}
+{
+  "class": "qc.Sprite",
+  "data": {
+    "uuid": "6020113d-1a6d-4b33-8994-d0c46953eea3",
+    "_prefab": [
+      7,
+      ""
+    ],
+    "name": [
+      7,
+      "speedBuff"
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "renderable": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "scripts": [],
+    "position": [
+      0,
+      0,
+      -3.7056968575018914,
+      -137.2963611992801,
+      -3.7056968575018914,
+      -137.2963611992801,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      0.9999999860845188
+    ],
+    "scaleY": [
+      3,
+      0.9999999860845188
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe",
+      "5216f059-7500-4ece-bd9c-b15c6f449b6f",
+      "2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe"
+    ],
+    "frame": [
+      7,
+      "other/1"
+    ],
+    "defaultAnimation": [
+      7,
+      "buff_sudu"
+    ]
+  },
+  "dependences": {
+    "5216f059-7500-4ece-bd9c-b15c6f449b6f": {
+      "key": "2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe",
+      "uuid": "2e72b59d-5162-4d07-8ab4-c6e7f83f3bbe"
+    }
+  }
+}

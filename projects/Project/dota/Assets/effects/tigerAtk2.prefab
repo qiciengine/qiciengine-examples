@@ -1,1 +1,171 @@
-{"class":"qc.Sprite","data":{"uuid":"0620730c-72fd-4fbf-b878-5e5409b978bd","_prefab":[7,"c34a403d-4442-4bfa-b928-4e526b5f4a17"],"name":[7,"tigerAtk2"],"alpha":[3,1],"visible":[5,true],"renderable":[5,true],"colorTint":[14,4294967295],"scripts":[{"clazz":"qc.TweenPosition","data":{"class":"qc.TweenPosition","data":{"enable":false,"_curve":[22,"qc.BezierCurve",[[0,0,1,1],[1,1,1,1],[0,0]]],"sampleMethod":[3,0],"style":[3,0],"delay":[3,0],"duration":[3,0.3],"tweenGroup":[3,0],"from":[24,"qc.Point",[0,-81]],"to":[24,"qc.Point",[400,-81]],"moveAxis":[3,255]}}},{"clazz":"qc.demo.EffectFly","data":{"class":"qc.demo.EffectFly","data":{"enable":true}}}],"position":[0.5,0,0,-81,0,-81,137,22,0,0,0,0,0,0,0,0],"scaleX":[3,1],"scaleY":[3,1],"rotation":[3,0],"interactive":[5,false],"isFiltersThrough":[5,null],"children":[],"texture":[10,"8ad5fb22-18cf-4bef-b579-db9478c0e466","64f28832-95c9-45f9-8197-abdec89b6a11","8ad5fb22-18cf-4bef-b579-db9478c0e466"],"frame":[7,"tigerAtk2.png"],"defaultAnimation":[8,"tigerAtk2"]},"dependences":{"64f28832-95c9-45f9-8197-abdec89b6a11":{"key":"8ad5fb22-18cf-4bef-b579-db9478c0e466","uuid":"8ad5fb22-18cf-4bef-b579-db9478c0e466"}}}
+{
+  "class": "qc.Sprite",
+  "data": {
+    "uuid": "0620730c-72fd-4fbf-b878-5e5409b978bd",
+    "_prefab": [
+      7,
+      "c34a403d-4442-4bfa-b928-4e526b5f4a17"
+    ],
+    "name": [
+      7,
+      "tigerAtk2"
+    ],
+    "alpha": [
+      3,
+      1
+    ],
+    "visible": [
+      5,
+      true
+    ],
+    "renderable": [
+      5,
+      true
+    ],
+    "colorTint": [
+      14,
+      4294967295
+    ],
+    "scripts": [
+      {
+        "clazz": "qc.TweenPosition",
+        "data": {
+          "class": "qc.TweenPosition",
+          "data": {
+            "enable": false,
+            "_curve": [
+              22,
+              "qc.BezierCurve",
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "sampleMethod": [
+              3,
+              0
+            ],
+            "style": [
+              3,
+              0
+            ],
+            "delay": [
+              3,
+              0
+            ],
+            "duration": [
+              3,
+              0.3
+            ],
+            "tweenGroup": [
+              3,
+              0
+            ],
+            "from": [
+              24,
+              "qc.Point",
+              [
+                0,
+                -81
+              ]
+            ],
+            "to": [
+              24,
+              "qc.Point",
+              [
+                400,
+                -81
+              ]
+            ],
+            "moveAxis": [
+              3,
+              255
+            ]
+          }
+        }
+      },
+      {
+        "clazz": "qc.demo.EffectFly",
+        "data": {
+          "class": "qc.demo.EffectFly",
+          "data": {
+            "enable": true
+          }
+        }
+      }
+    ],
+    "position": [
+      0.5,
+      0,
+      0,
+      -81,
+      0,
+      -81,
+      137,
+      22,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scaleX": [
+      3,
+      1
+    ],
+    "scaleY": [
+      3,
+      1
+    ],
+    "rotation": [
+      3,
+      0
+    ],
+    "interactive": [
+      5,
+      false
+    ],
+    "isFiltersThrough": [
+      5,
+      null
+    ],
+    "children": [],
+    "texture": [
+      10,
+      "8ad5fb22-18cf-4bef-b579-db9478c0e466",
+      "64f28832-95c9-45f9-8197-abdec89b6a11",
+      "8ad5fb22-18cf-4bef-b579-db9478c0e466"
+    ],
+    "frame": [
+      7,
+      "tigerAtk2.png"
+    ],
+    "defaultAnimation": [
+      7,
+      "tigerAtk2"
+    ]
+  },
+  "dependences": {
+    "64f28832-95c9-45f9-8197-abdec89b6a11": {
+      "key": "8ad5fb22-18cf-4bef-b579-db9478c0e466",
+      "uuid": "8ad5fb22-18cf-4bef-b579-db9478c0e466"
+    }
+  }
+}

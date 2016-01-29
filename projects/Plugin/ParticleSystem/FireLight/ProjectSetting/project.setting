@@ -17,5 +17,12 @@
   "appCache": true,
   "dirtyRectangles": true,
   "dirtyRectanglesShow": false,
-  "toolFlag": 28
+  "toolFlag": 124,
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "customSettings": {},
+  "version": "1.0"
 }

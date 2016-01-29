@@ -1,6 +1,6 @@
 {
   "scene": {
-    "FireStarter": "Assets/state/FireStarter.bin"
+    "FireStarter": "Assets/scene/FireStarter.bin"
   },
   "entryScene": "FireStarter"
 }

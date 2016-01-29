@@ -1,6 +1,6 @@
 {
   "scene": {
-    "Collision": "Assets/state/Collision.bin"
+    "Collision": "Assets/scene/Collision.bin"
   },
   "entryScene": "Collision"
 }

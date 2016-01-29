@@ -1,6 +1,6 @@
 {
   "scene": {
-    "SliderShow": "Assets/state/SliderShow.bin"
+    "SliderShow": "Assets/scene/SliderShow.bin"
   },
   "entryScene": "SliderShow"
 }

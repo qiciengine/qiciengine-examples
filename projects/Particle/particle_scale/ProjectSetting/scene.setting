@@ -1,6 +1,6 @@
 {
   "scene": {
-    "ParticleScale": "Assets/state/ParticleScale.bin"
+    "ParticleScale": "Assets/scene/ParticleScale.bin"
   },
   "entryScene": "ParticleScale"
 }

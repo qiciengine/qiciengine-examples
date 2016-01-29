@@ -1,6 +1,6 @@
 {
   "scene": {
-    "slider": "Assets/state/slider.bin"
+    "slider": "Assets/scene/slider.bin"
   },
   "entryScene": "slider"
 }

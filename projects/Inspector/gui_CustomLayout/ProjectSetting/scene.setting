@@ -1,6 +1,6 @@
 {
   "scene": {
-    "gui": "Assets/state/gui.bin"
+    "gui": "Assets/scene/gui.bin"
   },
   "entryScene": "gui"
 }

@@ -1,6 +1,6 @@
 {
   "scene": {
-    "DiamondBurst": "Assets/state/DiamondBurst.bin"
+    "DiamondBurst": "Assets/scene/DiamondBurst.bin"
   },
   "entryScene": "DiamondBurst"
 }
