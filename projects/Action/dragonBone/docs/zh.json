@@ -1,0 +1,10 @@
+{
+  "name": "dragonBone",
+  "desc": "动作编辑器创建一个类似龙骨的骨骼动画",
+  "tags": ["actionEditor"],
+  "preview": "preview.png",
+  "category": "动作编辑器",
+  "order": 5,
+  "width": 800,
+  "height": 600
+}
