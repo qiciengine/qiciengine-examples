@@ -36,5 +36,6 @@
       "debugFlags": 31
     }
   },
-  "toolFlag": 124
+  "toolFlag": 124,
+  "version": "1.0"
 }
