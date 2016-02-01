@@ -23,6 +23,7 @@
   "Scene",
   "Filter",
   "ArcadePhysics",
+  "Box2D",
   "Tilemap",
   "Net",
   "Inspector",
