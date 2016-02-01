@@ -1,0 +1,10 @@
+{
+  "name": "curveType",
+  "desc": "介绍动作编辑器中四种 curveType 属性的不同作用",
+  "tags": ["actionEditor"],
+  "preview": "preview.png",
+  "category": "动作编辑器",
+  "order": 4,
+  "width": 800,
+  "height": 600
+}

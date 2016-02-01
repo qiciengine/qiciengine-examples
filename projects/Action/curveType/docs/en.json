@@ -1,0 +1,10 @@
+{
+  "name": "curveType",
+  "desc": "Introduce the different of \'curveType\' attrib in Action Editor",
+  "tags": ["actionEditor"],
+  "preview": "preview.png",
+  "category": "Action",
+  "order": 4,
+  "width": 800,
+  "height": 600
+}
