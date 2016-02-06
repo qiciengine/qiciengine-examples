@@ -20,11 +20,11 @@ var LoadingUI = qc.defineBehaviour('qc.demo.LoadingUI', qc.Behaviour,
 LoadingUI.prototype.awake = function() {
     // 关注场景开始切换和切换结束的事件
     var self = this;
-    this.addListener(self.game.state.onStartLoad, function() {
+    this.addListener(self.game.scene.onStartLoad, function() {
         // 场景加载开始，显示本界面
         self.show();
     });
-    this.addListener(self.game.state.onEndLoad, function() {
+    this.addListener(self.game.scene.onEndLoad, function() {
         // 场景加载完毕，隐藏本界面
         if (self.gameObject.visible) {
             if (self.duringTween)

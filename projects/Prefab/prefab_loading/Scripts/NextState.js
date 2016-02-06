@@ -12,5 +12,5 @@ var NextScene = qc.defineBehaviour('qc.demo.NextScene', qc.Behaviour, function()
 });
 
 NextScene.prototype.onClick = function() {
-	this.game.state.load(this.scene, false);        
+	this.game.scene.load(this.scene, false);        
 };

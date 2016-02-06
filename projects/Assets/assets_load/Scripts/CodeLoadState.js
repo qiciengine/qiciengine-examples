@@ -96,6 +96,6 @@ CodeLoadState.prototype.awake = function() {
 	});
 
 	self.addListener(self.changeState.onDown, function() {
-		self.game.state.load('ReferenceLoad');
+		self.game.scene.load('ReferenceLoad');
 	});
 };	

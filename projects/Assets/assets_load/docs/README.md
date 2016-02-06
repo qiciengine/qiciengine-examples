@@ -114,7 +114,7 @@ CodeLoadState.prototype.awake = function() {
 
 	 // 加载场景
 	self.changeState.onDown.add(function() {
-		self.game.state.load('ReferenceLoad');
+		self.game.scene.load('ReferenceLoad');
 	});
 };	
 ```

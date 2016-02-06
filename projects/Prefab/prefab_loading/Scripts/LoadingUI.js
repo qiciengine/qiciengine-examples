@@ -7,12 +7,12 @@
 
     LoadingUI.prototype.awake = function() {
         var self = this;
-        this.addListener(self.game.state.onStartLoad, function(state) {
-            console.log('LoadingUI onStartLoad', state);
+        this.addListener(self.game.scene.onStartLoad, function(scene) {
+            console.log('LoadingUI onStartLoad', scene);
             self.show();
         });
-        this.addListener(self.game.state.onEndLoad, function(state) {      
-            console.log('LoadingUI onEndLoad', state);
+        this.addListener(self.game.scene.onEndLoad, function(scene) {      
+            console.log('LoadingUI onEndLoad', scene);
             if (self.gameObject.visible) { 
                 self.hide();                 
             }

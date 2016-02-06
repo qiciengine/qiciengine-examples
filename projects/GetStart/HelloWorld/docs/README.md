@@ -225,8 +225,8 @@ qici.splashState = {
     },
     create: function() {
         var game = window[qici.config.gameInstance];
-        game.state.entity = qici.config.entityScene;
-        game.state.list = qici.config.scene;
+        game.scene.entity = qici.config.entityScene;
+        game.scene.list = qici.config.scene;
         var node;
         if (qici.config.loadingPrefab) {
             var prefab = game.assets.find('__loading_prefab__');
@@ -242,7 +242,7 @@ qici.splashState = {
             }
             delete game._initText_;
         }
-        game.phaser.time.events.add(1, function() { game.state.load(game.state.entity, true); });
+        game.phaser.time.events.add(1, function() { game.scene.load(game.scene.entity, true); });
         if (qici.config.frameRate) game.time.frameRate = qici.config.frameRate;
     }
 };

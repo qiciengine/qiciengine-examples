@@ -114,8 +114,8 @@
             create : function() {
                 // 初始化用户场景信息
                 var game = window[_config_.gameInstance];
-                game.state.entity = _config_.entityScene;
-                game.state.list = _config_.scene;
+                game.scene.entity = _config_.entityScene;
+                game.scene.list = _config_.scene;
 
                 // 挂载切屏场景的动画，并设置为切屏不析构
                 var node;
@@ -137,7 +137,7 @@
 
                 // 进入第一个场景(需要用户第一个场景资源下载完毕才能进入)
                 var loadMain = function() {
-                    game.state.load(game.state.entity, true, function() {
+                    game.scene.load(game.scene.entity, true, function() {
                         console.log('Loading assets for entry scene.');
 
                         // 调度下主场景的资源加载自定义逻辑（一般情况也很少）

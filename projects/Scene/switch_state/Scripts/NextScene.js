@@ -19,7 +19,7 @@ NextScene.prototype.onClick = function() {
     // 切换到指定场景
     var self = this;
     var load = function() {
-        self.game.state.load(self.scene, false, function() {
+        self.game.scene.load(self.scene, false, function() {
             // 方式1：预加载中，我们可以做一些资源的加载操作
             self.game.assets.load('loadSync', 'Assets/atlas/pic.bin');
         }, function() {

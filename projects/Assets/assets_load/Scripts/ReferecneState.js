@@ -63,6 +63,6 @@ ReferenceState.prototype.awake = function() {
 	});
 
 	self.addListener(self.changeState.onDown, function() {
-		self.game.state.load('CodeLoad');
+		self.game.scene.load('CodeLoad');
 	});
 };	
