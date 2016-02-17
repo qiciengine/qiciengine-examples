@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="QICI-Demo">
+
+    <title>QICI-Demo</title>
+    <link rel="icon" href="http://www.zuoyouxi.com/favicon.ico" type="image/x-icon" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+    <link href="css/page-content.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="datas.js"></script>
+    <script>
+        /**
+         * 判断一个元素是否在数据内,相当于indexOf,但是判断时会忽略大小写
+         * @param arr
+         * @param ele
+         * @returns {boolean}
+         */
+        function existInArray(arr, ele) {
+            var exist = false;
+            var lowerEle = ele.toLowerCase();
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].toLowerCase() === lowerEle) {
+                    exist = true;
+                    break;
+                }
+            }
+            return exist;
+        }
+        
+        function download() {
+            window.open('QICI_Demos.zip');
+        }
+    </script>
+</head>
+
+<body>
+
+<div id="wrapper" class="">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <img src="img/logo.png">
+            </li>
+            <li class="nav-divider nav-category tags-title"><span class="tag-toggle-icon glyphicon glyphicon-menu-down" aria-hidden="true"></span> Tags</li>
+            <li class="sidebar-tags"></li>
+            <li class="nav-divider nav-category">Categories</li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="component"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    // 填充tags
+    var tagsDom = $('li.sidebar-tags');
+    tags.forEach(function(tag) {
+        tagsDom.append('<a href="#" class="tag-name">' + tag +'</a>');
+    });
+    
+    // 填充categories
+    var categoriesDom = $('ul.sidebar-nav');
+    for (var i = 0; i < categories.length; i++) {
+        categoriesDom.append('<li><a class="jump_anchor" href="#anchor_'+ anchors[i] +'">' + categories[i] + '</a></li>');
+    }
+    categoriesDom.append('<li style="height: 60px;padding-top: 10px; padding-left: 20px;"><button type="button" class="btn btn-success" onclick="download()">Download all project</button></li>');
+    
+    // 填充Demos的dom
+    function fillDemos(demos) {
+        var demosDom = $('#page-content-wrapper .component');
+        for (var i = 0; i < categories.length; i++) {
+            var category = categories[i];
+            var html;
+            var title = '<h2 class="h2" id="anchor_'+ anchors[i] +'"><span class="glyphicon glyphicon-th" aria-hidden="true"></span><span>' + category + '</span></h2>';
+            var ul = '<ul class="demo-list">';
+            html = title + ul;
+            demos.forEach(function(demo) {
+                if (demo.category === category) {
+                    var start = '<li class="item">';
+
+                    var desc = '<div class="desc"> ' +
+                            '<a href="' + demo.url + '" target="_blank" class="item-link">' +
+                            '<img src="img/' + demo.preview + '">' +
+                            '<p>' + demo.desc + '</p>' +
+                            '</a>' +
+                            '</div>';
+
+                    var title = '<a href="' + demo.url + '" title="tooltip" target="_blank" class="item-link">' +
+                            '<h5 class="name l-block">' + demo.name + '</h5>' +
+                            '</a>';
+                    var tagLinks = '<div class="tag-links">';
+
+                    demo.tags.forEach(function(tag) {
+                        tagLinks += '<span class="tag-name">' + tag + '</span>';
+                    });
+                    tagLinks += '</div>'
+
+                    var end = '</li>';
+
+                    html += start + desc + title + tagLinks + end;
+                }
+            });
+            html += '</ul>';
+            demosDom.append(html);
+        }
+    };
+    fillDemos(demos);
+    
+    // 点击分类时使用动画滚动
+    var $root = $('html, body');
+    $('a.jump_anchor').click(function() {
+        $root.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
+
+    // 点击tags标题栏时收缩或展开
+    var tagsExpanded = false;
+    $('.sidebar-tags')[0].style.maxHeight = '0';
+//    setTimeout(function() {
+//        $('.sidebar-tags')[0].style.maxHeight = $('.sidebar-tags')[0].scrollHeight + 'px';
+//    }, 30);
+    $('.nav-divider.nav-category.tags-title').click(function(e) {
+        if (tagsExpanded) {
+            $('.sidebar-tags')[0].style.maxHeight = '0px';
+            $('.tag-toggle-icon')[0].className = 'tag-toggle-icon glyphicon glyphicon-menu-down';
+        }
+        else {
+            $('.sidebar-tags')[0].style.maxHeight = $('.sidebar-tags')[0].scrollHeight + 'px';
+            $('.tag-toggle-icon')[0].className = 'tag-toggle-icon glyphicon glyphicon-menu-up';
+        }
+        tagsExpanded = !tagsExpanded;
+    });
+    
+    // 点击tag时要过滤
+    $('a.tag-name').click(function(e) {
+        if (this.className === 'tag-name') {
+            this.className = 'tag-name selected';
+        }
+        else {
+            this.className = 'tag-name';
+        }
+        
+        $('#page-content-wrapper .component')[0].innerHTML = '';
+        
+        var tagDoms = $('a.tag-name.selected');
+        if (tagDoms.length === 0) {
+            fillDemos(demos);
+        }
+        else {
+            var tags = [];
+            for (var i = 0; i < tagDoms.length; i++) {
+                var tagDom = tagDoms[i];
+                tags.push(tagDom.innerHTML);
+            }
+            
+            var tagDemos = [];
+            demos.forEach(function(demo) {
+                for (var i = 0; i < tags.length; i++) {
+                    var tag = tags[i];
+                    if (existInArray(demo.tags, tag)) {
+                        tagDemos.push(demo);
+                        break;
+                    }
+                }
+            });
+            fillDemos(tagDemos);
+        }
+    });
+    
+    var sliderbarWrapper = $('#sidebar-wrapper')[0];
+    function preventScroll(e, delta) {
+        var scrollTop, scrollHeight, offsetHeight;
+        if (delta > 0) {
+            scrollTop = sliderbarWrapper.scrollTop;
+            if (scrollTop <= 0) {//滚动顶部以后阻止页面滚动
+                e.preventDefault();
+            }
+        } else if (delta < 0) {
+            scrollTop = sliderbarWrapper.scrollTop;
+            scrollHeight = sliderbarWrapper.scrollHeight;
+            offsetHeight = sliderbarWrapper.offsetHeight;
+
+            if (scrollHeight - offsetHeight <= scrollTop) {
+                e.preventDefault();
+            }
+        }
+    };
+    sliderbarWrapper.addEventListener('mousewheel', function(e) {
+        preventScroll(e, e.wheelDelta);
+    });
+    sliderbarWrapper.addEventListener('DOMMouseScroll', function(e) {
+        preventScroll(e, -e.detail);
+    });
+</script>
+</body>
+</html>

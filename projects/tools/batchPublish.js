@@ -103,14 +103,26 @@ var publish = function(projectPath, toDir, isEnglish) {
     if (isEnglish) {
         p = path.join(projectPath, 'docs-en/book.json');
     }
+
+    var exec = require('child_process').execSync;
     if (fs.existsSync(p)) {
         G.log.trace(chalk.yellow('start gitbook build'));
 
-        var exec = require('child_process').execSync;
+        var p2 = isEnglish ? 'docs-en' : 'docs';
+        
+        var nodeModule = path.join(projectPath, 'docs/node_modules');
+        if (!fs.existsSync(nodeModule))
+            exec('gitbook install "' + path.join(projectPath, p2) + '"');
 
         // 深度拷贝走
-        var p2 = isEnglish ? 'docs-en' : 'docs';
-        exec('gitbook -v 2.5.2 build "' + path.join(projectPath, p2) + '"');
+        try {
+            exec('gitbook build "' + path.join(projectPath, p2) + '"');
+        }
+        catch (e) {
+            faildList[toDir] = 'gitbook fail.';
+            return;
+        }
+
         fs.copySync(path.join(projectPath, p2 + '/_book'), path.join(toDir, 'docs'));
 
         G.log.trace(chalk.yellow('gitbook build done'));
@@ -120,7 +132,6 @@ var publish = function(projectPath, toDir, isEnglish) {
 
     // 打包工程
     G.log.trace(chalk.yellow('start pack zip'));
-    var exec = require('child_process').execSync;
     var targetZipPath = path.join(toDir, 'docs', path.parse(projectPath).name + '.zip');
     var zipDir = [ 'Assets', 'Editor', 'Plugins', 'ProjectSetting', 'Scripts'];
     var zipCmd = 'cd \'' + projectPath + '\';zip -r -q \'' + targetZipPath + '\' ' + zipDir.join(' ');
@@ -141,6 +152,16 @@ var publish = function(projectPath, toDir, isEnglish) {
 };
 
 require('./Start.js');
-module.exports.publish('/Users/weism/qici/qiciengine-examples/projects', '/Users/weism/qici/version/demo/zh');
-module.exports.publish('/Users/weism/qici/qiciengine-examples/projects', '/Users/weism/qici/version/demo/en', true);
+
+var args = process.argv;
+if (args.length != 4 && args.length != 5) {
+    console.error('Invalid arguments');
+    return;
+}
+
+var projectPath = args[2];
+var toDir = args[3];
+var isEnglish = args.length === 5 ? args[4] === 'true' : false;
+module.exports.publish(projectPath, toDir, isEnglish);
 process.exit();
+

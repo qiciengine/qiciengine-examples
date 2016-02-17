@@ -2,8 +2,12 @@
  * @author liyk
  * @copyright 2015 Qcplay All Rights Reserved.
  */
-    
-var generator = require('./demo-generator.js');
 
-generator.generate('zh', '/Users/weism/qici/version/demo/zh');
-generator.generate('en', '/Users/weism/qici/version/demo/en');
+var args = process.argv;
+if (args.length != 4) {
+    console.error('Invalid arguments');
+    return;
+}
+
+var generator = require('./demo-generator.js');
+generator.generate(args[2], args[3]);

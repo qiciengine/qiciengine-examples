@@ -1,8 +1,0 @@
-{
-  "name": "demo-generator",
-  "version": "1.0.0",
-  "description": "generate demo menu page",
-  "dependencies": {
-    "fs-extra": "^0.26.2"
-  }
-}

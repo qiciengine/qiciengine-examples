@@ -8,6 +8,9 @@
 	],
 
 	"pluginsConfig": {
+		"search": {
+            "maxIndexSize": 1000
+       }
 	},
 
 	"styles": {
