@@ -4,7 +4,7 @@
  */
 
 var args = process.argv;
-if (args.length != 4) {
+if (args.length !== 4) {
     console.error('Invalid arguments');
     return;
 }

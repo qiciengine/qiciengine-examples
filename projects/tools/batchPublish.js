@@ -36,10 +36,6 @@ module.exports.publish = function(fullPath, toDir, isEnglish) {
         // 确保目录存在
         fs.ensureDirSync(toDir);
 
-        // 打开这个文件夹
-        var opener = require('opener');
-        opener('file:' + toDir);
-
         publishTree(fullPath, toDir, isEnglish);
     }
 
@@ -154,7 +150,7 @@ var publish = function(projectPath, toDir, isEnglish) {
 require('./Start.js');
 
 var args = process.argv;
-if (args.length != 4 && args.length != 5) {
+if (args.length !== 4 && args.length !== 5) {
     console.error('Invalid arguments');
     return;
 }
