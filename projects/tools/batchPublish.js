@@ -106,7 +106,7 @@ var publish = function(projectPath, toDir, isEnglish) {
 
         var p2 = isEnglish ? 'docs-en' : 'docs';
         
-        var nodeModule = path.join(projectPath, 'docs/node_modules');
+        var nodeModule = path.join(path.join(projectPath, p2), 'node_modules');
         if (!fs.existsSync(nodeModule))
             exec('gitbook install "' + path.join(projectPath, p2) + '"');
 
