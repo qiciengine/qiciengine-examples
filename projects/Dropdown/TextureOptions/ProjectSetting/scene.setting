@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "UI": "Assets/scene/UI.bin"
+  },
+  "entryScene": "UI"
+}
