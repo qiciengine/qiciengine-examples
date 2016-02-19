@@ -13,6 +13,10 @@
       7,
       "world"
     ],
+    "uniqueName": [
+      7,
+      ""
+    ],
     "ignoreDestroy": [
       5,
       false
@@ -37,12 +41,12 @@
     "position": [
       0,
       0,
-      1.9768786127167743,
-      2.9826589595375594,
-      1.9768786127167743,
-      2.9826589595375594,
-      342,
-      516,
+      1.9785522788203878,
+      2.5254691689007984,
+      1.9785522788203878,
+      2.5254691689007984,
+      369,
+      471,
       0,
       0,
       0,
@@ -54,11 +58,11 @@
     ],
     "scaleX": [
       3,
-      0.9884393063583815
+      0.9892761394101877
     ],
     "scaleY": [
       3,
-      0.9884393063583815
+      0.9892761394101877
     ],
     "rotation": [
       3,
@@ -89,6 +93,10 @@
             7,
             "Particle System"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -115,7 +123,7 @@
             0,
             0,
             -100,
-            171,
+            184.5,
             -100,
             100,
             100,
@@ -153,17 +161,27 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/leaf.bin",
-            "ff456122-c633-444e-9b54-edabb05c78c3"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "leaf1.png",
-              "leaf2.png",
-              "leaf3.png"
+              [
+                10,
+                "Assets/atlas/leaf.bin",
+                "ff456122-c633-444e-9b54-edabb05c78c3",
+                "leaf1.png"
+              ],
+              [
+                10,
+                "Assets/atlas/leaf.bin",
+                "ff456122-c633-444e-9b54-edabb05c78c3",
+                "leaf2.png"
+              ],
+              [
+                10,
+                "Assets/atlas/leaf.bin",
+                "ff456122-c633-444e-9b54-edabb05c78c3",
+                "leaf3.png"
+              ]
             ]
           ],
           "zoneType": [
@@ -449,6 +467,10 @@
             7,
             "UIRoot"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -482,8 +504,8 @@
             0,
             0,
             0,
-            640,
-            965.6140350877192,
+            752.1019108280256,
+            960,
             0,
             0,
             0,
@@ -495,11 +517,11 @@
           ],
           "scaleX": [
             3,
-            0.534375
+            0.490625
           ],
           "scaleY": [
             3,
-            0.534375
+            0.490625
           ],
           "rotation": [
             3,
@@ -529,6 +551,10 @@
                 "name": [
                   7,
                   "EmitterViewer"
+                ],
+                "uniqueName": [
+                  7,
+                  ""
                 ],
                 "ignoreDestroy": [
                   5,
@@ -566,7 +592,7 @@
                   10.218748831469894,
                   -5.109374415735033,
                   10.218748831469894,
-                  960.5046606719842,
+                  954.890625584265,
                   120,
                   30,
                   0,
@@ -630,7 +656,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(Particle System)\nAlive:50\nDead:0\nTotal:50"
+                  "\n\n(Particle System)\nAlive:50\nDead:1\nTotal:51"
                 ],
                 "lineSpacing": [
                   3,
@@ -798,6 +824,10 @@
                   7,
                   "DebugViewer"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   false
@@ -898,7 +928,7 @@
                 ],
                 "text": [
                   7,
-                  "FPS: 29.9\nDraw Calls: 4\nTotal: 1.9 ms\nLogic: 0.3 ms\nRender: 1.4 ms\nPreUpdate: 0.0 ms\nUpdate: 0.1 ms\nPostUpdate: 0.1 ms\nTransformCalc: 0"
+                  "FPS: 30.0\nDraw Calls: 8\nTotal: 2.7 ms\nLogic: 0.2 ms\nRender: 2.2 ms\nPreUpdate: 0.1 ms\nUpdate: 0.1 ms\nPostUpdate: 0.1 ms\nTransformCalc: 0"
                 ],
                 "lineSpacing": [
                   3,
@@ -1085,10 +1115,10 @@
               "gameObjectRecord": [
                 4,
                 [
-                  0.5375,
-                  0.5375,
-                  718.139534883721,
-                  960.0000000000001
+                  0.534375,
+                  0.534375,
+                  640,
+                  965.6140350877192
                 ]
               ]
             }

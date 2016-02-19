@@ -14,6 +14,10 @@
       7,
       "Rocket"
     ],
+    "uniqueName": [
+      7,
+      ""
+    ],
     "ignoreDestroy": [
       5,
       null
@@ -45,8 +49,8 @@
       0.5,
       -95.18796992481202,
       -680,
-      75.81203007518798,
-      -422,
+      280.86298548920075,
+      -200,
       54,
       17,
       0,
@@ -94,6 +98,10 @@
           "name": [
             7,
             "Particle System"
+          ],
+          "uniqueName": [
+            7,
+            ""
           ],
           "ignoreDestroy": [
             5,
@@ -159,15 +167,15 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/demo.bin",
-            "d51f10bc-d286-473f-bf0e-bf698d3e8cbb"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "flare.png"
+              [
+                10,
+                "Assets/atlas/demo.bin",
+                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+                "flare.png"
+              ]
             ]
           ],
           "zoneType": [
@@ -435,7 +443,8 @@
     "texture": [
       10,
       "Assets/atlas/demo.bin",
-      "d51f10bc-d286-473f-bf0e-bf698d3e8cbb"
+      "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+      "bullet.png"
     ],
     "frame": [
       7,

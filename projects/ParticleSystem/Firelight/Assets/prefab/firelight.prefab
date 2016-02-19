@@ -14,6 +14,10 @@
       7,
       "firelight"
     ],
+    "uniqueName": [
+      7,
+      ""
+    ],
     "ignoreDestroy": [
       5,
       false
@@ -40,8 +44,8 @@
       0.5,
       0,
       100,
-      171,
-      358,
+      184.5,
+      335.5,
       100,
       100,
       0,
@@ -89,6 +93,10 @@
           "name": [
             7,
             "smoke"
+          ],
+          "uniqueName": [
+            7,
+            ""
           ],
           "ignoreDestroy": [
             5,
@@ -154,15 +162,15 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/fire.bin",
-            "6a07c054-6855-4924-bf1c-cf746dc60cd5"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "smoke.png"
+              [
+                10,
+                "Assets/atlas/fire.bin",
+                "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                "smoke.png"
+              ]
             ]
           ],
           "zoneType": [
@@ -442,6 +450,10 @@
             7,
             "spark"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -506,15 +518,15 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/fire.bin",
-            "6a07c054-6855-4924-bf1c-cf746dc60cd5"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "white.png"
+              [
+                10,
+                "Assets/atlas/fire.bin",
+                "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                "white.png"
+              ]
             ]
           ],
           "zoneType": [
@@ -788,6 +800,10 @@
             7,
             "flame"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -852,15 +868,15 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/fire.bin",
-            "6a07c054-6855-4924-bf1c-cf746dc60cd5"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "white.png"
+              [
+                10,
+                "Assets/atlas/fire.bin",
+                "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                "white.png"
+              ]
             ]
           ],
           "zoneType": [

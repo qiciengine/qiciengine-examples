@@ -13,6 +13,10 @@
       7,
       "world"
     ],
+    "uniqueName": [
+      7,
+      ""
+    ],
     "ignoreDestroy": [
       5,
       false
@@ -37,12 +41,12 @@
     "position": [
       0,
       0,
-      1.9768786127167743,
-      2.9826589595375594,
-      1.9768786127167743,
-      2.9826589595375594,
-      342,
-      516,
+      1.9785522788203878,
+      2.5254691689007984,
+      1.9785522788203878,
+      2.5254691689007984,
+      369,
+      471,
       0,
       0,
       0,
@@ -54,11 +58,11 @@
     ],
     "scaleX": [
       3,
-      0.9884393063583815
+      0.9892761394101877
     ],
     "scaleY": [
       3,
-      0.9884393063583815
+      0.9892761394101877
     ],
     "rotation": [
       3,
@@ -89,6 +93,10 @@
             7,
             "Particle System"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -115,7 +123,7 @@
             0,
             0,
             100,
-            171,
+            184.5,
             100,
             100,
             100,
@@ -153,15 +161,15 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/particles.bin",
-            "d893a2cc-a3df-496e-a94d-ca2ae1f81fbd"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "white.png"
+              [
+                10,
+                "Assets/atlas/particles.bin",
+                "d893a2cc-a3df-496e-a94d-ca2ae1f81fbd",
+                "white.png"
+              ]
             ]
           ],
           "zoneType": [
@@ -429,6 +437,10 @@
             7,
             "UIRoot"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -466,8 +478,8 @@
             0,
             0,
             0,
-            640,
-            965.6140350877192,
+            752.1019108280256,
+            960,
             0,
             0,
             0,
@@ -479,11 +491,11 @@
           ],
           "scaleX": [
             3,
-            0.534375
+            0.490625
           ],
           "scaleY": [
             3,
-            0.534375
+            0.490625
           ],
           "rotation": [
             3,
@@ -514,6 +526,10 @@
                   7,
                   "UIImage"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   null
@@ -543,14 +559,14 @@
                 "position": [
                   0,
                   0,
-                  -162.80701754385962,
+                  -103.94904458598722,
                   0,
-                  -162.80701754385962,
+                  -103.94904458598722,
                   0,
-                  965.6140350877192,
-                  965.6140350877192,
-                  -162.80701754385962,
-                  -162.80701754385962,
+                  960,
+                  960,
+                  -103.94904458598722,
+                  -103.94904458598722,
                   0,
                   0,
                   0,
@@ -582,7 +598,8 @@
                 "texture": [
                   10,
                   "Assets/atlas/demo.bin",
-                  "1131a8f7-7f6d-4069-ad05-02c9a23dc307"
+                  "1131a8f7-7f6d-4069-ad05-02c9a23dc307",
+                  "bg.jpg"
                 ],
                 "frame": [
                   7,
@@ -629,6 +646,10 @@
                 "name": [
                   7,
                   "DebugViewer"
+                ],
+                "uniqueName": [
+                  7,
+                  ""
                 ],
                 "ignoreDestroy": [
                   5,
@@ -730,7 +751,7 @@
                 ],
                 "text": [
                   7,
-                  "FPS: 29.9\nDraw Calls: 5\nTotal: 2.9 ms\nLogic: 0.7 ms\nRender: 1.9 ms\nPreUpdate: 0.3 ms\nUpdate: 0.2 ms\nPostUpdate: 0.2 ms\nTransformCalc: 1"
+                  "FPS: 30.0\nDraw Calls: 23\nTotal: 2.8 ms\nLogic: 0.7 ms\nRender: 1.8 ms\nPreUpdate: 0.3 ms\nUpdate: 0.2 ms\nPostUpdate: 0.3 ms\nTransformCalc: 0"
                 ],
                 "lineSpacing": [
                   3,
@@ -902,6 +923,10 @@
                   7,
                   "EmitterViewer"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   false
@@ -938,7 +963,7 @@
                   10.218748831469894,
                   -5.109374415735033,
                   10.218748831469894,
-                  960.5046606719842,
+                  954.890625584265,
                   120,
                   30,
                   0,
@@ -1002,7 +1027,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(Particle System)\nAlive:198\nDead:2\nTotal:200"
+                  "\n\n(Particle System)\nAlive:194\nDead:6\nTotal:200"
                 ],
                 "lineSpacing": [
                   3,
@@ -1185,10 +1210,10 @@
               "gameObjectRecord": [
                 4,
                 [
-                  0.5375,
-                  0.5375,
-                  718.139534883721,
-                  960.0000000000001
+                  0.534375,
+                  0.534375,
+                  640,
+                  965.6140350877192
                 ]
               ]
             }

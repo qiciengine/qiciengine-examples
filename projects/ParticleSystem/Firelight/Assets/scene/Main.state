@@ -13,6 +13,10 @@
       7,
       "world"
     ],
+    "uniqueName": [
+      7,
+      ""
+    ],
     "ignoreDestroy": [
       5,
       false
@@ -37,12 +41,12 @@
     "position": [
       0,
       0,
-      1.9768786127167743,
-      2.9826589595375594,
-      1.9768786127167743,
-      2.9826589595375594,
-      342,
-      516,
+      1.9785522788203878,
+      2.5254691689007984,
+      1.9785522788203878,
+      2.5254691689007984,
+      369,
+      471,
       0,
       0,
       0,
@@ -54,11 +58,11 @@
     ],
     "scaleX": [
       3,
-      0.9884393063583815
+      0.9892761394101877
     ],
     "scaleY": [
       3,
-      0.9884393063583815
+      0.9892761394101877
     ],
     "rotation": [
       3,
@@ -88,6 +92,10 @@
           "name": [
             7,
             "UIRoot"
+          ],
+          "uniqueName": [
+            7,
+            ""
           ],
           "ignoreDestroy": [
             5,
@@ -122,8 +130,8 @@
             0,
             0,
             0,
-            640,
-            965.6140350877192,
+            752.1019108280256,
+            960,
             0,
             0,
             0,
@@ -135,11 +143,11 @@
           ],
           "scaleX": [
             3,
-            0.534375
+            0.490625
           ],
           "scaleY": [
             3,
-            0.534375
+            0.490625
           ],
           "rotation": [
             3,
@@ -169,6 +177,10 @@
                 "name": [
                   7,
                   "smoke"
+                ],
+                "uniqueName": [
+                  7,
+                  ""
                 ],
                 "ignoreDestroy": [
                   5,
@@ -206,7 +218,7 @@
                   10,
                   -195,
                   10,
-                  770.6140350877192,
+                  765,
                   120,
                   30,
                   0,
@@ -270,7 +282,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(smoke)\nAlive:9\nDead:0\nTotal:9"
+                  "\n\n(smoke)\nAlive:8\nDead:1\nTotal:9"
                 ],
                 "lineSpacing": [
                   3,
@@ -438,6 +450,10 @@
                   7,
                   "DebugViewer"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   false
@@ -538,7 +554,7 @@
                 ],
                 "text": [
                   7,
-                  "FPS: 30.0\nDraw Calls: 7\nTotal: 3.1 ms\nLogic: 0.8 ms\nRender: 1.8 ms\nPreUpdate: 0.3 ms\nUpdate: 0.3 ms\nPostUpdate: 0.2 ms\nTransformCalc: 0"
+                  "FPS: 29.6\nDraw Calls: 7\nTotal: 3.2 ms\nLogic: 0.9 ms\nRender: 2.2 ms\nPreUpdate: 0.2 ms\nUpdate: 0.3 ms\nPostUpdate: 0.4 ms\nTransformCalc: 0"
                 ],
                 "lineSpacing": [
                   3,
@@ -710,6 +726,10 @@
                   7,
                   "spark"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   false
@@ -746,7 +766,7 @@
                   10,
                   -100,
                   10,
-                  865.6140350877192,
+                  860,
                   120,
                   30,
                   0,
@@ -810,7 +830,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(spark)\nAlive:8\nDead:0\nTotal:8"
+                  "\n\n(spark)\nAlive:10\nDead:0\nTotal:10"
                 ],
                 "lineSpacing": [
                   3,
@@ -978,6 +998,10 @@
                   7,
                   "flame"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   false
@@ -1014,7 +1038,7 @@
                   10,
                   -5,
                   10,
-                  960.6140350877192,
+                  955,
                   120,
                   30,
                   0,
@@ -1078,7 +1102,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(flame)\nAlive:74\nDead:2\nTotal:76"
+                  "\n\n(flame)\nAlive:74\nDead:5\nTotal:79"
                 ],
                 "lineSpacing": [
                   3,
@@ -1261,10 +1285,10 @@
               "gameObjectRecord": [
                 4,
                 [
-                  0.5375,
-                  0.5375,
-                  718.139534883721,
-                  960.0000000000001
+                  0.534375,
+                  0.534375,
+                  640,
+                  965.6140350877192
                 ]
               ]
             }
@@ -1286,6 +1310,10 @@
           "name": [
             7,
             "firelight"
+          ],
+          "uniqueName": [
+            7,
+            ""
           ],
           "ignoreDestroy": [
             5,
@@ -1313,8 +1341,8 @@
             0.5,
             0,
             100,
-            171,
-            358,
+            184.5,
+            335.5,
             100,
             100,
             0,
@@ -1362,6 +1390,10 @@
                 "name": [
                   7,
                   "smoke"
+                ],
+                "uniqueName": [
+                  7,
+                  ""
                 ],
                 "ignoreDestroy": [
                   5,
@@ -1427,15 +1459,15 @@
                   3,
                   1
                 ],
-                "texture": [
-                  10,
-                  "Assets/atlas/fire.bin",
-                  "6a07c054-6855-4924-bf1c-cf746dc60cd5"
-                ],
-                "frames": [
-                  8,
+                "textures": [
+                  11,
                   [
-                    "smoke.png"
+                    [
+                      10,
+                      "Assets/atlas/fire.bin",
+                      "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                      "smoke.png"
+                    ]
                   ]
                 ],
                 "zoneType": [
@@ -1715,6 +1747,10 @@
                   7,
                   "spark"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   false
@@ -1779,15 +1815,15 @@
                   3,
                   1
                 ],
-                "texture": [
-                  10,
-                  "Assets/atlas/fire.bin",
-                  "6a07c054-6855-4924-bf1c-cf746dc60cd5"
-                ],
-                "frames": [
-                  8,
+                "textures": [
+                  11,
                   [
-                    "white.png"
+                    [
+                      10,
+                      "Assets/atlas/fire.bin",
+                      "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                      "white.png"
+                    ]
                   ]
                 ],
                 "zoneType": [
@@ -2061,6 +2097,10 @@
                   7,
                   "flame"
                 ],
+                "uniqueName": [
+                  7,
+                  ""
+                ],
                 "ignoreDestroy": [
                   5,
                   false
@@ -2125,15 +2165,15 @@
                   3,
                   1
                 ],
-                "texture": [
-                  10,
-                  "Assets/atlas/fire.bin",
-                  "6a07c054-6855-4924-bf1c-cf746dc60cd5"
-                ],
-                "frames": [
-                  8,
+                "textures": [
+                  11,
                   [
-                    "white.png"
+                    [
+                      10,
+                      "Assets/atlas/fire.bin",
+                      "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                      "white.png"
+                    ]
                   ]
                 ],
                 "zoneType": [

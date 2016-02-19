@@ -14,6 +14,10 @@
       7,
       "explosion"
     ],
+    "uniqueName": [
+      7,
+      ""
+    ],
     "ignoreDestroy": [
       5,
       false
@@ -40,8 +44,8 @@
       0.5,
       0,
       0,
-      0,
-      0,
+      376.0509554140128,
+      480,
       100,
       100,
       0,
@@ -89,6 +93,10 @@
           "name": [
             7,
             "smoke"
+          ],
+          "uniqueName": [
+            7,
+            ""
           ],
           "ignoreDestroy": [
             5,
@@ -154,15 +162,15 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/demo.bin",
-            "d51f10bc-d286-473f-bf0e-bf698d3e8cbb"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "smoke.png"
+              [
+                10,
+                "Assets/atlas/demo.bin",
+                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+                "smoke.png"
+              ]
             ]
           ],
           "zoneType": [
@@ -433,6 +441,10 @@
             7,
             "sparkle"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -497,15 +509,15 @@
             3,
             1
           ],
-          "texture": [
-            10,
-            "Assets/atlas/demo.bin",
-            "d51f10bc-d286-473f-bf0e-bf698d3e8cbb"
-          ],
-          "frames": [
-            8,
+          "textures": [
+            11,
             [
-              "sparkle.png"
+              [
+                10,
+                "Assets/atlas/demo.bin",
+                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+                "sparkle.png"
+              ]
             ]
           ],
           "zoneType": [
