@@ -1,0 +1,6 @@
+{
+  "scene": {
+    "entry": "Assets/scene/entry.bin"
+  },
+  "entryScene": "entry"
+}
