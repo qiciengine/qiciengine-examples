@@ -16,7 +16,7 @@ var faildList;
  * G.load('batchPublish').publish(目录树, 发布目标文件夹);
  * 例如 G.load('batchPublish').publish('Users/coding/demo', '/Users/wudm/Desktop/publish');
  */
-module.exports.publish = function(fullPath, toDir, isEnglish) {
+module.exports.publish = function(fullPath, toDir, isEnglish, libVersion) {
     if (!fullPath || !fs.existsSync(fullPath)) {
         G.log.trace('路径' + fullPath + '不存在。');
         return;
@@ -36,7 +36,7 @@ module.exports.publish = function(fullPath, toDir, isEnglish) {
         // 确保目录存在
         fs.ensureDirSync(toDir);
 
-        publishTree(fullPath, toDir, isEnglish);
+        publishTree(fullPath, toDir, isEnglish, libVersion);
     }
 
     G.log.trace(chalk.blue('处理结束。'));
@@ -51,13 +51,13 @@ module.exports.publish = function(fullPath, toDir, isEnglish) {
 };
 
 // 发布一个目录树，递归下去发布所有工程
-var publishTree = function(fullPath, toDir, isEnglish) {
+var publishTree = function(fullPath, toDir, isEnglish, libVersion) {
     // 自己是不是个有效工程
     var settingPath = path.join(fullPath, 'ProjectSetting/project.setting');
 
     if (fs.existsSync(settingPath)) {
         // 处理这个工程
-        publish(fullPath, toDir, isEnglish);
+        publish(fullPath, toDir, isEnglish, libVersion);
         return;
     }
 
@@ -67,14 +67,14 @@ var publishTree = function(fullPath, toDir, isEnglish) {
 
         if (stat.isDirectory()) {
             // 是一个目录，继续递归下去处理
-            publishTree(subFullPath, toDir + '/' + subPath, isEnglish);
+            publishTree(subFullPath, toDir + '/' + subPath, isEnglish, libVersion);
         }
     });
 };
 
 
 // 发布这个工程，发布到指定目录
-var publish = function(projectPath, toDir, isEnglish) {
+var publish = function(projectPath, toDir, isEnglish, libVersion) {
     G.log.trace(chalk.yellow('    发布工程{0}到{1}'), projectPath, toDir);
 
     // 切换工程到当前目录
@@ -88,7 +88,7 @@ var publish = function(projectPath, toDir, isEnglish) {
     }
 
     // 执行发布
-    var publishRet = M.PROJECT.publishTo(toDir);
+    var publishRet = M.PROJECT.publishTo(toDir, libVersion);
     if (typeof publishRet === 'string') {
         G.log.trace(chalk.red('Faild!!!! reason:{0}'), publishRet);
 
@@ -150,14 +150,15 @@ var publish = function(projectPath, toDir, isEnglish) {
 require('./Start.js');
 
 var args = process.argv;
-if (args.length !== 4 && args.length !== 5) {
+if (args.length < 4) {
     console.error('Invalid arguments');
     return;
 }
 
 var projectPath = args[2];
 var toDir = args[3];
-var isEnglish = args.length === 5 ? args[4] === 'true' : false;
-module.exports.publish(projectPath, toDir, isEnglish);
+var isEnglish = args[4] === 'true' ? true : false;
+var libVersion = args[5];
+module.exports.publish(projectPath, toDir, isEnglish, libVersion);
 process.exit();
 
