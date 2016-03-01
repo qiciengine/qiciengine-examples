@@ -4,7 +4,9 @@
 在实际拓展编辑器中，如果需要的功能设计到磁盘操作、或者获取一些后台支持时，可以使用扩展后台服务的方式来完成。
 
 * 在Project/Editor/Service目录下创建脚本ModuleTest.js，实现后台扩展的功能。
+
 代码如下：  
+
 ````javascript
 G.log.trace('------------------------------ load Project Module');
 // 拓展模块的管理实例
@@ -78,7 +80,9 @@ pipe.on('receiveData', onReceiveData);
 ````
 
 * 在Project/Editor目录下创建脚本PublisUtil.js，来处理前端功能。
+
 代码如下：  
+
 ````javascript
 var beforePublish = function() {
     console.log('************beforePublish');
