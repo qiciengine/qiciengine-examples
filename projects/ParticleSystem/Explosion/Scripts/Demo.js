@@ -19,6 +19,16 @@ Demo.prototype.play = function() {
         var prefab = self.game.assets.find('explosion');
         var particleSystem = self.game.add.clone(prefab);
         
+        // 播放动画，通过动画控制粒子系统的激活状态
+        var animator = particleSystem.getScript('qc.Animator');
+        animator.play();
+        
+        // 注册动画的末帧事件，将粒子系统节点销毁
+        var eventListener = particleSystem.getScript('qc.engine.EventListener');
+        self.addListener(eventListener.onLastFrame, function() {
+			particleSystem.destroy();
+        });
+        
         if (self.sparkleViewer) {
             self.sparkleViewer.getScript('qc.EmitterViewer').particleSystem = particleSystem.find('sparkle');
         }

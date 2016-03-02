@@ -1,0 +1,54 @@
+{
+  "dependences": {},
+  "id": 0,
+  "targetObject": "331f51b2-7a5f-4101-b4a7-d302a132a04f",
+  "loop": false,
+  "samples": 60,
+  "playEventInEditor": true,
+  "name": "explosion",
+  "propertyList": {
+    "/smoke": {
+      "6": [
+        [
+          5,
+          [
+            [
+              0,
+              false
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              90,
+              true
+            ]
+          ]
+        ]
+      ]
+    },
+    "/sparkle": {
+      "6": [
+        [
+          5,
+          [
+            [
+              0,
+              false
+            ],
+            [
+              1,
+              true
+            ],
+            [
+              90,
+              true
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "eventList": "[[90,\"lastFrameEvent\",null]]"
+}
