@@ -55,7 +55,7 @@
 	};
 ````
 将此脚本设置为第一个加载的脚本，其他所有脚本都依赖于本脚本。设置方法如下：  
-![Script Entry](images/script_entry.gif)    
+<video controls="controls" src="video/script_entry.mp4"></video>       
 
 运行之，在控制台将会看到如下的打印信息，证明qc.initGame方法自动被调用了。  
 ![Console print](images/console_print.png)    
