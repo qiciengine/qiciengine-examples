@@ -6,7 +6,7 @@ var UI = qc.defineBehaviour('qc.engine.UI', qc.Behaviour, function() {
 
 UI.prototype.awake = function() {
     // The texture is automatically loaded
-    alert(this.texture === this.game.assets.find('Assets/texture/block.bin'));
+    alert(this.texture.atlas === this.game.assets.find('Assets/texture/block.bin'));
     
     // Display it
     var o = this.game.add.image(this.gameObject);

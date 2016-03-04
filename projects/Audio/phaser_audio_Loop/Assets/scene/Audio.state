@@ -1,14 +1,21 @@
 {
   "class": "qc.Node",
   "data": {
-    "uuid": "49ce5296-eb02-4a28-8a04-9664ad9aa983",
     "_prefab": [
       7,
       "Temp/scene_editor.bin"
     ],
+    "__lock": [
+      5,
+      null
+    ],
     "name": [
       7,
       "world"
+    ],
+    "uniqueName": [
+      7,
+      ""
     ],
     "ignoreDestroy": [
       5,
@@ -34,12 +41,12 @@
     "position": [
       0,
       0,
-      1.9878419452887215,
-      2.857142857142833,
-      1.9878419452887215,
-      2.857142857142833,
-      654,
-      940,
+      1.9791122715404867,
+      2.913838120104458,
+      1.9791122715404867,
+      2.913838120104458,
+      379,
+      558,
       0,
       0,
       0,
@@ -51,11 +58,11 @@
     ],
     "scaleX": [
       3,
-      0.993920972644377
+      0.9895561357702349
     ],
     "scaleY": [
       3,
-      0.993920972644377
+      0.9895561357702349
     ],
     "rotation": [
       3,
@@ -78,9 +85,17 @@
             7,
             ""
           ],
+          "__lock": [
+            5,
+            null
+          ],
           "name": [
             7,
             "UIRoot"
+          ],
+          "uniqueName": [
+            7,
+            ""
           ],
           "ignoreDestroy": [
             5,
@@ -105,38 +120,7 @@
           "scripts": [
             {
               "clazz": "qc.ScaleAdapter",
-              "data": {
-                "class": "qc.ScaleAdapter",
-                "data": {
-                  "enable": true,
-                  "target": null,
-                  "referenceResolution": [
-                    24,
-                    "qc.Point",
-                    [
-                      960,
-                      640
-                    ]
-                  ],
-                  "manualType": [
-                    3,
-                    3
-                  ],
-                  "fullTarget": [
-                    5,
-                    true
-                  ],
-                  "gameObjectRecord": [
-                    4,
-                    [
-                      0.728125,
-                      0.728125,
-                      640,
-                      1198.969957081545
-                    ]
-                  ]
-                }
-              }
+              "data": "e3f7d8e7-02cb-42cc-b3da-fd5d4e5bb402"
             }
           ],
           "position": [
@@ -147,7 +131,7 @@
             0,
             0,
             960,
-            1379.8165137614678,
+            1413.4036939313985,
             0,
             0,
             0,
@@ -159,11 +143,11 @@
           ],
           "scaleX": [
             3,
-            0.68125
+            0.39479166666666665
           ],
           "scaleY": [
             3,
-            0.68125
+            0.39479166666666665
           ],
           "rotation": [
             3,
@@ -186,9 +170,17 @@
                   7,
                   ""
                 ],
+                "__lock": [
+                  5,
+                  null
+                ],
                 "name": [
                   7,
                   "speaker"
+                ],
+                "uniqueName": [
+                  7,
+                  ""
                 ],
                 "ignoreDestroy": [
                   5,
@@ -213,131 +205,11 @@
                 "scripts": [
                   {
                     "clazz": "qc.TweenScale",
-                    "data": {
-                      "class": "qc.TweenScale",
-                      "data": {
-                        "enable": false,
-                        "_curve": [
-                          22,
-                          "qc.BezierCurve",
-                          [
-                            [
-                              0,
-                              0,
-                              1,
-                              1
-                            ],
-                            [
-                              1,
-                              1,
-                              1,
-                              1
-                            ],
-                            [
-                              0,
-                              0
-                            ]
-                          ]
-                        ],
-                        "sampleMethod": [
-                          3,
-                          0
-                        ],
-                        "style": [
-                          3,
-                          2
-                        ],
-                        "delay": [
-                          3,
-                          0
-                        ],
-                        "duration": [
-                          3,
-                          0.23
-                        ],
-                        "tweenGroup": [
-                          3,
-                          0
-                        ],
-                        "flag": [
-                          7,
-                          ""
-                        ],
-                        "playOnAwake": [
-                          5,
-                          false
-                        ],
-                        "from": [
-                          24,
-                          "qc.Point",
-                          [
-                            1,
-                            1
-                          ]
-                        ],
-                        "to": [
-                          24,
-                          "qc.Point",
-                          [
-                            1.3,
-                            1.1
-                          ]
-                        ]
-                      }
-                    }
+                    "data": "66236b16-44ce-4315-823f-704c3d269fd2"
                   },
                   {
                     "clazz": "qc.demo.SoundLoop",
-                    "data": {
-                      "class": "qc.demo.SoundLoop",
-                      "data": {
-                        "enable": true,
-                        "titleLabel": [
-                          18,
-                          "3cb671d1-7caf-46cf-b027-83e54de54644"
-                        ],
-                        "sounds": [
-                          13,
-                          [
-                            [
-                              12,
-                              "Assets/audio/bass.mp3.bin",
-                              "ed5085ae-ed5a-443b-8459-2da997a081a5"
-                            ],
-                            [
-                              12,
-                              "Assets/audio/drums.mp3.bin",
-                              "b2900cac-0164-41b2-b176-09fc2bed3b30"
-                            ],
-                            [
-                              12,
-                              "Assets/audio/percussion.mp3.bin",
-                              "db49a1e9-0591-433a-9f05-b74bee6ba381"
-                            ],
-                            [
-                              12,
-                              "Assets/audio/synth1.mp3.bin",
-                              "eab7df68-44dc-44b9-8b90-61f02c51832f"
-                            ],
-                            [
-                              12,
-                              "Assets/audio/synth2.mp3.bin",
-                              "b6eca998-d834-48c4-8842-d88100789251"
-                            ],
-                            [
-                              12,
-                              "Assets/audio/top1.mp3.bin",
-                              "f0ed868a-896b-44bd-9241-a39134ec9a98"
-                            ],
-                            [
-                              12,
-                              "Assets/audio/top2.mp3.bin",
-                              "ddd6f5b0-4b86-412a-a04e-18278a01e983"
-                            ]
-                          ]
-                        ]
-                      }
-                    }
+                    "data": "c6ec993a-2105-44f1-a626-d29532de97fa"
                   }
                 ],
                 "position": [
@@ -382,13 +254,154 @@
                 "texture": [
                   10,
                   "Assets/texture/speakers.bin",
-                  "649d6d72-297f-48c6-8221-7f87f6817ec7"
+                  "649d6d72-297f-48c6-8221-7f87f6817ec7",
+                  0
                 ],
                 "frame": null,
                 "imageType": [
                   3,
                   0
+                ],
+                "skewX": [
+                  3,
+                  null
+                ],
+                "skewY": [
+                  3,
+                  null
                 ]
+              },
+              "__json": {
+                "66236b16-44ce-4315-823f-704c3d269fd2": {
+                  "class": "qc.TweenScale",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "66236b16-44ce-4315-823f-704c3d269fd2"
+                    ],
+                    "enable": false,
+                    "_curve": [
+                      22,
+                      "qc.BezierCurve",
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "sampleMethod": [
+                      3,
+                      0
+                    ],
+                    "style": [
+                      3,
+                      2
+                    ],
+                    "delay": [
+                      3,
+                      0
+                    ],
+                    "duration": [
+                      3,
+                      0.23
+                    ],
+                    "tweenGroup": [
+                      3,
+                      0
+                    ],
+                    "flag": [
+                      7,
+                      ""
+                    ],
+                    "playOnAwake": [
+                      5,
+                      false
+                    ],
+                    "from": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "to": [
+                      24,
+                      "qc.Point",
+                      [
+                        1.3,
+                        1.1
+                      ]
+                    ]
+                  }
+                },
+                "c6ec993a-2105-44f1-a626-d29532de97fa": {
+                  "class": "qc.demo.SoundLoop",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "c6ec993a-2105-44f1-a626-d29532de97fa"
+                    ],
+                    "enable": true,
+                    "titleLabel": [
+                      18,
+                      "3cb671d1-7caf-46cf-b027-83e54de54644"
+                    ],
+                    "sounds": [
+                      13,
+                      [
+                        [
+                          12,
+                          "Assets/audio/bass.mp3.bin",
+                          "ed5085ae-ed5a-443b-8459-2da997a081a5"
+                        ],
+                        [
+                          12,
+                          "Assets/audio/drums.mp3.bin",
+                          "b2900cac-0164-41b2-b176-09fc2bed3b30"
+                        ],
+                        [
+                          12,
+                          "Assets/audio/percussion.mp3.bin",
+                          "db49a1e9-0591-433a-9f05-b74bee6ba381"
+                        ],
+                        [
+                          12,
+                          "Assets/audio/synth1.mp3.bin",
+                          "eab7df68-44dc-44b9-8b90-61f02c51832f"
+                        ],
+                        [
+                          12,
+                          "Assets/audio/synth2.mp3.bin",
+                          "b6eca998-d834-48c4-8842-d88100789251"
+                        ],
+                        [
+                          12,
+                          "Assets/audio/top1.mp3.bin",
+                          "f0ed868a-896b-44bd-9241-a39134ec9a98"
+                        ],
+                        [
+                          12,
+                          "Assets/audio/top2.mp3.bin",
+                          "ddd6f5b0-4b86-412a-a04e-18278a01e983"
+                        ]
+                      ]
+                    ]
+                  }
+                }
               }
             },
             {
@@ -399,9 +412,17 @@
                   7,
                   ""
                 ],
+                "__lock": [
+                  5,
+                  null
+                ],
                 "name": [
                   7,
                   "title"
+                ],
+                "uniqueName": [
+                  7,
+                  ""
                 ],
                 "ignoreDestroy": [
                   5,
@@ -426,48 +447,7 @@
                 "scripts": [
                   {
                     "clazz": "qc.NodeMask",
-                    "data": {
-                      "class": "qc.NodeMask",
-                      "data": {
-                        "enable": false,
-                        "checkInField": [
-                          5,
-                          false
-                        ],
-                        "minAnchor": [
-                          24,
-                          "qc.Point",
-                          [
-                            0,
-                            0
-                          ]
-                        ],
-                        "maxAnchor": [
-                          24,
-                          "qc.Point",
-                          [
-                            1,
-                            1
-                          ]
-                        ],
-                        "minRotation": [
-                          3,
-                          0
-                        ],
-                        "maxRotation": [
-                          3,
-                          6.283185307179586
-                        ],
-                        "clipType": [
-                          3,
-                          1
-                        ],
-                        "mode": [
-                          3,
-                          0
-                        ]
-                      }
-                    }
+                    "data": "ca2ee262-0277-494e-b223-3d0c07566ae8"
                   }
                 ],
                 "position": [
@@ -606,9 +586,95 @@
                   5,
                   false
                 ]
+              },
+              "__json": {
+                "ca2ee262-0277-494e-b223-3d0c07566ae8": {
+                  "class": "qc.NodeMask",
+                  "data": {
+                    "uuid": [
+                      7,
+                      "ca2ee262-0277-494e-b223-3d0c07566ae8"
+                    ],
+                    "enable": false,
+                    "checkInField": [
+                      5,
+                      false
+                    ],
+                    "minAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "maxAnchor": [
+                      24,
+                      "qc.Point",
+                      [
+                        1,
+                        1
+                      ]
+                    ],
+                    "minRotation": [
+                      3,
+                      0
+                    ],
+                    "maxRotation": [
+                      3,
+                      6.283185307179586
+                    ],
+                    "clipType": [
+                      3,
+                      1
+                    ],
+                    "mode": [
+                      3,
+                      0
+                    ]
+                  }
+                }
               }
             }
           ]
+        },
+        "__json": {
+          "e3f7d8e7-02cb-42cc-b3da-fd5d4e5bb402": {
+            "class": "qc.ScaleAdapter",
+            "data": {
+              "uuid": [
+                7,
+                "e3f7d8e7-02cb-42cc-b3da-fd5d4e5bb402"
+              ],
+              "enable": true,
+              "target": null,
+              "referenceResolution": [
+                24,
+                "qc.Point",
+                [
+                  960,
+                  640
+                ]
+              ],
+              "manualType": [
+                3,
+                3
+              ],
+              "fullTarget": [
+                5,
+                true
+              ],
+              "gameObjectRecord": [
+                4,
+                [
+                  0.39479166666666665,
+                  0.39479166666666665,
+                  960,
+                  1413.4036939313985
+                ]
+              ]
+            }
+          }
         }
       }
     ]

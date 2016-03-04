@@ -10,5 +10,5 @@ var InputTest = qc.defineBehaviour('qc.demo.InputTest', qc.Behaviour, function()
 });
 
 InputTest.prototype.onClick = function() {
-    window.open('http://www.qiciengine.com')
+    window.open('http://www.zuoyouxi.com')
 };

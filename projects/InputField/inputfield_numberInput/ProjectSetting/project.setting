@@ -11,5 +11,19 @@
   "version": "1",
   "loading": "",
   "backgroundColor": 11382189,
-  "toolFlag": 124
+  "toolFlag": 124,
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "runInBackground": true,
+  "renderer": "Auto",
+  "antialias": true,
+  "transparent": false,
+  "customSettings": {}
 }

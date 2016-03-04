@@ -1,0 +1,17 @@
+{
+  "Assets/scene/InputField.bin": "07e062ed-1273-4c4e-aa61-8c278c4b09e6",
+  "Temp/scene_editor.bin": "e8fd0f35-ef4f-4502-aa58-9fb13abbe4cc",
+  "Assets/atlas/button.bin": "61634eab-52ed-4fcd-993f-62f6890791c2",
+  "Assets/atlas/button@atlas/hover.bin": "a7b405f5-eaa9-476b-8a47-d8379ccdee2e",
+  "Assets/atlas/button@atlas/normal.bin": "9bcdc0d9-f788-45ce-b321-6bae176036fd",
+  "Assets/atlas/button@atlas/press.bin": "dafc171c-061c-414c-81fd-8669202a0d3b",
+  "Assets/scene/Game.bin": "c87aeaca-c39f-4a69-a60c-1f4d9e7a5bba",
+  "Assets/texture/cavern1.bin": "32dba334-2a9c-435d-88b9-d0210867bf99",
+  "Assets/texture/chrome.bin": "35bbcc43-4463-4a6f-a7f0-d1d726872fdc",
+  "Assets/texture/fire.bin": "e3e6fbb2-c03f-4fab-a738-06669ec61782",
+  "Assets/texture/fog.bin": "070729c8-52d2-4e5a-81f8-ddc1754f0ed9",
+  "Assets/texture/sky1.bin": "4c835b56-6757-4032-b8a3-140a2e68856b",
+  "Assets/texture/space2.bin": "a18734a3-36fc-4e60-90af-6f113eec047f",
+  "Assets/texture/toxic.bin": "97b86041-9bbb-4a88-9c1b-c4ecb9d86738",
+  "Assets/atlas/button@atlas/disable.bin": "89665918-5dc6-40f9-a476-f9c152cfd3d3"
+}

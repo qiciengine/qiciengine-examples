@@ -13,6 +13,10 @@
       7,
       "world"
     ],
+    "uniqueName": [
+      7,
+      ""
+    ],
     "ignoreDestroy": [
       5,
       false
@@ -37,12 +41,12 @@
     "position": [
       0,
       0,
-      1.9851576994433913,
-      3.40630797773656,
-      1.9851576994433913,
-      3.40630797773656,
-      535,
-      918,
+      1.974358974358978,
+      3.5769230769230376,
+      1.974358974358978,
+      3.5769230769230376,
+      308,
+      558,
       0,
       0,
       0,
@@ -54,11 +58,11 @@
     ],
     "scaleX": [
       3,
-      0.9925788497217068
+      0.9871794871794872
     ],
     "scaleY": [
       3,
-      0.9925788497217068
+      0.9871794871794872
     ],
     "rotation": [
       3,
@@ -89,6 +93,10 @@
             7,
             "dom"
           ],
+          "uniqueName": [
+            7,
+            ""
+          ],
           "ignoreDestroy": [
             5,
             false
@@ -115,8 +123,8 @@
             0.5,
             0,
             0,
-            267.5,
-            459,
+            154,
+            279,
             300,
             200,
             0,
@@ -163,7 +171,7 @@
           ],
           "innerHTML": [
             true,
-            "<h3>QICI Engine</h3>\nWebSite: <a href=\"http://www.qiciengine.com\" target=\"_blank\">http://www.qiciengine.com</a><br>\n<img src=\"http://www.qiciengine.com/Public/Front/images/logo.png\">"
+            "<h3>QICI Engine</h3>\nWebSite: <a href=\"http://www.zuoyouxi.com\" target=\"_blank\">http://www.zuoyouxi.com</a><br>\n<img src=\"http://www.zuoyouxi.com/Public/Front/images/logo.png\">"
           ],
           "zIndex": [
             1,
