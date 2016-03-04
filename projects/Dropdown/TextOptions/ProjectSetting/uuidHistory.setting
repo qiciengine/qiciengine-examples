@@ -1,9 +1,20 @@
 {
+  "Assets/prefab/item.bin": "6e3b65b8-e9da-47fa-bf8b-fcf4fcb22b71",
+  "Assets/scene/Main.bin": "94317508-2b8a-46bb-8388-473c94572f84",
   "Temp/scene_editor.bin": "a4f703ae-3969-4898-bb54-0f8137a24eb8",
+  "Assets/art/widgets@atlas/frame.bin": "fb3a5f08-a146-4bbc-b739-b0b14f542b58",
+  "Assets/art/widgets@atlas/progress_bar.bin": "287f4b8a-c57a-4e79-b002-bd5b1a0a9c4f",
+  "Assets/art/widgets@atlas/progress_bar_bg.bin": "bb56b087-ce58-424f-930d-77180c1e5d5c",
+  "Assets/art/widgets@atlas/record.bin": "5eb5d686-8503-4b89-8538-63bcb276e5fc",
+  "Assets/atlas/widgets.bin": "05a3eb4f-be56-47b8-8c60-0fae83000750",
+  "Assets/audio/ko.mp3.bin": "f2dc5732-f9aa-496f-ac3d-3228e7c71d38",
+  "Assets/audio/ko.ogg.bin": "811150fa-766a-4788-aea4-bf08d4378321",
+  "Assets/scene/Widgets.bin": "0b609425-26a3-4f6e-ac11-59497db77698",
+  "Assets/sprites/daozei.bin": "6a194918-8218-418a-91cc-f69634e1ea93",
+  "Assets/texture/map_top.bin": "9ef89baf-7ce9-43bf-83a0-49c8d999f857",
+  "Assets/scene/UI.bin": "a7554308-6bfb-4311-9c0f-d08c38452866",
   "Assets/texture/20805.bin": "ebce0bac-aaf4-460c-9bfe-299e3fd22a2f",
   "Assets/texture/20810.bin": "03cc8feb-3d64-4b5e-8370-c814af9eeab7",
-  "Assets/scene/UI.bin": "a7554308-6bfb-4311-9c0f-d08c38452866",
   "Assets/texture/30000_1.bin": "2f7dedfb-bb7f-4029-b96a-6fea57ae3b21",
-  "Assets/texture/30003_2.bin": "4b3ed9a9-84af-425a-b0f0-d6d09aabd158",
-  "Assets/scene/Main.bin": "94317508-2b8a-46bb-8388-473c94572f84"
+  "Assets/texture/30003_2.bin": "4b3ed9a9-84af-425a-b0f0-d6d09aabd158"
 }
