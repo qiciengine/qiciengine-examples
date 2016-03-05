@@ -6,7 +6,8 @@
 * 当表格的数据大部分都是在不可见区域时，使用传统的ScrollView来处理显示时，会有大部分的性能消耗在不可见对象的维护上。而对于有一定规律的表格显示的布局来说，这部分的消耗是没有必要的。TableView和传统ScrollView + TableLayout最大的不同就在于减少了不可见对象的维护上，但需要提供一个数据来源。
 
 * 在Project/Scripts目录下创建脚本TableData.js，来为TableView提供数据来源。
-代码如下：  
+代码如下：<br>
+
 ````javascript
 // define a user behaviour
 var TableData = qc.defineBehaviour('qc.engine.TableData', com.qici.extraUI.TableViewAdapter, function() {
