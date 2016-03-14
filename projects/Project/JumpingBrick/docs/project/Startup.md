@@ -34,5 +34,5 @@ qc.initGame = function(game) {
 };
 ````
  设置此脚本为入口脚本：  
-  ![](../images/entry_script.png)  
+ <video controls="controls" src="../video/entry_script.mp4"></video>  
  首先设置命名空间，并记录game实例，并预设各个模块的管理对象。默认游戏帧率设为30。
