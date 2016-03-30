@@ -44,7 +44,7 @@ exports.generate = function(root, language) {
                     indexSource = indexSource.replace(/@@download@@/gi, language === 'zh' ? '工程下载' : 'Download the project');
                     indexSource = indexSource.replace(/@@downloadUrl@@/gi, 'docs/' + subDir +'.zip');
                     indexSource = indexSource.replace(/@@open game in new window@@/gi, language === 'zh' ? '在新窗口中打开游戏' : 'Open demo in new window');
-                    indexSource = indexSource.replace(/@@open in new window@@/gi, language === 'zh' ? '在新窗口中打开文档' : 'Open document in new window');
+                    indexSource = indexSource.replace(/@@open in new window@@/gi, language === 'zh' ? '查看样例文档' : 'Open docuemnt for demo');
                     indexSource = indexSource.replace(/@@docUrl@@/gi, 'docs/index.html');
                     indexSource = indexSource.replace(/@@demoUrl@@/gi, 'StartGame.html');
                     indexSource = indexSource.replace(/@@docDisplay@@/gi, fs.existsSync(path.join(root, dir, subDir, 'docs/index.html')) ? 'block' : 'none');
