@@ -1,0 +1,20 @@
+{
+  "Assets/atlas/main.bin": "7c64bfe2-d79d-40d3-8676-c12128cc3481",
+  "Assets/atlas/main@atlas/head_mask.bin": "d263f4d9-a72c-4b7f-b709-f03d28612e60",
+  "Assets/atlas/main@atlas/highScore.bin": "03efcef8-717f-4956-95ec-71b969b17bac",
+  "Assets/atlas/main@atlas/list_bak_blu.bin": "eee9def1-1ac7-47d0-885e-ecc80112dc16",
+  "Assets/atlas/main@atlas/list_bak_green.bin": "ddb7cf31-3554-4c07-9d51-7c918ea3456d",
+  "Assets/atlas/main@atlas/list_bak_org.bin": "d4b3acf9-9fee-476d-9045-d20e946a7de8",
+  "Assets/atlas/main@atlas/list_bak_yel.bin": "12aec917-e951-446e-ab9b-a366409364ca",
+  "Assets/atlas/main@atlas/list_head_blu.bin": "304d346b-298c-4680-8448-12c4ddf7f44e",
+  "Assets/atlas/main@atlas/logo.bin": "19b3c9da-7ba1-460e-a360-a54d9b58c67e",
+  "Assets/atlas/main@atlas/second.bin": "a34e70b2-3fb3-406f-9bb1-17e318fe6bfc",
+  "Assets/atlas/main@atlas/wechat.bin": "70ac73f6-aed9-4b9c-8c1a-e78b207a6972",
+  "Assets/atlas/main@atlas/white.bin": "3ab69b05-1633-44ea-ba4b-220e0428029f",
+  "Assets/scene/main.bin": "880fa1c5-5be2-4914-bea0-ddb3c6c3a9bc",
+  "Temp/scene_editor.bin": "b61928c8-c896-4d01-b1f6-e7d84fbec95d",
+  "Assets/texture/anno_back.bin": "10b7d6d2-ff00-4d44-84d0-9705dc3c9bc3",
+  "Assets/texture/blue.bin": "20bc2370-dddb-4af6-ac78-85cc7b160f83",
+  "Assets/texture/first.bin": "a63cb6a2-2ddd-42d2-93ba-1f91f70e2a0f",
+  "Assets/texture/wechat.bin": "af0cf927-a13c-4a47-9905-0b1b5d0e4eb4"
+}

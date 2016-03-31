@@ -1,0 +1,38 @@
+{
+  "gameName": "DefaultGame",
+  "localStorageID": "com.DefaultCompany.Default",
+  "gameInstance": "qc_game",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "backgroundColor": 4282861383,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Canvas",
+  "transparent": false,
+  "developerMode": false,
+  "appCache": true,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": false,
+  "customSettings": {
+    "Box2D": {
+      "gravity": 10,
+      "PTM": 20,
+      "velocityIterations": 3,
+      "positionIterations": 2,
+      "frameRate": 30,
+      "useElapsedTime": false,
+      "maxSimulatePerFrame": 3,
+      "allowSleeping": true,
+      "debugDraw": true,
+      "debugFlags": 1
+    }
+  },
+  "toolFlag": 508
+}
