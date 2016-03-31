@@ -1,0 +1,56 @@
+{
+  "dependences": {
+    "45be9982-f8c4-4815-b545-1e62824cd962": {
+      "key": "Assets/action/attackA.bin",
+      "uuid": "45be9982-f8c4-4815-b545-1e62824cd962"
+    },
+    "5797def9-4dbd-4f42-9cda-d02ced4abd33": {
+      "key": "Assets/action/damageB.bin",
+      "uuid": "5797def9-4dbd-4f42-9cda-d02ced4abd33"
+    },
+    "b634625a-cfeb-41ca-8bd6-ab64f00f463b": {
+      "key": "Assets/action/attackB.bin",
+      "uuid": "b634625a-cfeb-41ca-8bd6-ab64f00f463b"
+    },
+    "bad4ce35-9697-4180-ae94-bb2789dbc657": {
+      "key": "Assets/action/diedA.bin",
+      "uuid": "bad4ce35-9697-4180-ae94-bb2789dbc657"
+    }
+  },
+  "targetObject": "7c3af9ac-ea68-4901-a034-92933ffa3bea",
+  "samples": 60,
+  "playEventInEditor": true,
+  "name": "combat",
+  "eventList": "[]",
+  "endLinePos": -1,
+  "actionList": [
+    [
+      0,
+      "45be9982-f8c4-4815-b545-1e62824cd962",
+      false,
+      "1e438eca-7a4c-4e98-b1c4-a7fd3100a61f",
+      true
+    ],
+    [
+      60,
+      "5797def9-4dbd-4f42-9cda-d02ced4abd33",
+      false,
+      "c4535457-89fd-49bb-a19d-7fdd4be583df",
+      true
+    ],
+    [
+      150,
+      "b634625a-cfeb-41ca-8bd6-ab64f00f463b",
+      false,
+      "c4535457-89fd-49bb-a19d-7fdd4be583df",
+      true
+    ],
+    [
+      257,
+      "bad4ce35-9697-4180-ae94-bb2789dbc657",
+      false,
+      "1e438eca-7a4c-4e98-b1c4-a7fd3100a61f",
+      true
+    ]
+  ]
+}

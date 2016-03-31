@@ -1,0 +1,10 @@
+{
+  "name": "actionManager",
+  "desc": "介绍动作管理器的使用",
+  "tags": ["actionManager"],
+  "preview": "preview.png",
+  "category": "动作编辑器",
+  "order": 10,
+  "width": 800,
+  "height": 600
+}
