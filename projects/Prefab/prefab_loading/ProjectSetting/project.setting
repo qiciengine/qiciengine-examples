@@ -2,13 +2,12 @@
   "projectName": "Default",
   "gameName": "DefaultGame",
   "companyName": "DefaultCompany",
-  "bundleIdentifier": "com.DefaultCompany.Default",
   "gameInstance": "qc_game",
   "gameWidth": "",
   "backgroundColor": 4671303,
   "orientation": 0,
-  "toolFlag": 124,
-  "loading": "",
+  "toolFlag": 508,
+  "loading": "Assets/prefabs/loading.bin",
   "runInBackground": true,
   "renderer": "Auto",
   "antialias": true,
@@ -22,5 +21,7 @@
     "enabled": true,
     "width": 640,
     "height": 960
-  }
+  },
+  "localStorageID": "com.DefaultCompany.Default",
+  "customSettings": {}
 }

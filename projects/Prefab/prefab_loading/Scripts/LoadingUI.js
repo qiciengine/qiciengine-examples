@@ -1,5 +1,6 @@
     var LoadingUI = qc.defineBehaviour('qc.demo.LoadingUI', qc.Behaviour, function() {
         this.clue = null;
+        this.prefab = null;
     }, 
     {
         clue: qc.Serializer.NODE
@@ -12,7 +13,6 @@
             self.show();
         });
         this.addListener(self.game.scene.onEndLoad, function(scene) {      
-            console.log('LoadingUI onEndLoad', scene);
             if (self.gameObject.visible) { 
                 self.hide();                 
             }
@@ -44,7 +44,9 @@
         tweenAlpha.resetToBeginning();         
         tweenAlpha.onFinished.addOnce(function() {            
             self.gameObject.visible = false;
+            self.game.world.find('UIRoot/UIImage/Button').state = qc.UIState.NORMAL;
         });
+        self.game.world.find('UIRoot/UIImage/Button').state = qc.UIState.DISABLED;
         tweenAlpha.playForward();
     };
 

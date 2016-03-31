@@ -1,8 +1,8 @@
 {
-  "scene": {
-    "RedState": "Assets/scene/RedState.bin",
-    "YellowState": "Assets/scene/YellowState.bin",
-    "BlueState": "Assets/scene/BlueState.bin"
-  },
-  "entryScene": "RedState"
+  "scene": [
+    "Assets/scene/RedState",
+    "Assets/scene/YellowState",
+    "Assets/scene/BlueState"
+  ],
+  "entryScene": "Assets/scene/RedState"
 }
