@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "AngularVelocity": "Assets/scene/AngularVelocity.bin"
-  },
-  "entryScene": "AngularVelocity"
+  "scene": [
+    "Assets/scene/AngularVelocity"
+  ],
+  "entryScene": "Assets/scene/AngularVelocity"
 }

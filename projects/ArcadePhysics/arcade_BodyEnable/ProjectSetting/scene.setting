@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "BodyEnable": "Assets/scene/BodyEnable.bin"
-  },
-  "entryScene": "BodyEnable"
+  "scene": [
+    "Assets/scene/BodyEnable"
+  ],
+  "entryScene": "Assets/scene/BodyEnable"
 }

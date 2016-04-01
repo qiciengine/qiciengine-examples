@@ -2,12 +2,11 @@
   "projectName": "Default",
   "gameName": "DefaultGame",
   "companyName": "DefaultCompany",
-  "bundleIdentifier": "com.DefaultCompany.Default",
   "gameInstance": "qc_game",
   "div": "",
   "orientation": 0,
   "qcVer": "0.9",
-  "toolFlag": 124,
+  "toolFlag": 508,
   "gameWidth": "640",
   "version": "1",
   "loading": "",
@@ -21,5 +20,6 @@
   "antialias": true,
   "transparent": false,
   "dirtyRectangles": true,
-  "dirtyRectanglesShow": true
+  "dirtyRectanglesShow": true,
+  "localStorageID": "com.DefaultCompany.Default"
 }

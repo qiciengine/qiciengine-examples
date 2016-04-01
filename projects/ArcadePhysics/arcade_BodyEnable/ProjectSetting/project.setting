@@ -2,7 +2,6 @@
   "projectName": "bodyEnable",
   "gameName": "bodyEnable",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qcplay.demo.bodyEnable",
   "gameInstance": "qc_game",
   "div": "",
   "orientation": 0,
@@ -11,5 +10,6 @@
   "loading": "",
   "backgroundColor": 0,
   "gameWidth": "640",
-  "toolFlag": 124
+  "toolFlag": 508,
+  "localStorageID": "com.qcplay.demo.bodyEnable"
 }

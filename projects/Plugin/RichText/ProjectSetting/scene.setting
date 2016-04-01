@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "main": "Assets/scene/main.bin"
-  },
-  "entryScene": "main"
+  "scene": [
+    "Assets/scene/main"
+  ],
+  "entryScene": "Assets/scene/main"
 }

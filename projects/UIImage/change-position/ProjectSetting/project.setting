@@ -2,7 +2,6 @@
   "projectName": "ChangePosition",
   "gameName": "ChangePosition",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qici.demo",
   "gameInstance": "qc_game",
   "div": "",
   "orientation": 0,
@@ -15,11 +14,12 @@
   "renderer": "Auto",
   "antialias": true,
   "transparent": false,
-  "toolFlag": 124,
+  "toolFlag": 508,
   "frameRate": {
     "mobile": 30,
     "desktop": 60
   },
   "dirtyRectangles": true,
-  "dirtyRectanglesShow": true
+  "dirtyRectanglesShow": true,
+  "localStorageID": "com.qici.demo"
 }

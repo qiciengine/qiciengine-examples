@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "OnCallback": "Assets/scene/OnCallback.bin"
-  },
-  "entryScene": "OnCallback"
+  "scene": [
+    "Assets/scene/OnCallback"
+  ],
+  "entryScene": "Assets/scene/OnCallback"
 }

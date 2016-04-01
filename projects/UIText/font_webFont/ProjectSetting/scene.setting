@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "Font": "Assets/scene/Font.bin"
-  },
-  "entryScene": "Font"
+  "scene": [
+    "Assets/scene/Font"
+  ],
+  "entryScene": "Assets/scene/Font"
 }

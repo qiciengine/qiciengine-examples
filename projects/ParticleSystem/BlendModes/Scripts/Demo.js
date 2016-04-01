@@ -19,16 +19,9 @@ Test.prototype.awake = function() {
 		this.bgImage.phaser.blendMode = Phaser.blendModes.MULTIPLY;
 };
 
-// Called every frame, if the behaviour is enabled.
-Test.prototype.update = function() {
-	if (this.particleSystem) {
-		//this.particleSystem.x = 
-    }
-};
-
 Test.prototype.doOnMove = function(id, x, y) {
     if (this.particleSystem) {
         this.particleSystem.x = x;
-    	this.particleSystem.y = y;
+		this.particleSystem.y = y;
     }
 };

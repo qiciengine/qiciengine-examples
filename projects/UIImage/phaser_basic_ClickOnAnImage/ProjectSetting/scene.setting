@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "ClickOnAnImage": "Assets/scene/ClickOnAnImage.bin"
-  },
-  "entryScene": "ClickOnAnImage"
+  "scene": [
+    "Assets/scene/ClickOnAnImage"
+  ],
+  "entryScene": "Assets/scene/ClickOnAnImage"
 }

@@ -2,7 +2,6 @@
   "projectName": "BounceKnock",
   "gameName": "BounceKnock",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qcplay.demo.BounceKnock",
   "gameInstance": "qc_game",
   "div": "",
   "orientation": 0,
@@ -11,5 +10,6 @@
   "loading": "",
   "backgroundColor": 7368816,
   "gameWidth": "640",
-  "toolFlag": 124
+  "toolFlag": 508,
+  "localStorageID": "com.qcplay.demo.BounceKnock"
 }
