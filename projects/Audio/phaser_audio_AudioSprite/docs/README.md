@@ -48,9 +48,8 @@ AudioSprite.prototype.onClick = function() {
     var sound = this.game.add.sound();
     sound.audio = this.audio;
 	// 设置播放区间 (起始时间，播放时长)
-    sound.addMarker(this.markerStart, this.markerDuration);
+    sound.addMarker(this.markerStart, this.markerDuration, 0.9);
     sound.destroyWhenStop = true;
-    sound.volume = 0.9;
     sound.play();
 };
 ```
