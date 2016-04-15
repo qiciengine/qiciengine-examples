@@ -1,0 +1,10 @@
+{
+  "name": "Matrix Particles",
+  "desc": "演示粒子帧动画效果",
+  "tags": ["frame animation", "particle"],
+  "preview": "preview.png",
+  "category": "粒子系统",
+  "order": 7,
+  "width": 800,
+  "height": 600
+}

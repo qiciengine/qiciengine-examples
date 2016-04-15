@@ -41,12 +41,12 @@
     "position": [
       0,
       0,
-      1.9785522788203878,
-      2.5254691689007984,
-      1.9785522788203878,
-      2.5254691689007984,
-      369,
-      471,
+      3.5483870967742064,
+      1.9741935483870918,
+      3.5483870967742064,
+      1.9741935483870918,
+      550,
+      306,
       0,
       0,
       0,
@@ -58,11 +58,11 @@
     ],
     "scaleX": [
       3,
-      0.9892761394101877
+      0.9870967741935484
     ],
     "scaleY": [
       3,
-      0.9892761394101877
+      0.9870967741935484
     ],
     "rotation": [
       3,
@@ -130,7 +130,7 @@
             0,
             0,
             0,
-            752.1019108280256,
+            1725.4901960784314,
             960,
             0,
             0,
@@ -143,11 +143,11 @@
           ],
           "scaleX": [
             3,
-            0.490625
+            0.31875
           ],
           "scaleY": [
             3,
-            0.490625
+            0.31875
           ],
           "rotation": [
             3,
@@ -282,7 +282,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(smoke)\nAlive:8\nDead:1\nTotal:9"
+                  "\n\n(smoke)\nAlive:9\nDead:0\nTotal:9"
                 ],
                 "lineSpacing": [
                   3,
@@ -323,10 +323,6 @@
                 "autoSize": [
                   5,
                   false
-                ],
-                "overflow": [
-                  5,
-                  true
                 ],
                 "shadowColor": [
                   14,
@@ -554,7 +550,7 @@
                 ],
                 "text": [
                   7,
-                  "FPS: 29.6\nDraw Calls: 7\nTotal: 3.2 ms\nLogic: 0.9 ms\nRender: 2.2 ms\nPreUpdate: 0.2 ms\nUpdate: 0.3 ms\nPostUpdate: 0.4 ms\nTransformCalc: 0"
+                  "FPS: 29.9\nDraw Calls: 7\nTotal: 3.0 ms\nLogic: 0.4 ms\nRender: 2.4 ms\nPreUpdate: 0.1 ms\nUpdate: 0.1 ms\nPostUpdate: 0.2 ms\nTransformCalc: 1"
                 ],
                 "lineSpacing": [
                   3,
@@ -595,10 +591,6 @@
                 "autoSize": [
                   5,
                   false
-                ],
-                "overflow": [
-                  5,
-                  true
                 ],
                 "shadowColor": [
                   14,
@@ -872,10 +864,6 @@
                   5,
                   false
                 ],
-                "overflow": [
-                  5,
-                  true
-                ],
                 "shadowColor": [
                   14,
                   2147483648
@@ -1102,7 +1090,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(flame)\nAlive:74\nDead:5\nTotal:79"
+                  "\n\n(flame)\nAlive:75\nDead:4\nTotal:79"
                 ],
                 "lineSpacing": [
                   3,
@@ -1143,10 +1131,6 @@
                 "autoSize": [
                   5,
                   false
-                ],
-                "overflow": [
-                  5,
-                  true
                 ],
                 "shadowColor": [
                   14,
@@ -1285,10 +1269,10 @@
               "gameObjectRecord": [
                 4,
                 [
-                  0.534375,
-                  0.534375,
-                  640,
-                  965.6140350877192
+                  0.31875,
+                  0.31875,
+                  1725.4901960784314,
+                  960
                 ]
               ]
             }
@@ -1341,8 +1325,8 @@
             0.5,
             0,
             100,
-            184.5,
-            335.5,
+            275,
+            253,
             100,
             100,
             0,
@@ -1459,20 +1443,33 @@
                   3,
                   1
                 ],
-                "textures": [
-                  11,
+                "texture": [
+                  10,
+                  "Assets/atlas/fire.bin",
+                  "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                  "smoke.png"
+                ],
+                "initialFrame": [
+                  4,
                   [
-                    [
-                      10,
-                      "Assets/atlas/fire.bin",
-                      "6a07c054-6855-4924-bf1c-cf746dc60cd5",
-                      "smoke.png"
-                    ]
+                    0,
+                    0
+                  ]
+                ],
+                "frameRate": [
+                  4,
+                  [
+                    1,
+                    1
                   ]
                 ],
                 "zoneType": [
                   3,
                   1
+                ],
+                "edgeEmission": [
+                  5,
+                  false
                 ],
                 "zoneLength": [
                   3,
@@ -1493,6 +1490,10 @@
                 "zoneHeight": [
                   3,
                   100
+                ],
+                "emissionSpace": [
+                  3,
+                  0
                 ],
                 "frequency": [
                   3,
@@ -1528,13 +1529,13 @@
                   3,
                   0
                 ],
-                "srcColorTint": [
+                "startColor": [
                   14,
-                  4285092946
+                  4285226847
                 ],
-                "dstColorTint": [
+                "endColor": [
                   14,
-                  4288039755
+                  4285226847
                 ],
                 "startAlpha": [
                   4,
@@ -1815,20 +1816,33 @@
                   3,
                   1
                 ],
-                "textures": [
-                  11,
+                "texture": [
+                  10,
+                  "Assets/atlas/fire.bin",
+                  "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                  "white.png"
+                ],
+                "initialFrame": [
+                  4,
                   [
-                    [
-                      10,
-                      "Assets/atlas/fire.bin",
-                      "6a07c054-6855-4924-bf1c-cf746dc60cd5",
-                      "white.png"
-                    ]
+                    0,
+                    0
+                  ]
+                ],
+                "frameRate": [
+                  4,
+                  [
+                    1,
+                    1
                   ]
                 ],
                 "zoneType": [
                   3,
                   1
+                ],
+                "edgeEmission": [
+                  5,
+                  false
                 ],
                 "zoneLength": [
                   3,
@@ -1849,6 +1863,10 @@
                 "zoneHeight": [
                   3,
                   100
+                ],
+                "emissionSpace": [
+                  3,
+                  0
                 ],
                 "frequency": [
                   3,
@@ -1884,13 +1902,13 @@
                   3,
                   1
                 ],
-                "srcColorTint": [
+                "startColor": [
                   14,
-                  4292913177
+                  4291380762
                 ],
-                "dstColorTint": [
+                "endColor": [
                   14,
-                  4294901760
+                  4293297977
                 ],
                 "startAlpha": [
                   4,
@@ -2165,20 +2183,33 @@
                   3,
                   1
                 ],
-                "textures": [
-                  11,
+                "texture": [
+                  10,
+                  "Assets/atlas/fire.bin",
+                  "6a07c054-6855-4924-bf1c-cf746dc60cd5",
+                  "white.png"
+                ],
+                "initialFrame": [
+                  4,
                   [
-                    [
-                      10,
-                      "Assets/atlas/fire.bin",
-                      "6a07c054-6855-4924-bf1c-cf746dc60cd5",
-                      "white.png"
-                    ]
+                    0,
+                    0
+                  ]
+                ],
+                "frameRate": [
+                  4,
+                  [
+                    1,
+                    1
                   ]
                 ],
                 "zoneType": [
                   3,
                   1
+                ],
+                "edgeEmission": [
+                  5,
+                  false
                 ],
                 "zoneLength": [
                   3,
@@ -2199,6 +2230,10 @@
                 "zoneHeight": [
                   3,
                   100
+                ],
+                "emissionSpace": [
+                  3,
+                  0
                 ],
                 "frequency": [
                   3,
@@ -2234,13 +2269,13 @@
                   3,
                   1
                 ],
-                "srcColorTint": [
+                "startColor": [
                   14,
-                  4290599181
+                  4283577357
                 ],
-                "dstColorTint": [
+                "endColor": [
                   14,
-                  4289527808
+                  4289404170
                 ],
                 "startAlpha": [
                   4,
