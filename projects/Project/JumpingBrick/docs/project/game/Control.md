@@ -643,7 +643,7 @@ brick添加TweenPosition后，设置如图:
 至此，游戏部分就已经基本完成了。因为代码处理中兼容了其他模块不存在的情况，所以现在已经可以提供给其他人进行测试、反馈，然后进行优化调整了。
 
 
-[ExtraUI]: http://docs.zuoyouxi.com/manual/Plugin/ExtraUI/Index.html
+[ExtraUI]: http://docs.zuoyouxi.com/manual/Plugin/ExtraUI/index.html
 [TableView]: http://docs.zuoyouxi.com/manual/Plugin/ExtraUI/TableView.html
 [TableViewAdapter]: http://docs.zuoyouxi.com/manual/Plugin/ExtraUI/TableViewAdapter.html
 
