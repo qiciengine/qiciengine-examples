@@ -16,8 +16,7 @@ var AudioSprite = qc.defineBehaviour('qc.demo.AudioSprite', qc.Behaviour, functi
 AudioSprite.prototype.onClick = function() {
     var sound = this.game.add.sound();
     sound.audio = this.audio;
-    sound.addMarker(this.markerStart, this.markerDuration);
+    sound.addMarker(this.markerStart, this.markerDuration, 0.9);
     sound.destroyWhenStop = true;
-    sound.volume = 0.9;
     sound.play();
 };

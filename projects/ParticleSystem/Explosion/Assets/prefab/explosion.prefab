@@ -53,8 +53,8 @@
       0.5,
       0,
       0,
-      344.03041825095056,
-      480,
+      275,
+      153,
       100,
       100,
       0,
@@ -171,20 +171,33 @@
             3,
             1
           ],
-          "textures": [
-            11,
+          "texture": [
+            10,
+            "Assets/atlas/demo.bin",
+            "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+            "smoke.png"
+          ],
+          "initialFrame": [
+            4,
             [
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "smoke.png"
-              ]
+              0,
+              0
+            ]
+          ],
+          "frameRate": [
+            4,
+            [
+              1,
+              1
             ]
           ],
           "zoneType": [
             3,
             1
+          ],
+          "edgeEmission": [
+            5,
+            false
           ],
           "zoneLength": [
             3,
@@ -205,6 +218,10 @@
           "zoneHeight": [
             3,
             100
+          ],
+          "emissionSpace": [
+            3,
+            0
           ],
           "frequency": [
             3,
@@ -240,11 +257,11 @@
             3,
             0
           ],
-          "srcColorTint": [
+          "startColor": [
             14,
             16777215
           ],
-          "dstColorTint": [
+          "endColor": [
             14,
             16777215
           ],
@@ -518,20 +535,33 @@
             3,
             1
           ],
-          "textures": [
-            11,
+          "texture": [
+            10,
+            "Assets/atlas/demo.bin",
+            "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+            "sparkle.png"
+          ],
+          "initialFrame": [
+            4,
             [
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "sparkle.png"
-              ]
+              0,
+              0
+            ]
+          ],
+          "frameRate": [
+            4,
+            [
+              1,
+              1
             ]
           ],
           "zoneType": [
             3,
             1
+          ],
+          "edgeEmission": [
+            5,
+            false
           ],
           "zoneLength": [
             3,
@@ -552,6 +582,10 @@
           "zoneHeight": [
             3,
             100
+          ],
+          "emissionSpace": [
+            3,
+            0
           ],
           "frequency": [
             3,
@@ -587,11 +621,11 @@
             3,
             0
           ],
-          "srcColorTint": [
+          "startColor": [
             14,
             16777215
           ],
-          "dstColorTint": [
+          "endColor": [
             14,
             16777215
           ],

@@ -49,8 +49,8 @@
       0.5,
       -95.18796992481202,
       -680,
-      280.86298548920075,
-      -200,
+      29.812030075187977,
+      -526.5,
       54,
       17,
       0,
@@ -167,20 +167,33 @@
             3,
             1
           ],
-          "textures": [
-            11,
+          "texture": [
+            10,
+            "Assets/atlas/demo.bin",
+            "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+            "flare.png"
+          ],
+          "initialFrame": [
+            4,
             [
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "flare.png"
-              ]
+              0,
+              0
+            ]
+          ],
+          "frameRate": [
+            4,
+            [
+              1,
+              1
             ]
           ],
           "zoneType": [
             3,
             1
+          ],
+          "edgeEmission": [
+            5,
+            false
           ],
           "zoneLength": [
             3,
@@ -201,6 +214,10 @@
           "zoneHeight": [
             3,
             100
+          ],
+          "emissionSpace": [
+            3,
+            0
           ],
           "frequency": [
             3,
@@ -236,11 +253,11 @@
             3,
             1
           ],
-          "srcColorTint": [
+          "startColor": [
             14,
             16777215
           ],
-          "dstColorTint": [
+          "endColor": [
             14,
             16777215
           ],
@@ -453,6 +470,14 @@
     "imageType": [
       3,
       0
+    ],
+    "skewX": [
+      3,
+      null
+    ],
+    "skewY": [
+      3,
+      null
     ]
   },
   "__json": {
