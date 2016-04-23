@@ -88,7 +88,7 @@ var publish = function(projectPath, toDir, isEnglish, libVersion) {
     }
 
     // 执行发布
-    var publishRet = M.PROJECT.publishTo(toDir, libVersion);
+    var publishRet = M.PROJECT.publishTo(toDir, libVersion, 'browsers');
     if (typeof publishRet === 'string') {
         G.log.trace(chalk.red('Faild!!!! reason:{0}'), publishRet);
 
