@@ -2,7 +2,6 @@
   "projectName": "filter",
   "gameName": "filter",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qcplay.demo.filter",
   "gameInstance": "filterGame",
   "div": "",
   "orientation": 0,
@@ -11,5 +10,6 @@
   "backgroundColor": 9408399,
   "gameWidth": "640",
   "version": "1",
-  "toolFlag": 124
+  "toolFlag": 508,
+  "localStorageID": "com.qcplay.demo.filter"
 }
