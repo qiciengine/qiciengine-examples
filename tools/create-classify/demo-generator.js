@@ -42,7 +42,7 @@ exports.generate = function(projectDir, destination, language) {
     // 遍历demo收集到的tag存到这个数组里
     var tags = [];
     // 遍历demo收集到的category存到这个数组里
-    var categories = JSON.parse(fs.readFileSync('../../order.json', 'utf8'));
+    var categories = JSON.parse(fs.readFileSync('../order.json', 'utf8'));
     // demo的json配置都存到这个数组里
     var demos = [];
     // html页面中的锚点
