@@ -56,8 +56,9 @@ ShipCtr.prototype.fire = function() {
 
     // 让子弹运动
     var tp = bullet.getScript('qc.TweenPosition');
+    var distance = 3000;
     tp.from = new qc.Point(bullet.x, bullet.y);
-    tp.to = rigidbody.velocityFromRotation(bullet.rotation, 3000, tp.to);
+    tp.to = new qc.Point(tp.from.x + distance * Math.cos(bullet.rotation), tp.from.y + distance * Math.sin(bullet.rotation));
     tp.resetToBeginning();
     tp.onFinished.addOnce(function() {
         bullet.destroy();
