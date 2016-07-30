@@ -468,7 +468,7 @@ GameControl.prototype.doBrickJump = function(direction) {
 /**
  * 处理点击
  */
-GameGControl.prototype.doPointDown = function(node, event) {
+GameControl.prototype.doPointDown = function(node, event) {
 	var self = this;
 	if (self.state !== GameControl.STATE_MANUEL &&
 		self.state !== GameControl.STATE_RUN) {
