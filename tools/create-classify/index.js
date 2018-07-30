@@ -4,10 +4,14 @@
  */
 
 var args = process.argv;
-if (args.length !== 4) {
+if (args.length !== 5) {
     console.error('Invalid arguments');
     return;
 }
 
+var projectPath = args[2];
+var dstDir = args[3];
+var language = args[4];
+
 var generator = require('./demo-generator.js');
-generator.generate(args[2], args[3]);
+generator.generate(projectPath, dstDir, language);

@@ -5,8 +5,7 @@
     
 var fs = require('fs'),
     fse = require('fs-extra'),
-    path = require('path'),
-    language;
+    path = require('path');
 
 /**
  * 获取指定目录下的子目录
@@ -37,21 +36,19 @@ function existInArray(arr, ele) {
     return exist;
 }
 
-exports.generate = function(l, destination) {
-    language = l;
-    
+exports.generate = function(projectDir, destination, language) {
     fse.copySync('./menu_' + language, destination);
     
     // 遍历demo收集到的tag存到这个数组里
     var tags = [];
     // 遍历demo收集到的category存到这个数组里
-    var categories = JSON.parse(fs.readFileSync('../../order.json', 'utf8'));
+    var categories = JSON.parse(fs.readFileSync('../order.json', 'utf8'));
     // demo的json配置都存到这个数组里
     var demos = [];
     // html页面中的锚点
     var anchors = categories.slice(0);
     // 根目录
-    var root = '../../';
+    var root = projectDir;
     // 读取根目录
     var directories = getDirectories(root);
     for (var i = 0; i < directories.length; i++) {

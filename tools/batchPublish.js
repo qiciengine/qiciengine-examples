@@ -47,7 +47,7 @@ module.exports.publish = function(fullPath, toDir, isEnglish, libVersion) {
 
     // 还原工程
     if (G.gameRoot !== gameRoot && gameRoot)
-        M.PROJECT.openProject(G.gameRoot);
+        PROJECT_D.openProject(G.gameRoot);
 };
 
 // 发布一个目录树，递归下去发布所有工程
@@ -78,7 +78,7 @@ var publish = function(projectPath, toDir, isEnglish, libVersion) {
     G.log.trace(chalk.yellow('    发布工程{0}到{1}'), projectPath, toDir);
 
     // 切换工程到当前目录
-    M.PROJECT.openProject(projectPath);
+    PROJECT_D.openProject(projectPath);
 
     // 确保 version 存在
     var ver = G.config.project.version;
@@ -88,7 +88,7 @@ var publish = function(projectPath, toDir, isEnglish, libVersion) {
     }
 
     // 执行发布
-    var publishRet = M.PROJECT.publishTo(toDir, libVersion);
+    var publishRet = PROJECT_D.publishTo(toDir, libVersion, 'browsers');
     if (typeof publishRet === 'string') {
         G.log.trace(chalk.red('Faild!!!! reason:{0}'), publishRet);
 
