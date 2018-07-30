@@ -1,0 +1,71 @@
+{
+  "gameName": "DefaultGame",
+  "version": "1.0",
+  "localStorageID": "com.DefaultCompany.Default",
+  "gameInstance": "qc_game",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "backgroundColor": 4282861383,
+  "runInBackground": true,
+  "antialias": true,
+  "renderer": "Canvas",
+  "transparent": false,
+  "developerMode": false,
+  "appCache": true,
+  "dirtyRectangles": true,
+  "dirtyRectanglesShow": false,
+  "customSettings": {},
+  "publish": {
+    "android": "build/android",
+    "ios": "build/ios",
+    "browsers": "build/browsers"
+  },
+  "ios": {
+    "target": "8.1",
+    "buildCode": 1,
+    "frameRate": 30,
+    "renderer": "Auto",
+    "defaultOrientation": 0,
+    "splashScaling": 2,
+    "autoOrientation": {
+      "portrait": true,
+      "landscapeRight": true,
+      "portraitUpsideDown": true,
+      "landscapeLeft": true
+    },
+    "bundleId": ""
+  },
+  "android": {
+    "bundleId": "",
+    "target": 19,
+    "defaultOrientation": 0,
+    "autoOrientation": {
+      "portrait": true,
+      "portraitUpsideDown": true,
+      "landscapeRight": true,
+      "landscapeLeft": true
+    },
+    "frameRate": 30,
+    "renderer": "Auto",
+    "keystoreFile": "",
+    "keystorePassword": "",
+    "keyAlias": "abcd",
+    "keyAliasPassword": "",
+    "splashImage": {
+      "asset": "de860ea8-12f2-4bc7-9e45-d6a504a1cf67",
+      "url": "Assets/sprites/loading.bin",
+      "frame": "other/zhu2"
+    },
+    "minTarget": 16,
+    "buildCode": 1,
+    "makeApk": false
+  },
+  "toolFlag": 508
+}

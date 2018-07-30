@@ -1,0 +1,10 @@
+{
+  "name": "Matrix Particles",
+  "desc": "Sprite sheet animation demo of particle system.",
+  "tags": ["frame animation", "particle"],
+  "preview": "preview.png",
+  "category": "Particle System",
+  "order": 7,
+  "width": 800,
+  "height": 600
+}

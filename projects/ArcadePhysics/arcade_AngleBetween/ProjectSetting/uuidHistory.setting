@@ -1,6 +1,8 @@
 {
+  "Assets/scene/AccelerateToPoint.bin": "aae699bc-b50d-440e-8481-ea9e8811cc20",
+  "Assets/textures/arrow.bin": "648a9b2d-509d-404d-8964-97ae171bed1d",
+  "Temp/scene_editor.bin": "e3c0d881-1a88-4014-a16f-79c07850aacf",
   "Assets/scene/AngleBetween.bin": "dabb37e0-6e6e-494e-be25-3d9d620ff594",
   "Assets/textures/longarrow.bin": "c114ac8f-3fac-444d-b4b1-4385a62e0d29",
-  "Assets/textures/pangball.bin": "e176154e-02fd-4774-89b9-ccc1122ec022",
-  "Temp/scene_editor.bin": "5c18bbba-63ba-4668-81c0-7325b5981aa6"
+  "Assets/textures/pangball.bin": "e176154e-02fd-4774-89b9-ccc1122ec022"
 }

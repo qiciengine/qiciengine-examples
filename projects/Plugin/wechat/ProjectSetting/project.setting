@@ -2,7 +2,6 @@
   "projectName": "Wechat",
   "gameName": "Wechat",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qici.demo.wechat",
   "gameInstance": "qc_game",
   "backgroundColor": 4671303,
   "runInBackground": true,
@@ -10,7 +9,7 @@
   "renderer": "Auto",
   "transparent": false,
   "developerMode": true,
-  "toolFlag": 124,
+  "toolFlag": 508,
   "version": "1",
   "loading": "",
   "frameRate": {
@@ -18,5 +17,6 @@
     "desktop": 60
   },
   "dirtyRectangles": true,
-  "dirtyRectanglesShow": true
+  "dirtyRectanglesShow": true,
+  "localStorageID": "com.qici.demo.wechat"
 }

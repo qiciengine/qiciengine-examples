@@ -1,7 +1,7 @@
 **/.idea
 **/Temp
 **/index.html
-!projects/tools/**/*.html
+!tools/**/*.html
 **/.scene_backup
 **/ProjectSetting/editor.setting
 **/Assets/meta/globalUrlMap.js

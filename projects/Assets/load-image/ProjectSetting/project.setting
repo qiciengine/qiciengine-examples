@@ -2,7 +2,6 @@
   "projectName": "LoadImage",
   "gameName": "LoadImage",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qici.demo",
   "gameInstance": "qc_game",
   "backgroundColor": 4671303,
   "runInBackground": true,
@@ -10,7 +9,7 @@
   "renderer": "Auto",
   "transparent": false,
   "develop": false,
-  "toolFlag": 124,
+  "toolFlag": 508,
   "loading": "",
   "version": "1",
   "frameRate": {
@@ -23,5 +22,6 @@
     "height": 960
   },
   "customSettings": {},
-  "dirtyRectangles": true
+  "dirtyRectangles": true,
+  "localStorageID": "com.qici.demo"
 }

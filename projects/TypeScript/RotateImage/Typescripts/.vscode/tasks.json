@@ -1,0 +1,1 @@
+{"version":"0.1.0","command":"tsc","isShellCommand":true,"showOutput":"always","args":["-p","."],"problemMatcher":"$tsc"}

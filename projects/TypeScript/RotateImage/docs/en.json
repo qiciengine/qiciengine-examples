@@ -1,0 +1,10 @@
+{
+  "name": "Rotate Image",
+  "desc": "TypeScript support",
+  "tags": ["TypeScript"],
+  "preview": "preview.png",
+  "category": "TypeScript",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}

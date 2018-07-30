@@ -11,47 +11,5 @@
   "gameWidth": "640",
   "version": "1",
   "toolFlag": 508,
-  "localStorageID": "com.qcplay.demo.filter",
-  "frameRate": {
-    "mobile": 30,
-    "desktop": 60
-  },
-  "fixedGameSize": {
-    "enabled": false,
-    "width": 640,
-    "height": 960
-  },
-  "runInBackground": true,
-  "renderer": "Canvas",
-  "antialias": true,
-  "transparent": false,
-  "customSettings": {},
-  "publish": {
-    "android": "build/android",
-    "ios": "build/ios",
-    "browsers": "build/browers"
-  },
-  "android": {
-    "minTarget": 16,
-    "target": 16,
-    "buildCode": 0,
-    "frameRate": 30,
-    "renderer": "Canvas",
-    "defaultOrientation": 0,
-    "env": {
-      "jdkPath": "C://Program Files//Java//jdk1.7.0_21//bin",
-      "sdkPath": "D://android-sdk",
-      "ndkPath": "D://android-ndk-r8//samples"
-    }
-  },
-  "ios": {
-    "target": "8.0",
-    "buildCode": 0,
-    "frameRate": 30,
-    "renderer": "Auto",
-    "defaultOrientation": 0,
-    "splashScaling": 2
-  },
-  "buildVersion": "1.1.1",
-  "appCache": true
+  "localStorageID": "com.qcplay.demo.filter"
 }

@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "Image": "Assets/scene/Image.bin"
-  },
-  "entryScene": "Image"
+  "scene": [
+    "Assets/scene/Image"
+  ],
+  "entryScene": "Assets/scene/Image"
 }

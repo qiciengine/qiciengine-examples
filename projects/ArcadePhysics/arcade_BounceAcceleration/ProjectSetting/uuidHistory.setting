@@ -1,5 +1,21 @@
 {
+  "Assets/scene/AccelerateToPoint.bin": "aae699bc-b50d-440e-8481-ea9e8811cc20",
+  "Assets/textures/arrow.bin": "648a9b2d-509d-404d-8964-97ae171bed1d",
+  "Temp/scene_editor.bin": "9426f236-35ec-4300-a857-88b2cfa38fe6",
+  "Assets/scene/AngleBetween.bin": "dabb37e0-6e6e-494e-be25-3d9d620ff594",
+  "Assets/textures/longarrow.bin": "c114ac8f-3fac-444d-b4b1-4385a62e0d29",
+  "Assets/textures/pangball.bin": "e176154e-02fd-4774-89b9-ccc1122ec022",
+  "Assets/scene/AngularAcceleration.bin": "ae94b780-678f-42b7-86a5-6592432581ae",
+  "Assets/scene/AngularVelocity.bin": "5ac780cb-b46c-4bc1-b1d6-8807536c88c8",
+  "Assets/prefabs/bullet.bin": "142d0720-e37b-4045-b129-8eca249a3735",
+  "Assets/scene/AsteroidsMovement.bin": "693da339-19e5-464f-8dba-183439cb567b",
+  "Assets/skies/deep-space.bin": "e1631ca4-558a-4f14-9d55-61dbd64b9b0c",
+  "Assets/textures/bullets.bin": "7a3be600-3ac0-4a24-bf29-aa0a2f8ca33a",
+  "Assets/textures/ship.bin": "3c97bc6f-18a7-458a-90ee-9cf4bac7bf19",
+  "Assets/scene/BodyEnable.bin": "3da76ae5-bed0-4566-ad6c-9cd31ee9c38e",
+  "Assets/textures/master.bin": "7a962189-8827-4d56-939c-295c805a8762",
+  "Assets/textures/oz_pov_melting_disk.bin": "f306d9df-214d-411b-9dc6-7bd38f9c5346",
+  "Assets/scene/BodyScale.bin": "07c9a504-7020-4aaa-bf4f-c5470cc83f04",
   "Assets/scene/BounceAcceleration.bin": "46dce219-13a1-4d8b-b5cd-948c4200f876",
-  "Assets/sprite/caption.bin": "830fc313-f217-43ad-ab8b-c554cdfcebf1",
-  "Temp/scene_editor.bin": "5c18bbba-63ba-4668-81c0-7325b5981aa6"
+  "Assets/sprite/caption.bin": "830fc313-f217-43ad-ab8b-c554cdfcebf1"
 }

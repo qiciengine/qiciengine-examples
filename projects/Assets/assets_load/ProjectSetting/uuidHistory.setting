@@ -1,4 +1,7 @@
 {
+  "Assets/scene/OnCallback.bin": "5ec8e056-3ffb-4615-867e-af1bd948390c",
+  "Assets/textures/pangball.bin": "e176154e-02fd-4774-89b9-ccc1122ec022",
+  "Temp/scene_editor.bin": "2ce75edf-687a-4be4-b8c7-6ddcad25d0c3",
   "Assets/atlas/mario.bin": "bd8b09a1-285e-40bf-a4fd-d676c90d9a96",
   "Assets/atlas/mario@atlas/A.bin": "b1ce32dd-90ee-43ee-90de-5f688b2b8427",
   "Assets/atlas/mario@atlas/B.bin": "b0191eb2-2932-42da-b741-cb1ec390cf34",
@@ -36,6 +39,5 @@
   "Assets/scene/CodeLoad.bin": "089fee4e-5fa4-4301-95c5-55afbe928a02",
   "Assets/scene/ReferenceLoad.bin": "5482b1bd-829a-4303-bf59-072e68f27e62",
   "Assets/sprites/panda.bin": "e1cbc2c0-11fb-4d12-a38d-dc09a4cb72c5",
-  "Assets/texture/sourcesBackground.bin": "8c9f65e5-a307-4326-84bc-49de9b0c4f83",
-  "Temp/scene_editor.bin": "2ce75edf-687a-4be4-b8c7-6ddcad25d0c3"
+  "Assets/texture/sourcesBackground.bin": "8c9f65e5-a307-4326-84bc-49de9b0c4f83"
 }

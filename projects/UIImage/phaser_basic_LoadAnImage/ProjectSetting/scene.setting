@@ -1,7 +1,7 @@
 {
-  "scene": {
-    "LoadAnImageAsyn": "Assets/scene/LoadAnImageAsyn.bin",
-    "LoadAnImageAuto": "Assets/scene/LoadAnImageAuto.bin"
-  },
-  "entryScene": "LoadAnImageAsyn"
+  "scene": [
+    "Assets/scene/LoadAnImageAsyn",
+    "Assets/scene/LoadAnImageAuto"
+  ],
+  "entryScene": "Assets/scene/LoadAnImageAsyn"
 }

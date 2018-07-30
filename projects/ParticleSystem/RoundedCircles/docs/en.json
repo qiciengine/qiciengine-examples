@@ -1,0 +1,10 @@
+{
+  "name": "Rounded Circles",
+  "desc": "Sprite sheet animation demo of particle system.",
+  "tags": ["frame animation", "particle"],
+  "preview": "preview.png",
+  "category": "Particle System",
+  "order": 8,
+  "width": 800,
+  "height": 600
+}

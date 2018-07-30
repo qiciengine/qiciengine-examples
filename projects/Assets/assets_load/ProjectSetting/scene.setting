@@ -1,7 +1,7 @@
 {
-  "scene": {
-    "CodeLoad": "Assets/scene/CodeLoad.bin",
-    "ReferenceLoad": "Assets/scene/ReferenceLoad.bin"
-  },
-  "entryScene": "CodeLoad"
+  "scene": [
+    "Assets/scene/CodeLoad",
+    "Assets/scene/ReferenceLoad"
+  ],
+  "entryScene": "Assets/scene/CodeLoad"
 }

@@ -41,12 +41,12 @@
     "position": [
       0,
       0,
-      1.9785522788203878,
-      2.5254691689007984,
-      1.9785522788203878,
-      2.5254691689007984,
-      369,
-      471,
+      2.6397515527950475,
+      1.9751552795030989,
+      2.6397515527950475,
+      1.9751552795030989,
+      425,
+      318,
       0,
       0,
       0,
@@ -58,11 +58,11 @@
     ],
     "scaleX": [
       3,
-      0.9892761394101877
+      0.9875776397515528
     ],
     "scaleY": [
       3,
-      0.9892761394101877
+      0.9875776397515528
     ],
     "rotation": [
       3,
@@ -130,7 +130,7 @@
             0,
             0,
             0,
-            752.1019108280256,
+            1283.0188679245284,
             960,
             0,
             0,
@@ -143,11 +143,11 @@
           ],
           "scaleX": [
             3,
-            0.490625
+            0.33125
           ],
           "scaleY": [
             3,
-            0.490625
+            0.33125
           ],
           "rotation": [
             3,
@@ -282,7 +282,7 @@
                 ],
                 "text": [
                   7,
-                  "\n\n(Particle System)\nAlive:79\nDead:3\nTotal:82"
+                  "\n\n(Particle System)\nAlive:21\nDead:62\nTotal:83"
                 ],
                 "lineSpacing": [
                   3,
@@ -323,10 +323,6 @@
                 "autoSize": [
                   5,
                   false
-                ],
-                "overflow": [
-                  5,
-                  true
                 ],
                 "shadowColor": [
                   14,
@@ -554,7 +550,7 @@
                 ],
                 "text": [
                   7,
-                  "FPS: 26.4\nDraw Calls: 8\nTotal: 3.5 ms\nLogic: 1.4 ms\nRender: 2.1 ms\nPreUpdate: 0.1 ms\nUpdate: 1.1 ms\nPostUpdate: 0.1 ms\nTransformCalc: 0"
+                  "FPS: 30.5\nDraw Calls: 4\nTotal: 0.7 ms\nLogic: 0.3 ms\nRender: 0.3 ms\nPreUpdate: 0.0 ms\nUpdate: 0.0 ms\nPostUpdate: 0.2 ms\nTransformCalc: 0"
                 ],
                 "lineSpacing": [
                   3,
@@ -595,10 +591,6 @@
                 "autoSize": [
                   5,
                   false
-                ],
-                "overflow": [
-                  5,
-                  true
                 ],
                 "shadowColor": [
                   14,
@@ -741,9 +733,9 @@
               "gameObjectRecord": [
                 4,
                 [
-                  0.5583333333333333,
-                  0.5583333333333333,
-                  642.9850746268656,
+                  0.490625,
+                  0.490625,
+                  752.1019108280256,
                   960
                 ]
               ]
@@ -819,7 +811,7 @@
             0,
             0,
             -50,
-            184.5,
+            212.5,
             -50,
             100,
             100,
@@ -857,50 +849,33 @@
             3,
             1
           ],
-          "textures": [
-            11,
+          "texture": [
+            10,
+            "Assets/atlas/demo.bin",
+            "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
+            0
+          ],
+          "initialFrame": [
+            4,
             [
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "snow1.png"
-              ],
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "snow2.png"
-              ],
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "snow3.png"
-              ],
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "snow4.png"
-              ],
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "snow5.png"
-              ],
-              [
-                10,
-                "Assets/atlas/demo.bin",
-                "d51f10bc-d286-473f-bf0e-bf698d3e8cbb",
-                "snow6.png"
-              ]
+              0,
+              0
+            ]
+          ],
+          "frameRate": [
+            4,
+            [
+              1,
+              1
             ]
           ],
           "zoneType": [
             3,
             2
+          ],
+          "edgeEmission": [
+            5,
+            false
           ],
           "zoneLength": [
             3,
@@ -921,6 +896,10 @@
           "zoneHeight": [
             3,
             100
+          ],
+          "emissionSpace": [
+            3,
+            0
           ],
           "frequency": [
             3,
@@ -956,11 +935,11 @@
             3,
             0
           ],
-          "srcColorTint": [
+          "startColor": [
             14,
             16777215
           ],
-          "dstColorTint": [
+          "endColor": [
             14,
             16777215
           ],

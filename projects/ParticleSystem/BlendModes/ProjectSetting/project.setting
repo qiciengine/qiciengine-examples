@@ -2,7 +2,6 @@
   "projectName": "Default",
   "gameName": "DefaultGame",
   "companyName": "DefaultCompany",
-  "bundleIdentifier": "com.DefaultCompany.Default",
   "gameInstance": "qc_game",
   "frameRate": {
     "mobile": 30,
@@ -17,7 +16,7 @@
   "appCache": true,
   "dirtyRectangles": true,
   "dirtyRectanglesShow": false,
-  "toolFlag": 124,
+  "toolFlag": 508,
   "loading": "",
   "fixedGameSize": {
     "enabled": false,
@@ -25,5 +24,6 @@
     "height": 960
   },
   "customSettings": {},
-  "version": "1.0"
+  "version": "1.0",
+  "localStorageID": "com.DefaultCompany.Default"
 }
