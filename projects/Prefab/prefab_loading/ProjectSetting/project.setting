@@ -23,5 +23,27 @@
     "height": 960
   },
   "localStorageID": "com.DefaultCompany.Default",
-  "customSettings": {}
+  "customSettings": {},
+  "publish": {
+    "android": "build/android",
+    "ios": "build/ios",
+    "browsers": "build/browers"
+  },
+  "android": {
+    "minTarget": 16,
+    "target": 16,
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Canvas",
+    "defaultOrientation": 0
+  },
+  "ios": {
+    "target": "8.0",
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Auto",
+    "defaultOrientation": 0,
+    "splashScaling": 2
+  },
+  "buildVersion": "1.1.1"
 }

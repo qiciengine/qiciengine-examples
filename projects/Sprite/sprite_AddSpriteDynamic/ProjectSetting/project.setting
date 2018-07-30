@@ -2,7 +2,6 @@
   "projectName": "Default",
   "gameName": "DefaultGame",
   "companyName": "DefaultCompany",
-  "bundleIdentifier": "com.DefaultCompany.Default",
   "gameInstance": "qc_game",
   "div": "",
   "orientation": 0,
@@ -11,5 +10,22 @@
   "version": "1",
   "loading": "",
   "backgroundColor": 10066329,
-  "toolFlag": 124
+  "toolFlag": 508,
+  "localStorageID": "com.DefaultCompany.Default",
+  "frameRate": {
+    "mobile": 60,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": true,
+    "width": 1426,
+    "height": 768
+  },
+  "runInBackground": true,
+  "renderer": "Canvas",
+  "antialias": true,
+  "transparent": false,
+  "customSettings": {},
+  "dirtyRectangles": false,
+  "resolutionRatio": 0.01
 }

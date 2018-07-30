@@ -2,7 +2,7 @@
   "dependences": {},
   "targetObject": "1e438eca-7a4c-4e98-b1c4-a7fd3100a61f",
   "targetLocked": true,
-  "loop": false,
+  "loop": true,
   "samples": 60,
   "playEventInEditor": true,
   "name": "attackA",

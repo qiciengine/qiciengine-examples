@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "AngleBetween": "Assets/scene/AngleBetween.bin"
-  },
-  "entryScene": "AngleBetween"
+  "scene": [
+    "Assets/scene/AngleBetween"
+  ],
+  "entryScene": "Assets/scene/AngleBetween"
 }

@@ -2,7 +2,6 @@
   "projectName": "Default",
   "gameName": "DefaultGame",
   "companyName": "DefaultCompany",
-  "bundleIdentifier": "com.DefaultCompany.Default",
   "gameInstance": "qc_game",
   "frameRate": {
     "mobile": 30,
@@ -15,7 +14,7 @@
   "transparent": false,
   "developerMode": false,
   "appCache": true,
-  "toolFlag": 124,
+  "toolFlag": 508,
   "version": "1.30",
   "loading": "",
   "fixedGameSize": {
@@ -23,5 +22,6 @@
     "width": 640,
     "height": 960
   },
-  "customSettings": {}
+  "customSettings": {},
+  "localStorageID": "com.DefaultCompany.Default"
 }

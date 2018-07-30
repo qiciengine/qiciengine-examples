@@ -19,6 +19,7 @@ var CombatUI = qc.defineBehaviour('qc.demo.CombatUI', qc.Behaviour, function() {
 
     // 5个宠物
     self.pets = [];
+    
 
     // 5个怪物
     self.monsters = [];

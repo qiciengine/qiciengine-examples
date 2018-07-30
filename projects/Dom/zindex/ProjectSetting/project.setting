@@ -10,7 +10,42 @@
   "renderer": "Auto",
   "transparent": false,
   "develop": false,
-  "toolFlag": 124,
+  "toolFlag": 380,
   "loading": "",
-  "version": "1.0"
+  "version": "1.0",
+  "localStorageID": "com.DefaultCompany.Default",
+  "frameRate": {
+    "mobile": 30,
+    "desktop": 60
+  },
+  "fixedGameSize": {
+    "enabled": false,
+    "width": 640,
+    "height": 960
+  },
+  "customSettings": {},
+  "publish": {
+    "android": "build/android",
+    "ios": "build/ios",
+    "browsers": "build/browsers"
+  },
+  "android": {
+    "minTarget": 16,
+    "target": 16,
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Canvas",
+    "defaultOrientation": 0
+  },
+  "ios": {
+    "target": "8.0",
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Auto",
+    "defaultOrientation": 0,
+    "splashScaling": 2
+  },
+  "dirtyRectanglesShow": false,
+  "dirtyRectangles": true,
+  "buildVersion": "1.1.1"
 }

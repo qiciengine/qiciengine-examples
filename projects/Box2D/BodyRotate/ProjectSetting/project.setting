@@ -2,7 +2,6 @@
   "projectName": "Default",
   "gameName": "DefaultGame",
   "companyName": "DefaultCompany",
-  "bundleIdentifier": "com.DefaultCompany.Default",
   "gameInstance": "qc_game",
   "frameRate": {
     "mobile": 30,
@@ -20,7 +19,7 @@
   "transparent": false,
   "developerMode": false,
   "appCache": true,
-  "dirtyRectangles": true,
+  "dirtyRectangles": false,
   "dirtyRectanglesShow": false,
   "customSettings": {
     "Box2D": {
@@ -36,7 +35,34 @@
       "debugFlags": 31
     }
   },
-  "toolFlag": 124,
+  "toolFlag": 508,
   "version": "1.0",
-  "loading": ""
+  "loading": "",
+  "localStorageID": "com.DefaultCompany.Default",
+  "resolutionRatio": 0.25,
+  "publish": {
+    "android": "build/android",
+    "ios": "build/ios",
+    "browsers": "build/browsers",
+    "browsers_timestamp": true,
+    "android_timestamp": true,
+    "ios_timestamp": true
+  },
+  "android": {
+    "minTarget": 16,
+    "target": 16,
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Canvas",
+    "defaultOrientation": 0
+  },
+  "ios": {
+    "target": "8.0",
+    "buildCode": 0,
+    "frameRate": 30,
+    "renderer": "Auto",
+    "defaultOrientation": 0,
+    "splashScaling": 2
+  },
+  "buildVersion": "1.0"
 }

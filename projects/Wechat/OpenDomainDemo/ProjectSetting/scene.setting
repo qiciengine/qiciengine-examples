@@ -1,0 +1,6 @@
+{
+  "scene": [
+    "Assets/scene/OpenDomain"
+  ],
+  "entryScene": "Assets/scene/OpenDomain"
+}

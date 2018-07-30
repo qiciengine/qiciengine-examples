@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "HelloWorld": "Assets/scene/HelloWorld.bin"
-  },
-  "entryScene": "HelloWorld"
+  "scene": [
+    "Assets/scene/HelloWorld"
+  ],
+  "entryScene": "Assets/scene/HelloWorld"
 }

@@ -1,8 +1,8 @@
-G.log.trace('------------------------------ load Project Module');
+trace('------------------------------ load Project Module');
 // 拓展模块的管理实例
-var exModule = M.EXTERNAL_MODULES;
+var exModule = EXTERNAL_MODULES_D;
 // 前端和后台通讯实例
-var pipe = M.SERVICE_PIPE;
+var pipe = SERVICE_PIPE_D;
 // 后台自带文件处理插件
 var fs = exModule.loadExistModule('fs-extra');
 // nodejs 自带路径处理
@@ -10,12 +10,12 @@ var path = require('path');
 
 // 模块构造函数
 module.exports = function() {
-    G.log.trace('--------------------------- module create');
+    trace('--------------------------- module create');
 };
 
 // 模块析构函数，清理相关资源
 module.destruct = function() {
-    G.log.trace('--------------------------- module destruct');
+    trace('--------------------------- module destruct');
     G.emitter.removeListener('BeforePublish', beforePublish);
     G.emitter.removeListener('AfterPublish', afterPublish);
     pipe.off('receiveData', onReceiveData);
@@ -23,7 +23,7 @@ module.destruct = function() {
 
 // 发布前的处理
 var beforePublish = function(params) {
-    G.log.trace('--------------------------- before publish');
+    trace('--------------------------- before publish');
 	var version = G.config.project.version;
     if (!version) {
         G.config.project.version = '1.0.0';
@@ -41,13 +41,13 @@ var beforePublish = function(params) {
         }
 		G.config.project.version = array.join('.');
     }
-    M.PROJECT.saveProjectSetting();
+    PROJECT_D.saveProjectSetting();
 };
 
 // 发布后的处理
 var afterPublish = function(params) {
-    G.log.trace('--------------------------- publish success');
-    
+    trace('--------------------------- publish success');
+
     var startGamePath = path.join(params.outPath, 'StartGame.html');
     var content = fs.readFileSync(startGamePath, 'utf8');
     content = content.replace(/http:\/\/engine\.zuoyouxi\.com\/lib\/[0-9\.]*\/qc-core\.js/g, '../lib/qc-core.js');
@@ -56,7 +56,7 @@ var afterPublish = function(params) {
 
 // 收到前端的消息
 var onReceiveData = function(data) {
-	G.log.trace(data);
+	trace(data);
     pipe.sendData('MyDemoMessage', {receiveData: data});
 };
 

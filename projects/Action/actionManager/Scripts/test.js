@@ -18,3 +18,11 @@ var test = qc.defineBehaviour('qc.engine.test', qc.Behaviour, function() {
 test.prototype.onClick = function() {
     this.gameObject.Animator.play();
 };
+
+test.prototype.test1 = function() {
+    this.gameObject.Animator.play();
+};
+
+test.prototype._test1 = function() {
+    this.gameObject.Animator.play();
+};

@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "Filter": "Assets/scene/Filter.bin"
-  },
-  "entryScene": "Filter"
+  "scene": [
+    "Assets/scene/Filter"
+  ],
+  "entryScene": "Assets/scene/Filter"
 }

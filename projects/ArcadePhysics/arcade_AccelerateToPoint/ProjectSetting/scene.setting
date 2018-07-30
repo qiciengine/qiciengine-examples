@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "AccelerateToPoint": "Assets/scene/AccelerateToPoint.bin"
-  },
-  "entryScene": "AccelerateToPoint"
+  "scene": [
+    "Assets/scene/AccelerateToPoint"
+  ],
+  "entryScene": "Assets/scene/AccelerateToPoint"
 }

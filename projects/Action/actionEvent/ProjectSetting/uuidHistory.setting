@@ -1,7 +1,20 @@
 {
+  "Assets/action/test.bin": "39189b2e-6fe4-45a3-99bf-781205b77bec",
+  "Assets/action/test2.bin": "8addee43-4075-4385-a124-5a0e96685aeb",
+  "Assets/action/test3 - 副本.bin": "9f7fe692-c69b-4205-9c1c-66ab4464538b",
+  "Assets/action/test3.bin": "98ea9ec0-bf83-4338-958e-081d57f105b9",
+  "Assets/atlas/res.bin": "f278c165-17ab-4cb9-91f1-064ee460815d",
+  "Assets/atlas/res@atlas/ball.bin": "669db002-6cb8-4b55-be4d-17c21fa154c7",
+  "Assets/atlas/res@atlas/bg.bin": "29431198-73b5-412e-b6d2-849d29a97ad3",
+  "Assets/atlas/res@atlas/boss.bin": "d6417dd3-124c-4c44-ae08-57f6f0443db6",
+  "Assets/atlas/res@atlas/box.bin": "e2dbfb3f-fd06-4d51-b73a-507ae964ee84",
+  "Assets/atlas/res@atlas/drunkery.bin": "d024ea53-a5e2-4e2f-996a-fa8943f362b2",
+  "Assets/scene/Main.bin": "e915e588-a2d3-4f8a-b68a-fbf8f017d9c3",
+  "Temp/scene_editor.bin": "30ca1c35-2e02-4eae-95c7-80138023e790",
+  "Assets/scene/Sprite.bin": "e9d7ff92-4537-419d-8185-8d4f7f01416b",
+  "Assets/texture/bbg_cave_hall.bin": "37ff2568-9bba-46e9-b3d9-8fea570e39ca",
   "Assets/action/testAction.bin": "45be9982-f8c4-4815-b545-1e62824cd962",
   "Assets/atlas/tetris.bin": "dde31c40-c75f-4f30-9149-1f97e9824de9",
   "Assets/scene/entry.bin": "d7afcfef-3b2b-4fa7-8dde-2bf2e05a78fe",
-  "Assets/sprite/sg.bin": "c6c2c60c-412a-48b2-b1e2-b3b7174d1012",
-  "Temp/scene_editor.bin": "c14c9645-fca6-4719-90f9-87f72a161d4d"
+  "Assets/sprite/sg.bin": "c6c2c60c-412a-48b2-b1e2-b3b7174d1012"
 }

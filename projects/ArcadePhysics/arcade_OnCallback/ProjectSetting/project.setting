@@ -2,7 +2,6 @@
   "projectName": "callback",
   "gameName": "callback",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qcplay.demo.callback",
   "gameInstance": "qc_game",
   "div": "",
   "orientation": 0,
@@ -11,5 +10,6 @@
   "loading": "",
   "backgroundColor": 6052699,
   "gameWidth": "640",
-  "toolFlag": 124
+  "toolFlag": 508,
+  "localStorageID": "com.qcplay.demo.callback"
 }

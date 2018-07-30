@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "BounceKnock": "Assets/scene/BounceKnock.bin"
-  },
-  "entryScene": "BounceKnock"
+  "scene": [
+    "Assets/scene/BounceKnock"
+  ],
+  "entryScene": "Assets/scene/BounceKnock"
 }

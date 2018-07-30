@@ -2,7 +2,6 @@
   "projectName": "Overflow",
   "gameName": "Overflow",
   "companyName": "qcplay",
-  "bundleIdentifier": "com.qici.demo",
   "gameInstance": "qc_game",
   "backgroundColor": 3684408,
   "runInBackground": true,
@@ -10,7 +9,8 @@
   "renderer": "Auto",
   "transparent": false,
   "develop": false,
-  "toolFlag": 124,
+  "toolFlag": 508,
   "loading": "",
-  "version": "1.0"
+  "version": "1.0",
+  "localStorageID": "com.qici.demo"
 }

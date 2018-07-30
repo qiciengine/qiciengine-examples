@@ -19,38 +19,43 @@
   },
   "targetObject": "7c3af9ac-ea68-4901-a034-92933ffa3bea",
   "samples": 60,
+  "speed": 1,
   "playEventInEditor": true,
   "name": "combat",
   "eventList": "[]",
   "endLinePos": -1,
   "actionList": [
     [
-      0,
+      4,
       "45be9982-f8c4-4815-b545-1e62824cd962",
       false,
       "1e438eca-7a4c-4e98-b1c4-a7fd3100a61f",
-      true
+      true,
+      2.836142304333862
     ],
     [
       60,
       "5797def9-4dbd-4f42-9cda-d02ced4abd33",
       false,
       "c4535457-89fd-49bb-a19d-7fdd4be583df",
-      true
+      true,
+      1
     ],
     [
       150,
       "b634625a-cfeb-41ca-8bd6-ab64f00f463b",
       false,
       "c4535457-89fd-49bb-a19d-7fdd4be583df",
-      true
+      true,
+      1
     ],
     [
       257,
       "bad4ce35-9697-4180-ae94-bb2789dbc657",
       false,
       "1e438eca-7a4c-4e98-b1c4-a7fd3100a61f",
-      true
+      true,
+      1
     ]
   ]
 }

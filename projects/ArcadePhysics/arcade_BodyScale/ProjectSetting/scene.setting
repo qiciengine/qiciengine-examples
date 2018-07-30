@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "BodyScale": "Assets/scene/BodyScale.bin"
-  },
-  "entryScene": "BodyScale"
+  "scene": [
+    "Assets/scene/BodyScale"
+  ],
+  "entryScene": "Assets/scene/BodyScale"
 }

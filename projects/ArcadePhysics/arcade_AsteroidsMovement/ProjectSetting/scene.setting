@@ -1,6 +1,6 @@
 {
-  "scene": {
-    "AsteroidsMovement": "Assets/scene/AsteroidsMovement.bin"
-  },
-  "entryScene": "AsteroidsMovement"
+  "scene": [
+    "Assets/scene/AsteroidsMovement"
+  ],
+  "entryScene": "Assets/scene/AsteroidsMovement"
 }

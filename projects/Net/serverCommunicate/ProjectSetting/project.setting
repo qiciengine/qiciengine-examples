@@ -2,16 +2,16 @@
   "projectName": "ServerCommunicate",
   "gameName": "ServerCommunicate",
   "companyName": "qici",
-  "bundleIdentifier": "com.qici.ServerCommunicate",
   "gameInstance": "qc_game",
   "gameWidth": "",
   "backgroundColor": 4671303,
   "orientation": 0,
-  "toolFlag": 124,
+  "toolFlag": 508,
   "loading": "",
   "runInBackground": true,
   "renderer": "Auto",
   "antialias": true,
   "transparent": false,
-  "version": "1.0"
+  "version": "1.0",
+  "localStorageID": "com.qici.ServerCommunicate"
 }
