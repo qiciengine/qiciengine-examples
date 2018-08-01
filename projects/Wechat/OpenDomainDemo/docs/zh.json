@@ -1,0 +1,10 @@
+{
+  "name": "Wechat Open Domain",
+  "desc": "微信小游戏子域工程 Demo,
+  "tags": ["Wechat"],
+  "preview": "preview.png",
+  "category": "微信小游戏",
+  "order": 1,
+  "width": 800,
+  "height": 600
+}
